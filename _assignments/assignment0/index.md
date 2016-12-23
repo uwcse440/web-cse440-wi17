@@ -14,8 +14,9 @@ date_assignment_0: Thursday, October 8, 2015
 
 Submit an informal slide that will help us as we get to know you:
 
-- Name (formal and preferred)
-- Majors/Minors
+- Name (Formal and Preferred)
+- Face Picture
+- Majors / Minors
 - Year (1,2,3,4,5,6,?)
 - Hometown
 - Interesting Fact or "What I did on my ..."

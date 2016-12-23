@@ -88,7 +88,7 @@ Researchers have also studied current processes, challenges, and opportunities:
  
 Your proposal must go beyond a technology-centric proposal of a webpage, phone application, or interaction. Think about 
 the problems that people face in their lives, how we can approach those problems, and the role for interactive computing.
-This first assignment is your opportunity to think broadly about identifying a problem. Subsequent assignments will provide 
+This first assignment is your opportunity to think broadly about identifying a problem. Subsequent assignments will provide
 opportunities to focus on designing a specific technological solution to a specific set of tasks.
 
 You should identify and consider goals and activities that are important to people. Potential domains include:
@@ -156,7 +156,7 @@ By domain, we mean an aspect of life. Domains that are already common in self-tr
 Be sure to focus on problems and goals, not potential design solutions.
 One way to help yourself identify a hierarchy of problems and goals is to ask "why?". For example:
 
-- Why is a person using Mint? 
+- Why is a person using Mint?
 - Why is a person tracking their spending?
 - Why do they want to know how much they spend on leisure activities?
 - Why do they have a goal of saving for a major purchase?
@@ -178,7 +178,9 @@ In section, be prepared to contribute your initial ideas as part of a larger bra
 
 ### Grading
 
-This milestone will be graded on a scale of __3 points__: One point for each unique proposed idea (i.e., do not submit small variations on the same idea).
+This milestone will be graded on a scale of __3 points__:
+
+- 1 point for each unique proposed idea (i.e., do not submit small variations on the same idea).
 
 <a name="project_proposal"></a>
 
@@ -186,7 +188,7 @@ This milestone will be graded on a scale of __3 points__: One point for each uni
 
 Due: Uploaded the night before class {{ page.date_project_1b }}
 
-Propose and analyze a problem that form the basis of a design project for this class.
+Propose and analyze a problem that could form the basis of a design project for this class.
 
 In one paragraph, describe the design problem and motivation. 
 This description should convince the reader that this is a difficult and interesting problem, worth spending a quarter considering. 
@@ -209,20 +211,6 @@ Be sure your presentation looks good:
 
  - choose appropriate colors, fonts, and styles
  - make liberal use of whitespace 
-
-### "Seeds" from UW Community
-
-We reached out to some people in the Computer Science, Design, and HCI community at UW for "seeds" of design projects for this course. 
-These are not intended to be complete proposals, nor are you expected to choose from them, nor is your proposal inherently more likely
-to be chosen for "funding" in the course if you do use one of these as a starting point. 
-These are just intended as points that might start you thinking in a space.
-
-These "seeds" are intentionally much shorter than your proposals. 
-This was to ensure the "seed" leaves plenty of room for you to develop your own ideas and direction.
-
-The responses we received are posted here:
-
-<https://canvas.uw.edu/courses/987987/discussion_topics/3039572>
 
 ### Examples from Prior Offerings
 
