@@ -26,6 +26,10 @@ date_project_3g: Thursday, December 3, 2015
 
 ---
 
+`This page is still being migrated and developed.`
+
+`Information here is likely suggestive of the final page, but remains subject to change.`
+
 # Overview
 
 Now that you have chosen a design, it is time to iteratively refine that design.

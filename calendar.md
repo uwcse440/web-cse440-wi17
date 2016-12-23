@@ -3,6 +3,10 @@ layout: base/bar/bar-sidebar-none
 title: Calendar
 ---
 
+`This page is still being migrated and developed.`
+
+`Information here is likely suggestive of the final page, but remains subject to change.`
+
 {% comment %} Starting from the first date of instruction, find Sunday {% endcomment %}
 {% assign startdateseconds = site.data.calendar.dates_of_instruction.start | append: 'Z' | date: '%s' %}
 {% assign startdate = startdateseconds | date: '%F' %}

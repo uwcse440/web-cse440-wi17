@@ -33,6 +33,10 @@ date_project_2i: Thursday, November 5, 2015
 
 ---
 
+`This page is still being migrated and developed.`
+
+`Information here is likely suggestive of the final page, but remains subject to change.`
+
 # Overview
 
 Even for a well-understood, well-motivated problem, choosing a design to invest time into is a difficult and laborious process. 
