@@ -20,6 +20,10 @@ date_project_4f: 10:30 to 12:20, Thursday, December 17, 2015
 
 ---
 
+`This page is still being migrated and developed.`
+
+`Information here is likely suggestive of the final page, but remains subject to change.`
+
 # Overview
 
 Now that you have identified a problem, selected a good design, and

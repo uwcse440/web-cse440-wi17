@@ -6,6 +6,10 @@ link_assignment_0: https://canvas.uw.edu/courses/987987/assignments/3000074
 date_assignment_0: Thursday, October 8, 2015
 ---
 
+`This page is still being migrated and developed.`
+
+`Information here is likely suggestive of the final page, but remains subject to change.`
+
 # Overview
 
 Submit an informal slide that will help us as we get to know you:

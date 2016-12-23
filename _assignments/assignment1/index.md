@@ -11,6 +11,10 @@ link_project_1c_bids: https://canvas.uw.edu/courses/987987/quizzes/860487
 date_project_1c_bids: Thursday, October 8, 2015
 ---
 
+`This page is still being migrated and developed.`
+
+`Information here is likely suggestive of the final page, but remains subject to change.`
+
 # Overview
 
 You are to propose a __problem__ and an __approach__ that could form the basis of a project for this course.
