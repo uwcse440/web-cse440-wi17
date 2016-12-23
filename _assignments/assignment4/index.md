@@ -13,7 +13,8 @@ date_project_4c: Thursday, December 10, 2015
 
 date_project_4d: Friday, December 11, 2015
 
-link_project_4e: https://canvas.uw.edu/courses/987987/assignments/3056712
+link_project_4e_poster: https://canvas.uw.edu/courses/987987/assignments/3056712
+link_project_4e_video: https://canvas.uw.edu/courses/987987/assignments/3056712
 date_project_4e: Tuesday, December 15, 2015
 
 date_project_4f: 10:30 to 12:20, Thursday, December 17, 2015
@@ -337,7 +338,7 @@ You can submit multiple requests if needed to fix issues or improve your website
 Your request should not modify anything outside your project website.
 Information on building a local copy of this site, and on submitting a pull request, is here:
 
-[Development Guide]({{ site.baseurl }}/development/index.html)
+`[Development Guide]({{ site.baseurl }}/development/index.html)`
 
 Submit simple pull requests early so that you become familiar with this functionality.
 Do not wait until the final moments to begin to learn how to do this.
@@ -346,7 +347,9 @@ Depending on how you embed your video in your website, it may or may not be part
 For example, embedding a YouTube or Vimeo player does not give us your video.
 We therefore ask that final videos also be submitted via Canvas here: 
 
-{% if page.link_project_4e != nil %}<{{ page.link_project_4e }}>{% else %}`Link to be added`{% endif %}
+Poster: {% if page.link_project_4e_poster != nil %}<{{ page.link_project_4e_poster }}>{% else %}`Link to be added`{% endif %}
+
+Video: {% if page.link_project_4e_video != nil %}<{{ page.link_project_4e_video }}>{% else %}`Link to be added`{% endif %}
 
 ### Grading
 
@@ -364,7 +367,7 @@ Your final video, final website, and final poster will each be graded on a scale
   - Text is large and legible
   - Colors and fonts are a pleasing combination and easy to read
 
-#### Video Prototype (10 points)
+#### Video Prototype
 
 - __Content__: (7 points)
   - Conveys the problem addressed by the design
@@ -375,7 +378,7 @@ Your final video, final website, and final poster will each be graded on a scale
   - Reasonable level of production value
   - Appropriately edited and paced
 
-#### Website (10 points)
+#### Website
 
 - __Content__: (5 points)
   - Includes all of the points listed above.
