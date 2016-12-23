@@ -1,0 +1,41 @@
+{# This file compiles to .travis.yml -#}
+# This file compiled from .travis.yml.in
+
+sudo: false
+
+language: python
+
+python:
+  - "{{ local.python.version }}"
+
+cache:
+  pip: true
+  directories:
+    - node_modules
+    - /home/travis/.rvm/gems
+
+install:
+  # Install NodeJS
+  - nvm install {{ local.node.version }}
+
+  # Install Python dependencies
+  - python -m pip install --upgrade pip=={{ local.python.pip_version }}
+  - python -m pip install -r requirements3.txt
+
+  # Install Ruby
+  - rvm install {{ local.ruby.version }}
+  - rvm @global do gem install bundler -v {{ local.ruby.bundler_version }}
+  - |
+    bundler_uninstall=$( rvm @global do gem list ^bundler$ -i -v "!={{ local.ruby.bundler_version }}" )
+    if [ "$bundler_uninstall" == "true" ]
+    then
+      rvm @global do gem uninstall bundler -v "!={{ local.ruby.bundler_version }}"
+    fi
+  - rvm use {{ local.ruby.version }} --default
+
+  # Invoke will get our other dependencies
+  - invoke update_dependencies
+
+script:
+  - nosetests
+{# This comment gives us a newline at the end of the generated file #}
