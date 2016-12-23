@@ -3,6 +3,7 @@ layout: base/bar/bar-sidebar-none
 title: "Assignment 2: Getting the Right Design"
 
 date_project_2a: Friday, October 9, 2015
+link_project_2a: https://canvas.uw.edu/courses/987987/assignments/3016432
 
 link_project_2b: https://canvas.uw.edu/courses/987987/assignments/3016432
 link_project_2b_critique: https://canvas.uw.edu/courses/987987/assignments/3017985
@@ -106,8 +107,7 @@ You will then use contextual inquiry to learn more about your problem and the cu
 You will draw upon the ideas developed in your brainstorming and the observations made in your contextual inquiry
 to help develop a set of potential tasks your design might support. 
 You will next sketch how a set of initial designs might support those tasks.
-You will choose a design to pursue in the remainder of the course and storyboard the details of your design in
-the context of important tasks
+You will choose a design to pursue in the remainder of the course and storyboard the details of your design in the context of important tasks.
 Finally, you will present your design process in a report and presentation.
 
 More specifically, you will do the following:
@@ -124,8 +124,8 @@ More specifically, you will do the following:
 
    Select these to capture the important aspects of the problem you are solving and to provide coverage of the designs 
    you will explore. Create these based on your observations and analyses of existing tasks as well as your vision for 
-   new tasks enabled by potential designs. Remember that tasks say what is accomplished, while leaving open how to accomplish it. 
-   
+   new tasks enabled by potential designs. Remember that tasks say what is accomplished, while leaving open how to accomplish it.
+
    As you progress through your project, you can and should consider revising your tasks. 
    Expect to refine or change your tasks as your understanding of the problem matures or according to feedback you receive.
    The tasks you report in this assignment therefore must be appropriate but are not necessarily final.
@@ -168,9 +168,10 @@ Due: Completed in section on {{ page.date_project_2a }}
 Generate 5 to 10 different ideas related to each of the following aspects of your project proposal:
 
 - Forms: types of technology on which a design might be developed (e.g., desktop, phone/tablet, sensor, watch, wearable).
-- Data: types of data that a design might track or help a person track. 
-- Features: a specific capability a design might have. 
+- Data: types of data a design might track or help a person track.
+- Features: a specific capability a design might have.
 - Tasks: what a person might accomplish with a design. 
+- Social Interactions: types of social interactions and situations a design might engage or support.
 
 We will provide large sheets of paper. Divide a large sheet of paper into 32 squares, each approximately 2in by 2in.
 Sketch your ideas, one in each square. Each idea should be either a quick doodle with a caption or a one-sentence idea. 
@@ -191,7 +192,9 @@ The goal is to begin thinking about how to plan effective contextual inquiries t
 
 ### Submission
 
-In section, one of the course staff will sign off on what you completed.
+`At the end of section, take a photo of your brainstorm and upload it on Canvas here:`
+
+{% if page.link_project_2a != nil %}<{{ page.link_project_2a }}>{% else %}`Link to be added`{% endif %}
 
 You will be able to take your paper with you, and you should continue brainstorming throughout your project.
 
@@ -213,7 +216,7 @@ Give enough details to convince us that you can actually find and interview your
 For example, your target participants should not be "doctors" but instead a specific group of doctors 
 (e.g., Family Practitioners in the UW Roosevelt Clinic). 
 If gaining access to the target participants is non-trivial (e.g., as with busy doctors), 
-describe the steps you have already taken to gain access and your plans to recover if you are unable to gain access. 
+describe the steps you have already taken to gain access and your plans to recover if you are unable to gain access.
 Indicate when you will be conducting your three inquiries, being as specific as possible.
 
 In another paragraph, describe how you will interact with your participants and your role as the "apprentice".
@@ -280,6 +283,9 @@ can be difficult to get right and often important topics are left unresolved.
 - What are your plans for the remaining inquiries? 
 - How do you plan to change your protocol based on what you learned in your first inquiry?
 
+Names of participants should be replaced with pseudonyms in all documents.
+It is important to protect participant anonymity, even in the case that reporting seems harmless.
+
 ### Examples from Prior Offerings
 
 Examples from prior offerings include:
@@ -321,6 +327,8 @@ Across the three inquiries, we expect some emergence of common themes, problems,
 
 - Identify high level themes the participants share in their practices. 
 - Do these themes, problems, and practices suggest tasks to important to design for?
+
+`If you are having trouble identifying high level themes and problems from your inquiries, it may be a sign that you need to run an additional inquiry. You are required to run three inquiries, but you are not limited to only running three. These inquiries are critical for setting the foundation of your project, so ensure that you have strong findings from your inquiries before moving forward!`
 
 #### Task Analysis Questions
 
@@ -503,8 +511,8 @@ Draw upon feedback from critiques and data from your contextual inquiry.
 
 Convey a strong understanding of which design you chose, which tasks you chose, and why you chose them.
 
-Then Create a storyboard of each task for your selected design. 
-These should be done on paper, then scanned (i.e., do not create or recreate them in a drawing package). 
+Then create a storyboard of each task for your selected design.
+These should be done on paper, then scanned (i.e., do not create or recreate them in a drawing package).
 They should clearly indicate the functionality of the design and what the interface will be like,
 conveying the major aspects of the design in enough detail that a person not in your group can understand 
 how the design supports each task. 
@@ -768,11 +776,11 @@ The content of this presentation will be graded on a scale of __10 points__:
 - Design ideas have a strong connection to results of contextual inquiry.
 - Design ideas are appropriate for the supported tasks.
 - Design ideas and storyboards were at the proper fidelity.
-- Presentation covered the required scope within the 8 minute time period.
+- Presentation covered the required scope within the allowed time period.
 
 The delivery of this presentation will be graded on a scale of __4 points__:
 
 - Presenter makes eye contact with the audience.
 - Presenter projects their voice well and is audible throughout the room.
 - Presenter feels casual and engaged with the content, not just reading it.
-- Presentation covered the required scope within the 8 minute time period.
+- Presentation covered the required scope within the allowed time period.

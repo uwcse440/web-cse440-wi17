@@ -262,9 +262,9 @@ After class, submit images of your notes in PDF format. Submit via Canvas here:
 
 ### Grading
 
-This milestone will be graded on a scale of __4 points__:
+This milestone will be graded on a scale of __6 points__:
 
-1. __Participation of Each Half-Team__: (2 points per half-team)
+1. __Participation of Each Half-Team__: (3 points per half-team)
 
 <a name="usability_testing_checkin"></a>
 
@@ -451,7 +451,7 @@ Submit via Canvas here:
 This milestone will be graded on a scale of __12 points__:
 
 1. __Overall Completeness and Appropriateness of Digital Mockup__: (3 points)
-2. __Completeness, Appropriateness, and Documentation of Each Task__: (3 points)
+2. __Completeness, Appropriateness, and Documentation of Each Task__: (3 points each)
 3. __Discussion of Decisions and Changes in Implementation__: (3 points)
 
 <a name="final_report"></a>
@@ -489,7 +489,7 @@ include how you have addressed and incorporated that feedback to improve relativ
 	
     Present your testing process, including your method and your participants.
     This process probably evolved some in the course of your project.
-    For your report, present a retrospective on how you refined your design.
+    Include a retrospective on how you refined your process, separate from how you refined your design.
 
 6.  __Testing Results__: (2 pages)
 	
@@ -681,11 +681,11 @@ The content of this presentation will be graded on a scale of __10 points__:
 - Final paper prototype has a strong connection to the results of the testing process.
 - Digital mockup effectively implements the final paper prototype.
 - Digital mockup is at the proper fidelity.
-- Presentation covered the required scope within the 8 minute time period.
+- Presentation covered the required scope within the allowed time period.
 
 The delivery of this presentation will be graded on a scale of __4 points__:
 
 - Presenter makes eye contact with the audience.
 - Presenter projects their voice well and is audible throughout the room.
 - Presenter feels casual and engaged with the content, not just reading it.
-- Presentation covered the required scope within the 8 minute time period.
+- Presentation covered the required scope within the allowed time period.
