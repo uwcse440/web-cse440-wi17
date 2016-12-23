@@ -12,13 +12,32 @@ title: Course Overview
 This course provides an introduction to human-computer interaction and the design process. 
 It is overwhelmingly organized around a group project, in which students:
 
+This course provides an introduction to human-computer interaction and the design process.
+Students will learn methods and skills for designing and prototyping interactive systems.
+The course covers a design process from the initial formulation of a design problem to creation of digital prototypes.
+Course structure is a mix of lectures, classroom activities, and design critiques by peers and course staff.
+The course is overwhelmingly organized around a group project, in which students:
+
 - Ideate and Propose Design Problems
 - Study Existing Practices and Challenges
 - Explore Potential Design Opportunities and Tradeoffs
 - Evaluate and Improve a Design
 - Communicate their Problem and Resulting Design
 
+````
+## Learning Objectives
+
+- Process-focused perspective on interaction design
+- Design methods and skills
+- Sketching techniques
+- Scenarios and storyboarding
+- Wireframing and prototyping
+- Thinking critically about design solutions
+````
+
 # Project Theme
+
+`to be updated to emphasize tracking beyond the 'self'`
 
 Projects are exploring challenges and opportunities in self-tracking, also known as Personal Informatics:
 
@@ -65,23 +84,25 @@ A small set of readings are assigned throughout the quarter, with additional res
 
 __Contact__: Email all instructors at cse440-instr [at] cs.washington.edu
 
-__Class Time & Location__: Tuesdays & Thursdays, 12:00-1:50 MOR 230
+__Class Time & Location__: Tuesdays & Thursdays, 10:30-11:50 GLD 322
 
 __Section Times & Locations__: 
 
-- Fridays, 10:30-11:20 MGH 228
-- Fridays, 11:30-12:20 MGH 295
-- Fridays, 1:30-2:20 MGH 254
-- Fridays, 2:30-3:20 MGH 254
+- Fridays, 10:30-11:20 MGH 058
+- Fridays, 11:30-12:20 MGH 058
+- Fridays, 1:30-2:20 MGH 058
+- Fridays, 2:30-3:20 MGH 058
 
 __Office Hours__: 
 
 Scheduled hours are held most weeks, but check the calendar:
 
+````
 - James, Tuesdays, 4:30 - 5:30, CSE 666 
 - Lauren, Wednesdays, 1:30 - 2:30, CSE 218 
 - Alex, Thursday, 1:30 - 2:30, CSE 218
-  
+````
+
 Other meetings by appointment.
 
 __Course Staff__:
@@ -93,25 +114,28 @@ __Course Staff__:
       <p><img src="{{ site.baseurl }}/images/james_photo.jpg" width="150" alt="James Fogarty"/></p>
     </div>
     <div class="col-md-2">
-      <p>Alex Fiannaca</p>
-      <p><img src="{{ site.baseurl }}/images/alex_photo.png" width="150" alt="Alex Fiannaca"/></p>
+      <p>Eunice June</p>
+      <p><img src="{{ site.baseurl }}/images/eunice_photo.png" width="150" alt="Eunice Jun"/></p>
     </div>
     <div class="col-md-2">
-      <p>Lauren Milne</p>
-      <p><img src="{{ site.baseurl }}/images/lauren_photo.jpg" width="150" alt="Lauren Milne"/></p>
+      <p>David Wang</p>
+      <p><img src="{{ site.baseurl }}/images/david_photo.jpg" width="150" alt="David Wang"/></p>
     </div>
     <div class="col-md-2">
-      <p>Saba Kawas</p>
-      <p><img src="{{ site.baseurl }}/images/saba_photo.jpg" width="150" alt="Saba Kawas"/></p>
+      <p>Elisabeth Chin</p>
+      <p><img src="{{ site.baseurl }}/images/elisabeth_photo.jpg" width="150" alt="Elisabeth Chin"/></p>
     </div>
     <div class="col-md-2">
-      <p>Kelsey Munsell</p>
-      <p><img src="{{ site.baseurl }}/images/kelsey_photo.jpg" width="150" alt="Kelsey Munsell"/></p>
+      <p>Ravi Karkar</p>
+      <p><img src="{{ site.baseurl }}/images/ravi_photo.jpg" width="150" alt="Ravi Karkar"/></p>
     </div>
   </div>
 </html>
 
 # Grading
+
+Strive to do good work because you care about your own opportunities to learn,
+including the opportunities this course provides in working with a group in an intensive project.
 
 The overall course grade will be computed as follows:
 
@@ -138,12 +162,16 @@ The overall course grade will be computed as follows:
 
 Each assignment will also provide a point breakdown intended to convey how it will be graded. 
 Design is an inherently subjective practice, and so grading in this course is necessarily subjective.
-Wow us with your work.
+The stated project requirements are the minimum, leaving room for groups to wow us with your work.
 
 Because the course is designed around feedback on project milestones, grades given to those milestones indicate
 that you have invested sufficient effort and insight at the time of the milestone.
 You will get feedback and are expected to continue acting upon that feedback in your design process.
 The bulk of project grades is therefore attached to the final deliverables, which are evaluated on their quality.
+
+We expect groups to resolve any coordination issues, and we expect concerns to be raised so they can be addressed.
+The course staff is always happy to make suggestions with regard to your coordination and effort.
+If necessary, we reserve the right adjusting an individual's grade with regard to the group project.
 
 <a name="submission"></a>
 
@@ -164,7 +192,7 @@ The course staff has a large number of submissions to manage, so format and comp
 
 This course website lives on GitHub:
 
-<https://github.com/uwcse440/web-cse440-au15> 
+<https://github.com/uwcse440/web-cse440-wi17>
 
 You can submit pull requests to update the webpage, and you will publish project webpages via pull request.
 
