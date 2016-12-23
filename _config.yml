@@ -1,18 +1,19 @@
-name:       'Fogies Base'
+name:       'CSE 440'
+baseurl:    '/courses/cse440/17wi'
 
 brandimage: ''
-brandtext:  'Fogies'
+brandtext:  'CSE 440 - Introduction to HCI - Winter 2017'
 
 lessc: node_modules/.bin/lessc
 
 navbar:
   items:
-    - text: 'Bar-Sidebar-None'
-      link: 'base_sample/bar-sidebar-none.html'
-    - text: 'Bar-Sidebar-Right'
-      link: 'base_sample/bar-sidebar-right.html'
-    - text: 'Freelancer'
-      link: 'base_sample/freelancer.html'
+    - text: 'Home'
+      link: 'index.html'
+    - text: 'Projects'
+      link: 'projects.html'
+    - text: 'Calendar'
+      link: 'calendar.html'
 
 exclude:
   # Bootstrap
@@ -46,3 +47,9 @@ exclude:
   - secrets
   # Tests
   - tests
+
+collections:
+  assignments:
+    output: true
+  projects:
+    output: true
