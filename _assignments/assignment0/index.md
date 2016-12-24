@@ -2,13 +2,9 @@
 layout: base/bar/bar-sidebar-none
 title: "Assignment 0: Introduction Slide"
 
-link_assignment_0: https://canvas.uw.edu/courses/987987/assignments/3000074
-date_assignment_0: Thursday, October 8, 2015
+link_assignment_0: https://canvas.uw.edu/courses/1098203/assignments/3522037
+date_assignment_0: January 5, 2017
 ---
-
-`This page is still being migrated and developed.`
-
-`Information here is likely suggestive of the final page, but remains subject to change.`
 
 # Overview
 
