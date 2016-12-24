@@ -24,22 +24,19 @@ The course is overwhelmingly organized around a group project, in which students
 - Evaluate and Improve a Design
 - Communicate their Problem and Resulting Design
 
-````
 ## Learning Objectives
 
-- Process-focused perspective on interaction design
-- Design methods and skills
-- Sketching techniques
-- Scenarios and storyboarding
-- Wireframing and prototyping
-- Thinking critically about design solutions
-````
+- Process-Focused Perspective on Interaction Design
+- Design Research Methods and Skills
+- Task-Focused Scenario Development, Sketching, and Storyboarding
+- Rapid Prototyping and Iteration
+- Critical Perspective on Design Solutions
 
 # Project Theme
 
 `to be updated to emphasize tracking beyond the 'self'`
 
-Projects are exploring challenges and opportunities in self-tracking, also known as Personal Informatics:
+Projects will explore challenges and opportunities in designing for self-tracking, also known as Personal Informatics:
 
 > Personal informatics systems are systems that help people collect personally relevant information for the purpose of 
 > self-reflection and gaining self-knowledge.
@@ -72,7 +69,8 @@ Example project from prior offerings include:
 - [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/)
 
 Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
-However, these represent examples of strong work in this course.
+
+`However, these represent examples of strong work in this course.`
 
 # Readings
 
@@ -97,11 +95,9 @@ __Office Hours__:
 
 Scheduled hours are held most weeks, but check the calendar:
 
-````
-- James, Tuesdays, 4:30 - 5:30, CSE 666 
-- Lauren, Wednesdays, 1:30 - 2:30, CSE 218 
-- Alex, Thursday, 1:30 - 2:30, CSE 218
-````
+- James, `Tuesdays, 4:30 - 5:30`, CSE 666
+- Eunice, `Wednesdays, 1:30 - 2:30, CSE 218`
+- David, `Thursday, 1:30 - 2:30, CSE 218`
 
 Other meetings by appointment.
 
@@ -169,21 +165,21 @@ that you have invested sufficient effort and insight at the time of the mileston
 You will get feedback and are expected to continue acting upon that feedback in your design process.
 The bulk of project grades is therefore attached to the final deliverables, which are evaluated on their quality.
 
-We expect groups to resolve any coordination issues, and we expect concerns to be raised so they can be addressed.
-The course staff is always happy to make suggestions with regard to your coordination and effort.
-If necessary, we reserve the right adjusting an individual's grade with regard to the group project.
+We expect groups to take collective responsibility and to resolve any coordination issues.
+The course staff is always happy to make suggestions with regard to your effort and coordination.
+If an issue needs to be raised with the course staff, we expect it to be raised early enough to be addressed.
+If necessary, we reserve the ability to adjust an individual's grade with regard to the group project.
 
 <a name="submission"></a>
 
 # Submission
 
-Many assignments are due "the night before class". We will implement this in Canvas as 4:00am.
-
+Many assignments are due "the night before class". We will implement this in Canvas as 12:01am.
 In order to be prepared to give you feedback, the course staff must have your submission in the morning.
 Submitting the day of class, just before class, or in class is therefore unacceptable, risking zero credit.
 
 Submissions should be in PDF format (i.e., not plain text, not Word). 
-The PDF should be 'printable', containing everything we need to review and grade the assignment (e.g., your name).
+The PDF should be printable, containing everything we need to review and grade the assignment (e.g., your name).
 The course staff has a large number of submissions to manage, so format and completeness issues are problematic.
 
 <a name="projects"></a>
