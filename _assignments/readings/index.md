@@ -2,21 +2,21 @@
 layout: base/bar/bar-sidebar-none
 title: "Readings"
 
-link_reading_contextual_inquiry: https://canvas.uw.edu/courses/987987/assignments/3011029
-date_reading_contextual_inquiry: Friday, October 9, 2015
+#link_reading_contextual_inquiry: https://canvas.uw.edu/courses/987987/assignments/3011029
+#date_reading_contextual_inquiry: Friday, October 9, 2015
 
-link_reading_critique: https://canvas.uw.edu/courses/987987/assignments/3016470
-date_reading_critique: Friday, October 16, 2015
+#link_reading_critique: https://canvas.uw.edu/courses/987987/assignments/3016470
+#date_reading_critique: Friday, October 16, 2015
 
-link_reading_prototyping_videos: https://canvas.uw.edu/courses/987987/assignments/3029582
-date_reading_prototyping_videos: Friday, October 30, 2015
+#link_reading_prototyping_videos: https://canvas.uw.edu/courses/987987/assignments/3029582
+#date_reading_prototyping_videos: Friday, October 30, 2015
 
-link_reading_paper_prototyping: https://canvas.uw.edu/courses/987987/assignments/3039948
-date_reading_paper_prototyping: Friday, November 13, 2015
+#link_reading_paper_prototyping: https://canvas.uw.edu/courses/987987/assignments/3039948
+#date_reading_paper_prototyping: Friday, November 13, 2015
 
-link_reading_research_writeup: https://canvas.uw.edu/courses/987987/assignments/3046595
-link_reading_research_paper: https://canvas.uw.edu/courses/987987/assignments/3046597
-date_reading_research: Friday, December 4, 2015
+#link_reading_research_writeup: https://canvas.uw.edu/courses/987987/assignments/3046595
+#link_reading_research_paper: https://canvas.uw.edu/courses/987987/assignments/3046597
+#date_reading_research: Friday, December 4, 2015
 ---
 
 `This page is still being migrated and developed.`
@@ -48,7 +48,8 @@ Read:
 
 - [Beyer and Holtzblatt (1997). Contextual Design. Chapter 3.]({{ site.baseurl }}/readings/ContextualInquiry-BeyerHoltzblatt1997.pdf)
   
-Due: Uploaded the night before section {{ page.date_reading_contextual_inquiry }}.
+Due: Uploaded the night before section
+{% if page.date_reading_contextual_inquiry != nil %}{{ page.date_reading_contextual_inquiry }}{% else %}`Date to be added`{% endif %}.
 
 After reading, consider how you might apply this approach to the project you proposed in Assignment 1b.
 
@@ -76,8 +77,9 @@ Read:
 - [Katzenbach and Smith (1993). The Discipline of Teams.]({{site.baseurl}}/readings/DisciplineOfTeams-KatzenbachSmith.htm)
 - [Pausch. Tips for Working Successfully in a Group.]({{site.baseurl}}/readings/WorkingInGroups-Pausch.html)
 
-Due: Uploaded the night before section {{ page.date_reading_critique }}.
-  
+Due: Uploaded the night before section
+{% if page.date_reading_critique != nil %}{{ page.date_reading_critique }}{% else %}`Date to be added`{% endif %}.
+
 After reading, please think back to your previous experiences working in groups, particularly an experience that could have been improved.
   
 - Briefly describe the project and the group (e.g., two sentences).
@@ -124,7 +126,8 @@ Optionally, check out these fun "vision of the future" videos:
   - [Knowledge Navigator](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Vision-Apple-Knowledge-Navigator.mp4)
   - [A Day Made of Glass](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Vision-Corning-A-Day-Made-Of-Glass.mp4)
 
-Due: Uploaded the night before section {{ page.date_reading_videos }}.
+Due: Uploaded the night before section
+{% if page.date_reading_videos != nil %}{{ page.date_reading_videos }}{% else %}`Date to be added`{% endif %}.
 
 After viewing, consider what approaches were more or less effective in these examples.
 
@@ -159,7 +162,8 @@ Optionally, check out this video on paper prototyping:
 
 - [Nielsen Norman Group. Paper Prototyping: A How-To Video.](http://courses.cs.washington.edu/courses/cse440/videos/paperprototyping/NielsenNorman.mp4)
 
-Due: Uploaded the night before section {{ page.date_reading_paper_prototyping }}.
+Due: Uploaded the night before section
+{% if page.date_reading_paper_prototyping != nil %}{{ page.date_reading_paper_prototyping }}{% else %}`Date to be added`{% endif %}.
 
 After reading, consider how you might apply this approach in your paper prototyping and usability testing.
 
@@ -186,7 +190,8 @@ Submit via Canvas here:
 
 ### Reading 5: Research Paper
 
-Due: Uploaded the night before section {{ page.date_reading_research }}.
+Due: Uploaded the night before section
+{% if page.date_reading_research != nil %}{{ page.date_reading_research }}{% else %}`Date to be added`{% endif %}.
 
 Researchers and designers often re-invent. 
 Instead it is valuable to take advantage of what is already known.
