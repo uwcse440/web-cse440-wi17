@@ -127,6 +127,10 @@ sections:
   - date: "2017-03-10"
 
 assignments:
+  - date: "2017-01-05"
+    name: "0 - Introduction Slide"
+    duenote: "[due End of Day]"
+    link: "assignments/assignment0/"
   - date: "2017-01-06"
     name: "1a - Proposal Brainstorm"
     duenote: "[due Night Before Class]"
@@ -139,9 +143,6 @@ assignments:
     name: "1c - Project Bid"
     duenote: "[due Night Before Class]"
 #    link: "assignments/assignment1/#project_bid"
-#  - date: "2015-10-08"
-#    name: "0 - Introduction Slide"
-#    link: "assignments/assignment0/"
   - date: "2017-01-13"
     name: "2a - Project Ideation"
     duenote: "[done In Class]"
