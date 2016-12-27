@@ -49,9 +49,9 @@ This assignment is worth __21%__ of your overall course grade:
 - __15%__ for [Assignment 2h: Final Report](#final_report) 
 - __6%__ for the milestones 
   - __0.5%__ for [Assignment 2a: Project Ideation](#project_ideation) 
-  - __0.5%__ for [Assignment 2b: Contextual Inquiry Plan](#contextual_inquiry_plan) 
-  - __1%__ for [Assignment 2c: Contextual Inquiry Check-In](#contextual_inquiry_checkin) 
-  - __1%__ for [Assignment 2d: Contextual Inquiry Review](#contextual_inquiry_review)
+  - __0.5%__ for [Assignment 2b: Contextual Inquiry Plan](#design_research_plan)
+  - __1%__ for [Assignment 2c: Contextual Inquiry Check-In](#design_research_checkin)
+  - __1%__ for [Assignment 2d: Contextual Inquiry Review](#design_research_review)
   - __1%__ for [Assignment 2e: Task Review](#task_review)
   - __1%__ for [Assignment 2f: Design Check-In ("3x4")](#design_checkin)
   - __1%__ for [Assignment 2g: Design Review ("1x2")](#design_review)
@@ -68,15 +68,15 @@ This is a group assignment, consisting of nine milestones.
 
   Due: Completed in section on {{ page.date_project_2a }}
   
-* [Assignment 2b: Contextual Inquiry Plan](#contextual_inquiry_plan)
+* [Assignment 2b: Contextual Inquiry Plan](#design_research_plan)
 
   Due: Uploaded the night before class {{ page.date_project_2b }}
   
-* [Assignment 2c: Contextual Inquiry Check-In](#contextual_inquiry_checkin)
+* [Assignment 2c: Contextual Inquiry Check-In](#design_research_checkin)
 
   Due: Uploaded the night before section {{ page.date_project_2c }}
 
-* [Assignment 2d: Contextual Inquiry Review](#contextual_inquiry_review)
+* [Assignment 2d: Contextual Inquiry Review](#design_research_review)
 
   Due: Uploaded the night before class {{ page.date_project_2d }}
 
@@ -118,7 +118,7 @@ More specifically, you will do the following:
     
 2. Use the contextual inquiry method in observing and interviewing at least __three__ people who might use your design.
 
-   ([Assignment 2b](#contextual_inquiry_plan)), ([Assignment 2c](#contextual_inquiry_checkin)), ([Assignment 2d](#contextual_inquiry_review))
+   ([Assignment 2b](#design_research_plan)), ([Assignment 2c](#design_research_checkin)), ([Assignment 2d](#design_research_review))
 
 3. Develop __six__ tasks that might be performed with your design. 
 
@@ -202,7 +202,7 @@ You will be able to take your paper with you, and you should continue brainstorm
 
 This milestone will be graded on a scale of __3 points__ based on participation in generating ideas during the brainstorming exercise.
 
-<a name="contextual_inquiry_plan"></a>
+<a name="design_research_plan"></a>
 
 ## 2b: Contextual Inquiry Plan
 
@@ -261,7 +261,7 @@ This milestone will be graded on a scale of __3 points__:
 2. __Feasibility__: (1 point)
 3. __Specificity__: (1 point)
 
-<a name="contextual_inquiry_checkin"></a>
+<a name="design_research_checkin"></a>
 
 ## 2c: Contextual Inquiry Check-In
 
@@ -310,7 +310,7 @@ This milestone will be graded on a scale of __6 points__:
 1. __Information from First Participant__: (3 points)
 2. __Plan for Remaining Participants__: (3 points)
 
-<a name="contextual_inquiry_review"></a>
+<a name="design_research_review"></a>
 
 ## 2d: Contextual Inquiry Review
 
