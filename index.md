@@ -110,8 +110,8 @@ __Course Staff__:
       <p><img src="{{ site.baseurl }}/images/james_photo.jpg" width="150" alt="James Fogarty"/></p>
     </div>
     <div class="col-md-2">
-      <p>Eunice June</p>
-      <p><img src="{{ site.baseurl }}/images/eunice_photo.png" width="150" alt="Eunice Jun"/></p>
+      <p>Eunice Jun</p>
+      <p><img src="{{ site.baseurl }}/images/eunice_photo.jpg" width="150" alt="Eunice Jun"/></p>
     </div>
     <div class="col-md-2">
       <p>David Wang</p>
