@@ -2,13 +2,15 @@
 layout: base/bar/bar-sidebar-none
 title: "Assignment 1: Project Proposal"
 
-link_project_1a: https://canvas.uw.edu/courses/987987/assignments/3000656
-date_project_1a: Friday, October 2, 2015
-link_project_1b: https://canvas.uw.edu/courses/987987/assignments/3000658
-date_project_1b: Tuesday, October 6, 2015
-link_project_1c_projects: https://canvas.uw.edu/courses/987987/discussion_topics/3047301
-link_project_1c_bids: https://canvas.uw.edu/courses/987987/quizzes/860487
-date_project_1c_bids: Thursday, October 8, 2015
+date_project_1a: Friday, January 6, 2017
+#link_project_1a: https://canvas.uw.edu/courses/987987/assignments/3000656
+
+date_project_1b: Tuesday, January 10, 2017
+#link_project_1b: https://canvas.uw.edu/courses/987987/assignments/3000658
+
+date_project_1c_bids: Thursday, January 12, 2017
+#link_project_1c_projects: https://canvas.uw.edu/courses/987987/discussion_topics/3047301
+#link_project_1c_bids: https://canvas.uw.edu/courses/987987/quizzes/860487
 ---
 
 `This page is still being migrated and developed.`
@@ -43,6 +45,8 @@ This is an individual assignment, consisting of three milestones.
   Due: Uploaded the night before class {{ page.date_project_1c_bids }}
 
 # Project Description
+
+`to be updated to emphasize tracking beyond the 'self'`
 
 The theme for projects in this course is __personal informatics__:
 

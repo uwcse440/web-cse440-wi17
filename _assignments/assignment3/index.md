@@ -2,27 +2,27 @@
 layout: base/bar/bar-sidebar-none
 title: "Assignment 3: Getting the Design Right"
 
-link_project_3a: https://canvas.uw.edu/courses/987987/assignments/3035453
-date_project_3a: Tuesday, November 10, 2015
+date_project_3a: Tuesday, February 14, 2017
+#link_project_3a: https://canvas.uw.edu/courses/987987/assignments/3035453
 
-link_project_3b: https://canvas.uw.edu/courses/987987/assignments/3035454
-date_project_3b: Tuesday, November 10, 2015
+date_project_3b: Wednesday, February 15, 2017
+#link_project_3b: https://canvas.uw.edu/courses/987987/assignments/3035454
 
-link_project_3c: https://canvas.uw.edu/courses/987987/assignments/3040077
-date_project_3c: Friday, November 13, 2015
+date_project_3c: Friday, February 17, 2017
+#link_project_3c: https://canvas.uw.edu/courses/987987/assignments/3040077
 
-link_project_3d: https://canvas.uw.edu/courses/987987/assignments/3040177
-link_project_3d_critique: https://canvas.uw.edu/courses/987987/assignments/3046463
-date_project_3d: Tuesday, November 17, 2015
+date_project_3d: Tuesday, February 24, 2017
+#link_project_3d: https://canvas.uw.edu/courses/987987/assignments/3040177
+#link_project_3d_critique: https://canvas.uw.edu/courses/987987/assignments/3046463
 
-link_project_3e: https://canvas.uw.edu/courses/987987/assignments/3040179
-date_project_3e: Friday, November 20, 2015
+date_project_3e: Tuesday, February 28, 2017
+#link_project_3e: https://canvas.uw.edu/courses/987987/assignments/3040179
 
-link_project_3f: https://canvas.uw.edu/courses/987987/assignments/3052941
-date_project_3f: Tuesday, December 1, 2015
+date_project_3f: Tuesday, February 28, 2017
+#link_project_3f: https://canvas.uw.edu/courses/987987/assignments/3052941
 
-link_project_3g: https://canvas.uw.edu/courses/987987/assignments/3052942
-date_project_3g: Thursday, December 3, 2015
+date_project_3g: Thursday, March 2, 2017
+#link_project_3g: https://canvas.uw.edu/courses/987987/assignments/3052942
 
 ---
 
