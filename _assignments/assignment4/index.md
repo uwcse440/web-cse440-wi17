@@ -2,22 +2,22 @@
 layout: base/bar/bar-sidebar-none
 title: "Assignment 4: Communicating Your Design"
 
-link_project_4a: https://canvas.uw.edu/courses/987987/assignments/3055624 
-date_project_4a: Tuesday, December 1, 2015
+date_project_4a: Friday, March 3, 2017
+#link_project_4a: https://canvas.uw.edu/courses/987987/assignments/3055624
 
-link_project_4b: https://canvas.uw.edu/courses/987987/assignments/3056710
-date_project_4b: Tuesday, December 8, 2015
+date_project_4b: Tuesday, March 7, 2017
+#link_project_4b: https://canvas.uw.edu/courses/987987/assignments/3056710
 
-link_project_4c: https://canvas.uw.edu/courses/987987/assignments/3056711
-date_project_4c: Thursday, December 10, 2015
+date_project_4c: Thursday, March 9, 2017
+#link_project_4c: https://canvas.uw.edu/courses/987987/assignments/3056711
 
-date_project_4d: Friday, December 11, 2015
+date_project_4d: Friday, March 10, 2017
 
-link_project_4e_poster: https://canvas.uw.edu/courses/987987/assignments/3056712
-link_project_4e_video: https://canvas.uw.edu/courses/987987/assignments/3056712
-date_project_4e: Tuesday, December 15, 2015
+date_project_4e: Friday, March 10, 2017
+#link_project_4e_poster: https://canvas.uw.edu/courses/987987/assignments/3056712
+#link_project_4e_video: https://canvas.uw.edu/courses/987987/assignments/3056712
 
-date_project_4f: 10:30 to 12:20, Thursday, December 17, 2015
+date_project_4f: 11:00 to 12:20, Monday, March 13, 2017
 
 ---
 
