@@ -102,9 +102,9 @@ Researchers have also studied current processes, challenges, and opportunities:
 - [Rooksby et al., 2014, Personal Tracking as Lived Informatics]({{ site.baseurl }}/readings/PersonalInformatics-Rooksby2014.pdf)
 - [Cordeiro et al., 2015, Barriers and Negative Nudges: Exploring Challenges in Food Journaling]({{ site.baseurl }}/readings/PersonalInformatics-Cordeiro2015.pdf)
 - [Epstein et al., 2015, A Lived Informatics Model of Personal Informatics]({{ site.baseurl }}/readings/PersonalInformatics-Epstein2015.pdf)
-- `jessie cscw paper`
-- `laura cscw paper`
-- `ravi chi paper`
+- [Pina et al., 2017, From Personal Informatics to Family Informatics: Understanding Family Practices around Health Monitoring]({{ site.baseurl }}/readings/PersonalInformatics-Pina2017.pdf)
+- [Schroeder et al., 2017, Supporting Patient-Provider Collaboration to Identify Individual Triggers using Food and Symptom Journals]({{ site.baseurl }}/readings/PersonalInformatics-Schroeder2017.pdf)
+- `ravi chi 2017 paper`
 
 ## Thinking Big
  
@@ -238,14 +238,16 @@ Be sure your presentation looks good:
  - choose appropriate colors, fonts, and styles
  - make liberal use of whitespace 
 
-### Examples from Prior Offerings
+### Samples from Prior Offerings
 
-Examples from prior offerings include:
+Samples from prior offerings include:
 
-- Proposal that ultimately became [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [1b_aqueous.pdf]({{ site.baseurl }}/samples/1b/1b_aqueous.pdf)
-- Proposal that ultimately became [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [1b_iepconnect.pdf]({{ site.baseurl }}/samples/1b/1b_iepconnect.pdf)
-- Proposal that ultimately became [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [1b_kaching.pdf]({{ site.baseurl }}/samples/1b/1b_kaching.pdf)
-- Proposal that ultimately became [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [1b_soundscape.pdf]({{ site.baseurl }}/samples/1b/1b_soundscape.pdf)
+{% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
+  -  {{ currentoffering.name }} - Proposal that ultimately became [{{ currentsample.name }}]({{ currentsample.link }}): [1b_{{ currentsample.suffix }}.pdf]({{ site.baseurl }}/samples/1b/1b_{{ currentsample.suffix }}.pdf){% endfor %}{% endfor %}
+
+Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 ### Submission
 

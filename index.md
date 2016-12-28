@@ -76,10 +76,8 @@ Projects are organized around four assignments, each consisting of several miles
 
 Sample projects from prior offerings include:
 
-- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/)
-- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/)
-- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/)
-- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/)
+{% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
+  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}){% endfor %}{% endfor %}
 
 Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
 Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
