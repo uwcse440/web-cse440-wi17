@@ -46,22 +46,37 @@ This is an individual assignment, consisting of three milestones.
 
 # Project Description
 
-`to be updated to emphasize tracking beyond the 'self'`
-
-The theme for projects in this course is __personal informatics__:
+The theme for projects in this course is __tracking beyond the self__, an extension of __personal informatics__:
 
 > Personal informatics systems are systems that help people collect personally relevant information for the purpose of 
 > self-reflection and gaining self-knowledge.
 >
 > [Li _et al._, 2010]({{ site.baseurl }}/readings/PersonalInformatics-Li2010.pdf).
 
-Personal informatics relates heavily to the [Quantified Self](http://quantifiedself.com/) movement, which emphasizes:
+Self-tracking and personal informatics are closely related to the [Quantified Self](http://quantifiedself.com/) movement, which emphasizes:
 
 > Self-knowledge through numbers.
 >
 > [Gary Wolf, 2009](http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself)
  
-Current widely used examples of personal informatics systems exist in a variety of domains, with more active or passive approaches:
+As a focus for Winter 2017, we will ask students to explore __tracking beyond the self__.
+Instead of limiting self-tracking to a isolated self-analyst, consider how people might interact around personal data.
+Potential examples of social contexts for tracking could include:
+
+- co-located relationships (e.g., families, friends, co-workers)
+- remote relationships (e.g., families, friends, co-workers)
+- communities organizing (e.g., people in a building or neighborhood, community volunteers)
+- people seeking help from peers (e.g., social sharing, support networks)
+- people seeking help from experts (e.g., doctors)
+
+Any problem where multiple people track collect data, or where multiple people engage in gaining value from data,
+introduces additional opportunities and challenges in designing for effective interaction with personal data.
+
+# Background Material
+
+Examples of widely-used personal informatics systems exist in a variety of domains.
+Some designs emphasize passive tracking (e.g., via sensing),
+while other designs emphasize more active engagement (e.g., via journaling):
 
 - Finances
   - [Mint](http://www.mint.com/) (for tracking finances)
@@ -87,10 +102,13 @@ Researchers have also studied current processes, challenges, and opportunities:
 - [Rooksby et al., 2014, Personal Tracking as Lived Informatics]({{ site.baseurl }}/readings/PersonalInformatics-Rooksby2014.pdf)
 - [Cordeiro et al., 2015, Barriers and Negative Nudges: Exploring Challenges in Food Journaling]({{ site.baseurl }}/readings/PersonalInformatics-Cordeiro2015.pdf)
 - [Epstein et al., 2015, A Lived Informatics Model of Personal Informatics]({{ site.baseurl }}/readings/PersonalInformatics-Epstein2015.pdf)
+- `jessie cscw paper`
+- `laura cscw paper`
+- `ravi chi paper`
 
 ## Thinking Big
  
-Your proposal must go beyond a technology-centric proposal of a webpage, phone application, or interaction. Think about 
+Your proposal must go beyond a technology-centric proposal of a webpage, phone application, or interaction. Instead think about
 the problems that people face in their lives, how we can approach those problems, and the role for interactive computing.
 This first assignment is your opportunity to think broadly about identifying a problem. Subsequent assignments will provide
 opportunities to focus on designing a specific technological solution to a specific set of tasks.
@@ -109,26 +127,30 @@ Activities within personal informatics can include:
  - the actual act of tracking
  - identifying activity patterns 
  - sharing accomplishments with friends and family
- - abandoning tracking
+ - deciding to abandon tracking
 
 Do not start with a focus on concrete one-time tasks (e.g., logging into your bank account). 
 Instead identify problems in long-lived activities that span many different social or technological contexts. 
 If you want to help people manage their money, do not immediately propose a website that addresses one specific task. 
-Consider the range of other opportunities (e.g., personal mobile devices, shared family computers, point of sale systems).
+Instead consider the range of other opportunities (e.g., personal mobile devices, shared family computers, point of sale systems).
 
-Focus on creating or improving a specific application or service that addresses the issues of an actual community. 
+Focus on creating or improving a specific application or service that addresses the issues of specific people.
 You must be able to create and evaluate a design within the timeframe of this course, so consider whether you 
-can reasonably gain access to the necessary people. We encourage you to think big, expanding upon your application 
-to include new ideas for interaction techniques or technology platforms. 
+can reasonably gain access to the necessary people.
 
-Do not feel constrained by current devices, but instead aim to explore an exciting design that could potentially 
-motivate the development of new enabling technology. For example, see how Artefact presents the Dialog concept:
+We encourage you to think big, expanding your thinking to include new ideas for interaction techniques or technology platforms.
+Do not feel constrained by current devices, but instead aim to explore an exciting design that could potentially
+motivate the development of new enabling technology. For example, see how Artefact presents the Dialog concept.
+This concept has not been implemented, and might not even be immediately possible.
+But it has been developed in substantial detail, understanding implications for design and implementation:
 
 - [Dialog: Better Decisions, Better Health - Artefact](http://www.artefactgroup.com/content/work/dialog/)
 - [Video of Dialog Talk in DUB Seminar](http://vimeo.com/103167385)
 
-This design has not been implemented, and might not even be immediately possible.
-But it has been developed in substantial detail, understanding implications for design and implementation.
+Finally, the project theme requires that your proposal present some opportunity for __tracking beyond the self__.
+But you will ultimately follow your design process where it leads you, which may or may not emphasize tracking.
+Focusing on problems and opportunities, rather than specific design features will leave room for your design
+to emerge and be refined in the course of this project.
 
 ## Going Forward
 
