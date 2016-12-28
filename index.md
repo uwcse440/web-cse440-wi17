@@ -51,9 +51,9 @@ Self-tracking and personal informatics are closely related to the [Quantified Se
 >
 > [Gary Wolf, 2009](http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself)
 
-As a focus for Winter 2017, we will ask students to explore tracking beyond the self.
-Instead of limiting self-tracking to a lone self-analyst, consider how people might interact around personal data.
-Potential examples of social relationships could include:
+As a focus for Winter 2017, we will ask students to explore __tracking beyond the self__.
+Instead of limiting self-tracking to a isolated self-analyst, consider how people might interact around personal data.
+Potential examples of social contexts for tracking could include:
 
 - Co-located relationships (e.g., families, friends, co-workers)
 - Remote relationships (e.g., families, friends, co-workers)
