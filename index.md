@@ -34,34 +34,46 @@ The course is overwhelmingly organized around a group project, in which students
 
 # Project Theme
 
-`to be updated to emphasize tracking beyond the 'self'`
+People have long sought to better understand themselves, but recently technology advances enable new approaches.
+Students will examine the problems people encounter in gathering and gaining value from personal data,
+then explore how new technology can go beyond simple data fetishes to help people in reaching their goals.
 
-Projects will explore challenges and opportunities in designing for self-tracking, also known as Personal Informatics:
+Understanding and designing for self-tracking is also known as Personal Informatics:
 
 > Personal informatics systems are systems that help people collect personally relevant information for the purpose of 
 > self-reflection and gaining self-knowledge.
 >
 > [Li _et al._, 2010]({{ site.baseurl }}/readings/PersonalInformatics-Li2010.pdf).
 
-Personal informatics relates heavily to the [Quantified Self](http://quantifiedself.com/) movement, which emphasizes:
+Self-tracking and personal informatics are closely related to the [Quantified Self](http://quantifiedself.com/) movement, which emphasizes:
 
 > Self-knowledge through numbers.
 >
 > [Gary Wolf, 2009](http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself)
 
-People have long sought to better understand themselves, but recently technology advances are enabling fundamentally new approaches. 
-Students will examine the problems people encounter, then explore how new technology can go beyond the data fetish to help people in reaching their goals. 
+As a focus for Winter 2017, we will ask students to explore tracking beyond the self.
+Instead of limiting self-tracking to a lone self-analyst, consider how people might interact around personal data.
+Potential examples of social relationships could include:
+
+- Co-located relationships (e.g., families, friends, co-workers)
+- Remote relationships (e.g., families, friends, co-workers)
+- Communities organizing (e.g., people in a building or neighborhood, community volunteers)
+- People seeking help from peers (e.g., social sharing, support networks)
+- People seeking help from experts (e.g., doctors)
+
+Any problem where multiple people track collect data, or where multiple people engage in gaining value from data,
+introduces additional opportunities and challenges in designing for effective interaction with personal data.
 
 # Project Structure
 
-Projects are organized around four assignments, each consistent of several milestones:
+Projects are organized around four assignments, each consisting of several milestones:
 
 - [Assignment 1 - Project Proposal]({{ site.baseurl }}/assignments/assignment1/)
 - [Assignment 2 - Getting the Right Design]({{ site.baseurl }}/assignments/assignment2/)
 - [Assignment 3 - Getting the Design Right]({{ site.baseurl }}/assignments/assignment3/)
 - [Assignment 4 - Communicating the Design]({{ site.baseurl }}/assignments/assignment4/)
 
-Example project from prior offerings include: 
+Sample projects from prior offerings include:
 
 - [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/)
 - [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/)
@@ -69,8 +81,8 @@ Example project from prior offerings include:
 - [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/)
 
 Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
-
-`However, these represent examples of strong work in this course.`
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 # Readings
 
@@ -95,11 +107,11 @@ __Office Hours__:
 
 Scheduled hours are held most weeks, but check the calendar:
 
-- James, `Tuesdays, 4:30 - 5:30`, CSE 666
-- Eunice, `Wednesdays, 1:30 - 2:30, CSE 218`
-- David, `Thursday, 1:30 - 2:30, CSE 218`
+- James, `TBD`, CSE 666
+- Eunice, `TBD`
+- David, `TBD`
 
-Other meetings by appointment.
+Other meetings are by appointment.
 
 __Course Staff__:
 
