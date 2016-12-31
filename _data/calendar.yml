@@ -22,6 +22,12 @@ locations:
   officehoursjames:
     - time: "2:30 - 3:30"
       location: "CSE 666"
+  officehoursdavid:
+    - time: "12:00 - 1:00"
+      location: "CSE 021"
+  officehourseunice:
+    - time: "1:45 - 2:45"
+      location: "CSE 021"
 
 #  examreview:
 #    - time: "12:00 - 1:00"
@@ -328,6 +334,63 @@ officehours:
   - date: "2017-03-07"
     name: "James Office Hour"
     location: officehoursjames
+
+  - date: "2017-01-12"
+    name: "David Office Hour"
+    location: officehoursdavid
+  - date: "2017-01-19"
+    name: "David Office Hour"
+    location: officehoursdavid
+  - date: "2017-01-26"
+    name: "David Office Hour"
+    location: officehoursdavid
+  - date: "2017-02-02"
+    name: "David Office Hour"
+    location: officehoursdavid
+  - date: "2017-02-09"
+    name: "David Office Hour"
+    location: officehoursdavid
+  - date: "2017-02-16"
+    name: "David Office Hour"
+    location: officehoursdavid
+  - date: "2017-02-23"
+    name: "David Office Hour"
+    location: officehoursdavid
+  - date: "2017-03-02"
+    name: "David Office Hour"
+    location: officehoursdavid
+  - date: "2017-03-09"
+    name: "David Office Hour"
+    location: officehoursdavid
+
+  - date: "2017-01-11"
+    name: "Eunice Office Hour"
+    location: officehourseunice
+  - date: "2017-01-18"
+    name: "Eunice Office Hour"
+    location: officehourseunice
+  - date: "2017-01-25"
+    name: "Eunice Office Hour"
+    location: officehourseunice
+  - date: "2017-02-01"
+    name: "Eunice Office Hour"
+    location: officehourseunice
+  - date: "2017-02-08"
+    name: "Eunice Office Hour"
+    location: officehourseunice
+  - date: "2017-02-15"
+    name: "Eunice Office Hour"
+    location: officehourseunice
+  - date: "2017-02-22"
+    name: "Eunice Office Hour"
+    location: officehourseunice
+  - date: "2017-03-01"
+    name: "Eunice Office Hour"
+    location: officehourseunice
+  - date: "2017-03-08"
+    name: "Eunice Office Hour"
+    location: officehourseunice
+
 
 #  - date: "2015-10-07"
 #    name: "Lauren Office Hour"
