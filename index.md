@@ -106,9 +106,9 @@ __Office Hours__:
 
 Scheduled hours are held most weeks, but check the calendar:
 
-- James, `TBD`, CSE 666
-- Eunice, `TBD`
-- David, `TBD`
+- James, Tuesdays 2:30 to 3:30, CSE 666
+- Eunice, Wednesdays 1:45 to 2:45, CSE 021
+- David, Thursdays 12:00 to 1:00, CSE 021
 
 Other meetings are by appointment.
 
