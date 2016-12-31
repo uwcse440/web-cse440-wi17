@@ -150,15 +150,6 @@ The projects we have been posting this quarter:
 - [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/)
 - [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/)
 
-Additional projects from the same prior offerings:
-
-- [Awearness](https://courses.cs.washington.edu/courses/cse440/14au/projects/awearness/)
-- [Bandit](https://courses.cs.washington.edu/courses/cse440/14au/projects/bandit/)
-- [Distrack](https://courses.cs.washington.edu/courses/cse440/14au/projects/distrack/)
-- [GroupShop](https://courses.cs.washington.edu/courses/cse440/14au/projects/groupshop/)
-- [Koala](https://courses.cs.washington.edu/courses/cse440/14au/projects/koala/)
-- [Running With Friends](https://courses.cs.washington.edu/courses/cse440/14au/projects/runningwithfriends/)
-
 ### Submission
 
 Submit a pull request containing your website. We will merge as quickly as possible. 
@@ -214,15 +205,6 @@ The projects we have been posting this quarter:
 - [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [4b_kaching.m4v]({{ site.baseurl }}/samples/4b/4b_kaching.m4v)
 - [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [4b_soundscape.mp4]({{ site.baseurl }}/samples/4b/4b_soundscape.mp4)
 
-Additional projects from the same prior offerings:
-
-- [Awearness](https://courses.cs.washington.edu/courses/cse440/14au/projects/awearness/): [4b_awearness.mp4]({{ site.baseurl }}/samples/4b/4b_awearness.mp4)
-- [Bandit](https://courses.cs.washington.edu/courses/cse440/14au/projects/bandit/): [4b_bandit.mp4]({{ site.baseurl }}/samples/4b/4b_bandit.mp4)
-- [Distrack](https://courses.cs.washington.edu/courses/cse440/14au/projects/distrack/): [4b_distrack.mp4]({{ site.baseurl }}/samples/4b/4b_distrack.mp4)
-- [GroupShop](https://courses.cs.washington.edu/courses/cse440/14au/projects/groupshop/): [4b_groupshop.mov]({{ site.baseurl }}/samples/4b/4b_groupshop.mov)
-- [Koala](https://courses.cs.washington.edu/courses/cse440/14au/projects/koala/): [4b_koala.m4v]({{ site.baseurl }}/samples/4b/4b_koala.m4v)
-- [Running With Friends](https://courses.cs.washington.edu/courses/cse440/14au/projects/runningwithfriends/): [4b_runningwithfriends.mp4]({{ site.baseurl }}/samples/4b/4b_runningwithfriends.mp4)
-
 ### Submission
 
 Submit via Canvas here: 
@@ -277,15 +259,6 @@ The projects we have been posting this quarter:
 - [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [4c_iepconnect.pdf]({{ site.baseurl }}/samples/4c/4c_iepconnect.pdf)
 - [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [4c_kaching.pdf]({{ site.baseurl }}/samples/4c/4c_kaching.pdf)
 - [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [4c_soundscape.pdf]({{ site.baseurl }}/samples/4c/4c_soundscape.pdf)
-
-Additional projects from the same prior offerings:
-
-- [Awearness](https://courses.cs.washington.edu/courses/cse440/14au/projects/awearness/): [4c_awearness.pdf]({{ site.baseurl }}/samples/4c/4c_awearness.pdf)
-- [Bandit](https://courses.cs.washington.edu/courses/cse440/14au/projects/bandit/): [4c_bandit.pdf]({{ site.baseurl }}/samples/4c/4c_bandit.pdf)
-- [Distrack](https://courses.cs.washington.edu/courses/cse440/14au/projects/distrack/): [4c_distrack.pdf]({{ site.baseurl }}/samples/4c/4c_distrack.pdf)
-- [GroupShop](https://courses.cs.washington.edu/courses/cse440/14au/projects/groupshop/): [4c_groupshop.pdf]({{ site.baseurl }}/samples/4c/4c_groupshop.pdf)
-- [Koala](https://courses.cs.washington.edu/courses/cse440/14au/projects/koala/): [4c_koala.pdf]({{ site.baseurl }}/samples/4c/4c_koala.pdf)
-- [Running With Friends](https://courses.cs.washington.edu/courses/cse440/14au/projects/runningwithfriends/): [4c_runningwithfriends.pdf]({{ site.baseurl }}/samples/4c/4c_runningwithfriends.pdf)
 
 ### Submission
 
