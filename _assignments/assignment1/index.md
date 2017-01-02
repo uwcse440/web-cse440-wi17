@@ -13,10 +13,6 @@ date_project_1c_bids: Thursday, January 12, 2017
 #link_project_1c_bids: https://canvas.uw.edu/courses/987987/quizzes/860487
 ---
 
-`This page is still being migrated and developed.`
-
-`Information here is likely suggestive of the final page, but remains subject to change.`
-
 # Overview
 
 You are to propose a __problem__ and an __approach__ that could form the basis of a project for this course.
@@ -58,9 +54,10 @@ Self-tracking and personal informatics are closely related to the [Quantified Se
 > Self-knowledge through numbers.
 >
 > [Gary Wolf, 2009](http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself)
- 
+
 As a focus for Winter 2017, we will ask students to explore __tracking beyond the self__.
-Instead of limiting self-tracking to a isolated self-analyst, consider how people might interact around personal data.
+Instead of limiting self-tracking to a isolated self-analyst,
+we will ask students to consider how people might interact around personal data.
 Potential examples of social contexts for tracking could include:
 
 - co-located relationships (e.g., families, friends, co-workers)
@@ -69,7 +66,7 @@ Potential examples of social contexts for tracking could include:
 - people seeking help from peers (e.g., social sharing, support networks)
 - people seeking help from experts (e.g., doctors)
 
-Any problem where multiple people track collect data, or where multiple people engage in gaining value from data,
+Any problem where multiple people collect data, or where multiple people engage in gaining value from data,
 introduces additional opportunities and challenges in designing for effective interaction with personal data.
 
 # Background Material
@@ -104,7 +101,6 @@ Researchers have also studied current processes, challenges, and opportunities:
 - [Epstein et al., 2015, A Lived Informatics Model of Personal Informatics]({{ site.baseurl }}/readings/PersonalInformatics-Epstein2015.pdf)
 - [Pina et al., 2017, From Personal Informatics to Family Informatics: Understanding Family Practices around Health Monitoring]({{ site.baseurl }}/readings/PersonalInformatics-Pina2017.pdf)
 - [Schroeder et al., 2017, Supporting Patient-Provider Collaboration to Identify Individual Triggers using Food and Symptom Journals]({{ site.baseurl }}/readings/PersonalInformatics-Schroeder2017.pdf)
-- `ravi chi 2017 paper`
 
 ## Thinking Big
  
