@@ -1,5 +1,5 @@
 ---
-layout: base/bar/bar-sidebar-none
+layout: base/bar/bar-sidebar-right
 title: Projects
 
 projects:
@@ -30,30 +30,55 @@ projects:
    
 ---
 
-`This page is still being migrated and developed.`
+<div class="sidebar_start"></div>
 
-`Information here is likely suggestive of the final page, but remains subject to change.`
-
-<html>
 <div class="row">
-<div class="col-md-9" markdown="block">
+<div class="col-md-12" markdown="block">
+<div class="panel panel-default" style="margin-top:20px;">
+<div class="panel-heading" markdown="block">
+## Poster Session
+</div>
+<div class="panel-body" markdown="block">
+Please join us for a poster session celebrating the outstanding design work of CSE 440 students:
+{% comment %}
+Thank you for joining us to celebrate the outstanding design work of CSE 440 students:
+{% endcomment %}
+
+Monday, March 13
+
+11:00 am to 12:00pm, [CSE Atrium](http://www.washington.edu/maps/#!/cse)
+
+<img src="{{ site.baseurl }}/images/poster_session.jpg" width="100%" alt="Poster Session"/>
+</div>
+</div>
+</div>
+</div>
+
+<div class="sidebar_end"></div>
+
 # Project Theme
 
-Projects explored challenges and opportunities in self-tracking, also known as Personal Informatics:
+People have long sought to better understand themselves, but recently technology advances enable new approaches.
+Projects explored opportunities and challenges in self-tracking, also known as personal informatics:
 
 > Personal informatics systems are systems that help people collect personally relevant information for the purpose of 
 > self-reflection and gaining self-knowledge.
 >
 > [Li _et al._, 2010]({{ site.baseurl }}/readings/PersonalInformatics-Li2010.pdf).
 
-Personal informatics relates heavily to the [Quantified Self](http://quantifiedself.com/) movement, which emphasizes:
+Self-tracking and personal informatics are closely related to the [Quantified Self](http://quantifiedself.com/) movement, which emphasizes:
 
 > Self-knowledge through numbers.
 >
 > [Gary Wolf, 2009](http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself)
 
-People have long sought to better understand themselves, but recently technology advances are enabling fundamentally new approaches. 
-Students have examined the problems people encounter, then explored how new technology can go beyond the data fetish to help people in reaching their goals. 
+As a focus for Winter 2017, students were asked to explore __tracking beyond the self__.
+Instead of limiting self-tracking to a isolated self-analyst,
+we asked students to consider how people might interact around personal data in a variety of social contexts.
+Any problem where multiple people collect data, or where multiple people engage in gaining value from data,
+introduces additional opportunities and challenges in designing for effective interaction with personal data.
+Students have examined the problems people encounter,
+then explored how new technology can go beyond the data fetish to help people in reaching their goals.
 
 # Project Websites
 
@@ -81,32 +106,3 @@ Will be linked here as course projects are proposed and developed.
     </div>
   {% endfor %}
 </div>
-
-</div>
-<div class="col-md-3 hidden-xs hidden-sm" markdown="block">
-<div class="panel panel-default" style="margin-top:20px;">
-<div class="panel-heading" markdown="block">
-## Poster Session
-</div>
-<div class="panel-body" markdown="block">
-{% comment %}
-Please join us for a poster session celebrating the outstanding design work of CSE 440 students:
-  
-Wednesday, December 16
-  
-11:00 am
-    
-[CSE Atrium](http://www.washington.edu/maps/#!/cse)
-{% endcomment %}
-Thank you for joining us to celebrate the outstanding design work of CSE 440 students:
-
-Wednesday, December 16
-
-11:00 am
-
-<img src="{{ site.baseurl }}/images/poster_session.jpg" width="100%" alt="Poster Session"/>
-</div>
-</div>
-</div>
-</div>
-</html>

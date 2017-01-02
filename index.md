@@ -3,14 +3,7 @@ layout: base/bar/bar-sidebar-none
 title: Course Overview
 ---
 
-`This page is still being migrated and developed.`
-
-`Information here is likely suggestive of the final page, but remains subject to change.`
-
 # Course Description
-
-This course provides an introduction to human-computer interaction and the design process. 
-It is overwhelmingly organized around a group project, in which students:
 
 This course provides an introduction to human-computer interaction and the design process.
 Students will learn methods and skills for designing and prototyping interactive systems.
@@ -62,7 +55,7 @@ Potential examples of social contexts for tracking could include:
 - people seeking help from peers (e.g., social sharing, support networks)
 - people seeking help from experts (e.g., doctors)
 
-Any problem where multiple people track collect data, or where multiple people engage in gaining value from data,
+Any problem where multiple people collect data, or where multiple people engage in gaining value from data,
 introduces additional opportunities and challenges in designing for effective interaction with personal data.
 
 # Project Structure
