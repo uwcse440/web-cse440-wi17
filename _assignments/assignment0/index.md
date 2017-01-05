@@ -10,10 +10,10 @@ date_assignment_0: January 10, 2017
 
 Submit an informal slide that will help us as we get to know you:
 
-- Name (Formal and Preferred)
 - Face Picture
-- Majors / Minors
-- Year (1,2,3,4,5,6,?)
+- Name (formal, preferred, pronouns)
+- Majors / Minors (career goals)
+- Year (1,2,3,4,5,6,...)
 - Hometown
 - Interesting Fact or "What I did on my ..."
 
