@@ -3,10 +3,10 @@ layout: base/bar/bar-sidebar-none
 title: "Assignment 1: Project Proposal"
 
 date_project_1a: Friday, January 6, 2017
-#link_project_1a: https://canvas.uw.edu/courses/987987/assignments/3000656
+link_project_1a: https://canvas.uw.edu/courses/1098203/assignments/3559051
 
 date_project_1b: Tuesday, January 10, 2017
-#link_project_1b: https://canvas.uw.edu/courses/987987/assignments/3000658
+link_project_1b: https://canvas.uw.edu/courses/1098203/assignments/3559055
 
 date_project_1c_bids: Thursday, January 12, 2017
 #link_project_1c_projects: https://canvas.uw.edu/courses/987987/discussion_topics/3047301
@@ -246,6 +246,8 @@ Also note these samples are intended to illustrate a variety of approaches, none
 Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 ### Submission
+
+Ensure your name and section are prominent at the top of your submission.
 
 No more than one page of text in PDF format.
 
