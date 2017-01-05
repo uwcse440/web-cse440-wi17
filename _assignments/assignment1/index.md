@@ -190,6 +190,8 @@ Ensure the ideas are significantly different, not small variations on the same i
 
 ### Submission
 
+Ensure your name and section are at the top of your submission.
+
 No more than one page of text in PDF format. Submit via Canvas here: 
 
 {% if page.link_project_1a != nil %}<{{ page.link_project_1a }}>{% else %}`Link to be added`{% endif %}
