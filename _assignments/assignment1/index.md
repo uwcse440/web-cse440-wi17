@@ -247,7 +247,7 @@ Be sure to understand and carefully consider project requirements and feedback f
 
 ### Submission
 
-Ensure your name and section are prominent at the top of your submission.
+Ensure your name and section are at the top of your submission.
 
 No more than one page of text in PDF format.
 
