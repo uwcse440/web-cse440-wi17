@@ -64,7 +64,7 @@ or you may complete this reading in terms of a "funded" proposal on which you ha
 - Briefly, what was the proposal (e.g., two sentences).
 - Who and what might you propose to observe in a contextual inquiry (e.g., two sentences).
 - What focus might you bring to your observation, and why? (e.g., two or three sentences).
-- Identify a pitfall or limitation of contextual inquiry that seems likely (e.g., two or three sentences).
+- Identify a pitfall or limitation of contextual inquiry (i.e., as a method) or your experience (i.e., as a new design researcher) that seems likely (e.g., two or three sentences).
 - Describe how you might avoid or attempt to correct for this pitfall in your inquiry while still primarily using a contextual inquiry method (e.g., two or three sentences).
 
 Then consider alternative design research methods, such as those in Universal Methods of Design.
