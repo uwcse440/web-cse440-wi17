@@ -34,24 +34,20 @@ date_project_2i: Thursday, February 9, 2017
 
 ---
 
-`This page is still being migrated and developed.`
-
-`Information here is likely suggestive of the final page, but remains subject to change.`
-
 # Overview
 
 Even for a well-understood, well-motivated problem, choosing a design to invest time into is a difficult and laborious process. 
 This group assignment, spanning multiple weeks of the course, tackles the problem of selecting the right design through 
-__contextual inquiry__, __task development__, __generating multiple potential designs__, and finally __selecting a design__ to pursue.
+__design research__, __task development__, __generating multiple potential designs__, and finally __selecting a design__ to pursue.
 
 This assignment is worth __21%__ of your overall course grade:
 
 - __15%__ for [Assignment 2h: Final Report](#final_report) 
 - __6%__ for the milestones 
   - __0.5%__ for [Assignment 2a: Project Ideation](#project_ideation) 
-  - __0.5%__ for [Assignment 2b: Contextual Inquiry Plan](#design_research_plan)
-  - __1%__ for [Assignment 2c: Contextual Inquiry Check-In](#design_research_checkin)
-  - __1%__ for [Assignment 2d: Contextual Inquiry Review](#design_research_review)
+  - __0.5%__ for [Assignment 2b: Design Research Plan](#design_research_plan)
+  - __1%__ for [Assignment 2c: Design Research Check-In](#design_research_checkin)
+  - __1%__ for [Assignment 2d: Design Research Review](#design_research_review)
   - __1%__ for [Assignment 2e: Task Review](#task_review)
   - __1%__ for [Assignment 2f: Design Check-In ("3x4")](#design_checkin)
   - __1%__ for [Assignment 2g: Design Review ("1x2")](#design_review)
@@ -68,15 +64,15 @@ This is a group assignment, consisting of nine milestones.
 
   Due: Completed in section on {{ page.date_project_2a }}
   
-* [Assignment 2b: Contextual Inquiry Plan](#design_research_plan)
+* [Assignment 2b: Design Research Plan](#design_research_plan)
 
   Due: Uploaded the night before class {{ page.date_project_2b }}
   
-* [Assignment 2c: Contextual Inquiry Check-In](#design_research_checkin)
+* [Assignment 2c: Design Research Check-In](#design_research_checkin)
 
   Due: Uploaded the night before section {{ page.date_project_2c }}
 
-* [Assignment 2d: Contextual Inquiry Review](#design_research_review)
+* [Assignment 2d: Design Research Review](#design_research_review)
 
   Due: Uploaded the night before class {{ page.date_project_2d }}
 
@@ -103,8 +99,8 @@ This is a group assignment, consisting of nine milestones.
 # Project Description
 
 In this assignment, you will brainstorm a large set of possible tasks and design ideas for your project. 
-You will then use contextual inquiry to learn more about your problem and the current practices of people who might use your design. 
-You will draw upon the ideas developed in your brainstorming and the observations made in your contextual inquiry
+You will then conduct design research to learn more about your problem and the current practices of people who might use your design.
+You will draw upon the ideas developed in your brainstorming and the observations made in your design research
 to help develop a set of potential tasks your design might support. 
 You will next sketch how a set of initial designs might support those tasks.
 You will choose a design to pursue in the remainder of the course and storyboard the details of your design in the context of important tasks.
@@ -116,7 +112,7 @@ More specifically, you will do the following:
 
    ([Assignment 2a](#project_ideation))
     
-2. Use the contextual inquiry method in observing and interviewing at least __three__ people who might use your design.
+2. Conduct design research (e.g., contextual inquiry, interviews, observations) to learn from at least __three__ people who might use your design.
 
    ([Assignment 2b](#design_research_plan)), ([Assignment 2c](#design_research_checkin)), ([Assignment 2d](#design_research_review))
 
@@ -147,7 +143,7 @@ More specifically, you will do the following:
 5. From your sketches, select __one__ design to pursue for the remainder of the quarter and __two__ tasks that emphasize
    critical functionality of your design. These tasks should be non-trivial, critical to solving your problem, and should 
    emphasize long-lived or repeated activities. In contrast, a one-time login screen for a social networking application 
-   is not worth being the focus of your project, does not define your project functionality, and is not interesting.
+   is not worth being the focus of your project, does not define your project functionality, and is not sufficiently interesting.
 
    Storyboard your chosen design for your chosen tasks, illustrating how the tasks are accomplished in your design.
 
@@ -188,11 +184,11 @@ Following up on the above, additionally brainstorm:
 - People: types of people you might work with to learn more.
 - Foci: potential foci you might apply in your learning.
 
-The goal is to begin thinking about how to plan effective contextual inquiries toward your design process.
+The goal is to begin thinking about how to plan effective design research to inform your design process.
 
 ### Submission
 
-`At the end of section, take a photo of your brainstorm and upload it on Canvas here:`
+At the end of section, take a photo of your brainstorm and upload it on Canvas here:
 
 {% if page.link_project_2a != nil %}<{{ page.link_project_2a }}>{% else %}`Link to be added`{% endif %}
 
@@ -204,36 +200,40 @@ This milestone will be graded on a scale of __3 points__ based on participation 
 
 <a name="design_research_plan"></a>
 
-## 2b: Contextual Inquiry Plan
+## 2b: Design Research Plan
 
 Due: Uploaded the night before class {{ page.date_project_2b }}
 
 In one paragraph, describe the people who might use your design and other stakeholders for your design. 
-Describe the particular contextual inquiry participants you plan to pursue, 
-including some details of their background and the environment where you will observe their current practices. 
-Give enough details to convince us that you can actually find and interview your target participants in the next week. 
+Describe the particular design research methods and participants you plan to pursue,
+including such details as their background and the environment where you will observe their current practices.
+Give enough information to convince us that you can actually find and engage with your target participants in the next week.
 
 For example, your target participants should not be "doctors" but instead a specific group of doctors 
 (e.g., Family Practitioners in the UW Roosevelt Clinic). 
 If gaining access to the target participants is non-trivial (e.g., as with busy doctors), 
 describe the steps you have already taken to gain access and your plans to recover if you are unable to gain access.
-Indicate when you will be conducting your three inquiries, being as specific as possible.
+Indicate when you will be conducting your design research, being as specific as possible.
 
-In another paragraph, describe how you will interact with your participants and your role as the "apprentice".
- 
-- Will you be observing their current behaviors?
-- Will you be interviewing them about recent behaviors?
- 
-Please be as specific as possible, providing potential examples of your observation focus or interview questions.
+In another paragraph, describe the methods you will use to engage with and learn from these people.
+Our starting assumption is that you will conduct contextual inquiries with three participants.
+You can and should propose alternative or additional design research methods according to your needs.
+Please be as specific as possible, providing relevant details for you proposed methods.
 
-### Examples from Prior Offerings
+For example, if you propose contextual inquiries, discuss current behaviors you want to observe and your planned focus.
+If you propose interviews, discuss the types of questions you plan to explore.
+If you propose a diary study, discuss what type of data you plan to ask participants to bring or collect.
 
-Examples from prior offerings include:
+### Samples from Prior Offerings
 
-- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2b_aqueous.pdf]({{ site.baseurl }}/samples/2b/2b_aqueous.pdf)
-- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2b_iepconnect.pdf]({{ site.baseurl }}/samples/2b/2b_iepconnect.pdf)
-- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2b_kaching.pdf]({{ site.baseurl }}/samples/2b/2b_kaching.pdf)
-- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2b_soundscape.pdf]({{ site.baseurl }}/samples/2b/2b_soundscape.pdf)
+Samples from prior offerings include:
+
+{% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
+  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}): [2b_{{ currentsample.suffix }}.pdf]({{ site.baseurl }}/samples/2b/2b_{{ currentsample.suffix }}.pdf){% endfor %}{% endfor %}
+
+Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 ### Submission
 
@@ -241,6 +241,9 @@ No more than one page of text in PDF format. Submit via Canvas here:
 
 {% if page.link_project_2b != nil %}<{{ page.link_project_2b }}>{% else %}`Link to be added`{% endif %}
 
+In lecture, check with the course staff and be prepared to discuss your design research.
+
+{% comment %}
 ### In-Class Peer Critique
 
 In lecture, be prepared to discuss the plan with other teams and the course staff.
@@ -252,6 +255,7 @@ Be sure to take notes during critique. We will provide a worksheet you can use:
 After class, submit images of your notes in PDF format. Submit via Canvas here:
 
 {% if page.link_project_2b_critique != nil %}<{{ page.link_project_2b_critique }}>{% else %}`Link to be added`{% endif %}
+{% endcomment %}
 
 ### Grading
 
@@ -263,37 +267,38 @@ This milestone will be graded on a scale of __3 points__:
 
 <a name="design_research_checkin"></a>
 
-## 2c: Contextual Inquiry Check-In
+## 2c: Design Research Check-In
 
 Due: Uploaded the night before section {{ page.date_project_2c }}
 
-Complete at least one contextual inquiry prior to this check-in. 
-You hopefully learned something about the needs of people who might use your design, but also about how to conduct a contextual inquiry.
+Complete design research with at least one participant prior to this check-in.
+You hopefully learned something about the needs of people who might use your design,
+but also about effectively conducting your design research.
 
-Describe your first inquiry: 
+Describe your first design research participant and your findings:
 
 - Who you observed or interviewed, their background, and the environment.
 - What did you learn? 
 - What tasks, problems, or opportunities did you uncover? 
 - Did you encounter any difficulties establishing rapport or getting the information you need?
 
-Discuss what remains to be pursued after your first inquiry. We fully expect changes will be necessary, as inquiries 
+Discuss what remains to be pursued in your additional design research.
+We fully expect changes will be necessary, as design research
 can be difficult to get right and often important topics are left unresolved. 
 
-- What are your plans for the remaining inquiries? 
-- How do you plan to change your protocol based on what you learned in your first inquiry?
+- What are your plans for the remaining participants?
+- How do you plan to change your design research plan based on what you learned with your first participant?
 
-Names of participants should be replaced with pseudonyms in all documents.
-It is important to protect participant anonymity, even in the case that reporting seems harmless.
+### Samples from Prior Offerings
 
-### Examples from Prior Offerings
+Samples from prior offerings include:
 
-Examples from prior offerings include:
+{% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
+  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}): [2c_{{ currentsample.suffix }}.pdf]({{ site.baseurl }}/samples/2c/2c_{{ currentsample.suffix }}.pdf){% endfor %}{% endfor %}
 
-- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2c_aqueous.pdf]({{ site.baseurl }}/samples/2c/2c_aqueous.pdf)
-- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2c_iepconnect.pdf]({{ site.baseurl }}/samples/2c/2c_iepconnect.pdf)
-- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2c_kaching.pdf]({{ site.baseurl }}/samples/2c/2c_kaching.pdf)
-- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2c_soundscape.pdf]({{ site.baseurl }}/samples/2c/2c_soundscape.pdf)
+Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 ### Submission
 
@@ -301,7 +306,10 @@ No more than one page of text in PDF format. Submit via Canvas here:
 
 {% if page.link_project_2c != nil %}<{{ page.link_project_2c }}>{% else %}`Link to be added`{% endif %}
 
-In section, be prepared to discuss your contextual inquiry with other teams and the course staff.
+Names of participants should be replaced with pseudonyms in all documents.
+It is important to protect participant anonymity, even in the case that reporting seems harmless.
+
+In section, be prepared to discuss your design research with other teams and the course staff.
 
 ### Grading
 
@@ -312,27 +320,31 @@ This milestone will be graded on a scale of __6 points__:
 
 <a name="design_research_review"></a>
 
-## 2d: Contextual Inquiry Review
+## 2d: Design Research Review
 
 Due: Uploaded the night before class {{ page.date_project_2d }}
 
 #### Themes
 
-Complete all three of your contextual inquiries. Discuss your process and what you learned:
+Complete design research with at least three participants. Discuss your process and what you learned:
 
 - Who you observed or interviewed, their background, and the environment.
-- Note anything unique about each inquiry and comment on the rationale behind these events.
+- Note anything unique about each participant and comment on the rationale behind these observations.
 
-Across the three inquiries, we expect some emergence of common themes, problems, and practices. 
+Across your participants, we expect some emergence of common themes, problems, and practices.
 
-- Identify high level themes the participants share in their practices. 
+- Identify high-level themes and problems the participants share in their practices.
 - Do these themes, problems, and practices suggest tasks to important to design for?
 
-`If you are having trouble identifying high level themes and problems from your inquiries, it may be a sign that you need to run an additional inquiry. You are required to run three inquiries, but you are not limited to only running three. These inquiries are critical for setting the foundation of your project, so ensure that you have strong findings from your inquiries before moving forward!`
+If you are having trouble identifying high-level themes, problems, and practices,
+it may indicate a need to develop additional understanding through more design research.
+Because your findings at this point are critical to setting a foundation for your project,
+ensure your design research has provided you the insights and perspective you need to proceed.
 
 #### Task Analysis Questions
 
-Provide brief answers to the following questions. These should help you begin to identify tasks essential to your design.
+Informed by your design research, provide brief answers to the following questions.
+These should help you begin to identify tasks essential to your design.
 
 1. Who is going to use the design? 
 2. What tasks do they now perform?
@@ -346,31 +358,39 @@ Provide brief answers to the following questions. These should help you begin to
 10. What are the time constraints on the tasks?
 11. What happens when things go wrong?
 
-### Examples from Prior Offerings
+### Samples from Prior Offerings
 
-Examples from prior offerings include:
+Samples from prior offerings include:
 
-- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2d_aqueous.pdf]({{ site.baseurl }}/samples/2d/2d_aqueous.pdf)
-- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2d_iepconnect.pdf]({{ site.baseurl }}/samples/2d/2d_iepconnect.pdf)
-- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2d_kaching.pdf]({{ site.baseurl }}/samples/2d/2d_kaching.pdf)
-- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2d_soundscape.pdf]({{ site.baseurl }}/samples/2d/2d_soundscape.pdf)
+{% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
+  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}): [2d_{{ currentsample.suffix }}.pdf]({{ site.baseurl }}/samples/2d/2d_{{ currentsample.suffix }}.pdf){% endfor %}{% endfor %}
+
+Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 ### Submission
 
 No more than four pages of text in PDF format:
 
  - summary of key findings or takeaways (one paragraph at beginning)
- - contexutal inquiry participants (less than one page)
- - contextual inquiry themes (less than one page)
+ - design research participants (less than one page)
+ - design research themes (less than one page)
  - task analysis questions (less than two pages)
  
 Submit via Canvas here: 
 
 {% if page.link_project_2d != nil %}<{{ page.link_project_2d }}>{% else %}`Link to be added`{% endif %}
 
+Names of participants should be replaced with pseudonyms in all documents.
+It is important to protect participant anonymity, even in the case that reporting seems harmless.
+
+In lecture, check with the course staff and be prepared to discuss your design research.
+
+{% comment %}
 ### In-Class Peer Critique
 
-In lecture, be prepared to discuss your contextual inquiry with other teams and the course staff.
+In lecture, be prepared to discuss your design research with other teams and the course staff.
 
 Be sure to take notes during critique. We will provide a worksheet you can use:
 
@@ -379,6 +399,7 @@ Be sure to take notes during critique. We will provide a worksheet you can use:
 After class, submit images of your notes in PDF format. Submit via Canvas here:
 
 {% if page.link_project_2d_critique != nil %}<{{ page.link_project_2d_critique }}>{% else %}`Link to be added`{% endif %}
+{% endcomment %}
 
 ### Grading
 
@@ -393,7 +414,7 @@ This milestone will be graded on a scale of __6 points__:
 
 Due: Uploaded the night before class {{ page.date_project_2e }}
 
-Building on what you learned in your contextual inquiry, design six tasks that you believe are integral to your overall design goal:
+Building on what you learned in your design research, design six tasks that you believe are integral to your overall design goal:
 
  - You should include existing tasks (i.e., tasks people already do) and new tasks (i.e., tasks that will be enabled by your design). 
  - These should be real world tasks that have details (e.g., instead of "programming a DVR", details like "programming a DVR to record the Simpsons on Sundays"). 
@@ -403,14 +424,16 @@ Building on what you learned in your contextual inquiry, design six tasks that y
 Each task should be described in text. Tasks say what is accomplished, leaving open how to accomplish it.
 So be sure that your task conveys a problem and what is accomplished, rather than a step-by-step walkthrough of scenario with a particular design.
 
-### Examples from Prior Offerings
+### Samples from Prior Offerings
 
-Examples from prior offerings include:
+Samples from prior offerings include:
 
-- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2e_aqueous.pdf]({{ site.baseurl }}/samples/2e/2e_aqueous.pdf)
-- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2e_iepconnect.pdf]({{ site.baseurl }}/samples/2e/2e_iepconnect.pdf)
-- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2e_kaching.pdf]({{ site.baseurl }}/samples/2e/2e_kaching.pdf)
-- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2e_soundscape.pdf]({{ site.baseurl }}/samples/2e/2e_soundscape.pdf)
+{% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
+  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}): [2e_{{ currentsample.suffix }}.pdf]({{ site.baseurl }}/samples/2e/2e_{{ currentsample.suffix }}.pdf){% endfor %}{% endfor %}
+
+Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 ### Submission
 
@@ -446,14 +469,16 @@ You will now brainstorm and sketch three very different initial designs for your
 The purpose of these sketches is to explore the design space before you lock yourself into a single design.
 They must demonstrate significant consideration of substantially different approaches to your problem.
 
-### Examples from Prior Offerings
+### Samples from Prior Offerings
 
-Examples from prior offerings include:
+Samples from prior offerings include:
 
-- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2f_aqueous.pdf]({{ site.baseurl }}/samples/2f/2f_aqueous.pdf)
-- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2f_iepconnect.pdf]({{ site.baseurl }}/samples/2f/2f_iepconnect.pdf)
-- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2f_kaching.pdf]({{ site.baseurl }}/samples/2f/2f_kaching.pdf)
-- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2f_soundscape.pdf]({{ site.baseurl }}/samples/2f/2f_soundscape.pdf)
+{% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
+  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}): [2f_{{ currentsample.suffix }}.pdf]({{ site.baseurl }}/samples/2f/2f_{{ currentsample.suffix }}.pdf){% endfor %}{% endfor %}
+
+Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 ### Submission
 
@@ -473,6 +498,9 @@ Submit via Canvas here:
 
 {% if page.link_project_2f != nil %}<{{ page.link_project_2f }}>{% else %}`Link to be added`{% endif %}
 
+In lecture, check with the course staff and be prepared to discuss your designs.
+
+{% comment %}
 ### In-Class Peer Critique
 
 In lecture, be prepared to discuss your design sketches with other teams and the course staff.
@@ -484,7 +512,7 @@ Be sure to take notes during critique. We will provide a worksheet you can use:
 After class, submit images of your notes in PDF format. Submit via Canvas here:
 
 {% if page.link_project_2f_critique != nil %}<{{ page.link_project_2f_critique }}>{% else %}`Link to be added`{% endif %}
-
+{% endcomment %}
 
 ### Grading
 
@@ -503,7 +531,7 @@ Then select two tasks that will be the focus of your design refinement.
 The selected tasks need to be representative of the experience of using your design. 
 
 Prepare one paragraph describing why you selected the design you did. 
-Draw upon feedback from critiques and data from your contextual inquiry. 
+Draw upon feedback from critiques and data from your design research.
 
  - Why this design and these tasks? 
  - What makes the design better suited to the people for whom you are targeting your design? 
@@ -518,14 +546,16 @@ conveying the major aspects of the design in enough detail that a person not in 
 how the design supports each task. 
 As needed, add descriptions that explicitly reference the storyboard, add more sketches, or annotate them in multiple colors.
 
-### Examples from Prior Offerings
+### Samples from Prior Offerings
 
-Examples from prior offerings include:
+Samples from prior offerings include:
 
-- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2g_aqueous.pdf]({{ site.baseurl }}/samples/2g/2g_aqueous.pdf)
-- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2g_iepconnect.pdf]({{ site.baseurl }}/samples/2g/2g_iepconnect.pdf)
-- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2g_kaching.pdf]({{ site.baseurl }}/samples/2g/2g_kaching.pdf)
-- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2g_soundscape.pdf]({{ site.baseurl }}/samples/2g/2g_soundscape.pdf)
+{% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
+  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}): [2g_{{ currentsample.suffix }}.pdf]({{ site.baseurl }}/samples/2g/2g_{{ currentsample.suffix }}.pdf){% endfor %}{% endfor %}
+
+Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 ### Submission
 
@@ -576,17 +606,17 @@ include how you have addressed and incorporated that feedback to improve relativ
 
    A concise statement of the problem you are tackling and a brief synopsis of your proposed solution.
 
-4. __Contextual Inquiry Target, Stakeholders, and Participants__: (1 page)
+4. __Design Research Goals, Stakeholders, and Participants__: (1 page)
 
-   Describe your contextual inquiry, including the participants, their background, and their environment.
+   Describe your design research, including the participants, their background, and their environment.
     
-   Describe why you chose the particular participants in your inquiry.
+   Describe why you chose the particular methods and participants in your design research.
 
-5. __Contextual Inquiry Results and Themes__: (1 page)
+5. __Design Research Results and Themes__: (1 page)
 
-   Discuss common themes, problems, and practices that emerged in your inquiry.
+   Discuss common themes, problems, and practices that emerged in your design research.
    
-   Include any updated themes that emerged when considering your contextual inquiry in your design process.
+   Include any updated themes that emerged when considering your design research in your design process.
 
 6. __Answers to Task Analysis Questions__: (2 pages)
 
@@ -628,14 +658,16 @@ Be sure your presentation looks good:
  - choose appropriate colors, fonts, and styles
  - make liberal use of whitespace 
 
-### Examples from Prior Offerings
+### Samples from Prior Offerings
 
-Examples from prior offerings include:
+Samples from prior offerings include:
 
-- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2h_aqueous.pdf]({{ site.baseurl }}/samples/2h/2h_aqueous.pdf)
-- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2h_iepconnect.pdf]({{ site.baseurl }}/samples/2h/2h_iepconnect.pdf)
-- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2h_kaching.pdf]({{ site.baseurl }}/samples/2h/2h_kaching.pdf)
-- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2h_soundscape.pdf]({{ site.baseurl }}/samples/2h/2h_soundscape.pdf)
+{% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
+  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}): [2h_{{ currentsample.suffix }}.pdf]({{ site.baseurl }}/samples/2h/2h_{{ currentsample.suffix }}.pdf){% endfor %}{% endfor %}
+
+Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 ### Submission
 
@@ -649,6 +681,9 @@ Submit via Canvas here:
 
 {% if page.link_project_2h != nil %}<{{ page.link_project_2h }}>{% else %}`Link to be added`{% endif %}
 
+Names of participants should be replaced with pseudonyms in all documents.
+It is important to protect participant anonymity, even in the case that reporting seems harmless.
+
 ### Grading
 
 This report will be graded on a scale of __25 points__:
@@ -656,8 +691,8 @@ This report will be graded on a scale of __25 points__:
 1.  __Title__: (1 point) 
 2.  __Team Member Names and Roles__: (1 point)  
 3.  __Problem and Solution Overview__: (2 points) 
-4.  __Contextual Inquiry Target, Stakeholders, and Participants__: (2 points)
-5.  __Contextual Inquiry Results and Themes__: (3 points)
+4.  __Design Research Goals, Stakeholders, and Participants__: (2 points)
+5.  __Design Research Results and Themes__: (3 points)
 6.  __Answers to Task Analysis Questions__: (3 points)
 7.  __Proposed Design Sketches - "3x4"__: (3 points)
 8.  __Written Scenarios - "1x2"__: (3 points)
@@ -685,7 +720,7 @@ A suggested organization of this presentation is:
 
    Tell this as a story, instead of simply reading the slide. Motivate your audience to be interested in your problem.
 
-3. __Contextual Inquiry__:
+3. __Design Research__:
  
    Include images that give your audience a feeling for your fieldwork. Convey that you have seen and understand the challenge.
  
@@ -710,14 +745,16 @@ A suggested organization of this presentation is:
 We strongly recommend rehearsing your presentation beforehand. 
 For example, arrange to practice together with another group or two, giving each other feedback on your presentations.
 
-### Examples from Prior Offerings
+### Samples from Prior Offerings
 
-Examples from prior offerings include:
+Samples from prior offerings include:
 
-- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2i_aqueous.pdf]({{ site.baseurl }}/samples/2i/2i_aqueous.pdf)
-- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2i_iepconnect.pdf]({{ site.baseurl }}/samples/2i/2i_iepconnect.pdf)
-- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2i_kaching.pdf]({{ site.baseurl }}/samples/2i/2i_kaching.pdf)
-- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2i_soundscape.pdf]({{ site.baseurl }}/samples/2i/2i_soundscape.pdf)
+{% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
+  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}): [2i_{{ currentsample.suffix }}.pdf]({{ site.baseurl }}/samples/2i/2i_{{ currentsample.suffix }}.pdf){% endfor %}{% endfor %}
+
+Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 ### Submission
 
@@ -731,6 +768,9 @@ But you are ultimately responsible for your presentation.
 Submit via Canvas here: 
 
 {% if page.link_project_2i != nil %}<{{ page.link_project_2i }}>{% else %}`Link to be added`{% endif %}
+
+Names of participants should be replaced with pseudonyms in all documents.
+It is important to protect participant anonymity, even in the case that reporting seems harmless.
 
 ### In-Class Feedback Forms
 
@@ -748,12 +788,12 @@ The content of this presentation will be graded on a scale of __10 points__:
 - Slides are legible, such that people in the back of the room can still see them.
 - Presentation should not have an outline slide. It is short enough to be told as a story of your process.
 - Problem is presented in a manner that is compelling and achievable.
-- Contextual inquiry is carried out in an appropriate manner.
-- Contextual inquiry results are illuminating in terms of the problem.
+- Design research is carried out in an appropriate manner.
+- Design research results are illuminating in terms of the problem.
 - Tasks presented provide coverage of the functionality.
 - Tasks were neither too easy nor too hard.
-- Tasks were motivated by the contextual inquiry.
-- Design ideas have a strong connection to results of contextual inquiry.
+- Tasks were motivated by the design research.
+- Design ideas have a strong connection to results of design research.
 - Design ideas are appropriate for the supported tasks.
 - Design ideas and storyboards were at the proper fidelity.
 - Presentation covered the required scope within the allowed time period.
