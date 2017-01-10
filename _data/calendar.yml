@@ -54,7 +54,7 @@ lectures:
     slides: "slides/lecture/l02-doet.pdf"
   - date: "2017-01-10"
     name: "Contextual Inquiry,<br>Design Research"
-#    slides: "slides/lecture/l03-contextualinquiry.pdf"
+    slides: "slides/lecture/l03-contextualinquiry.pdf"
 #    # notes: "Required for Project 2a, CI Planning Over Weekend"
   - date: "2017-01-12"
     name: "History"
