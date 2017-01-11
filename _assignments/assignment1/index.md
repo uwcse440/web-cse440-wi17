@@ -9,7 +9,7 @@ date_project_1b: Tuesday, January 10, 2017
 link_project_1b: https://canvas.uw.edu/courses/1098203/assignments/3559055
 
 date_project_1c_bids: Thursday, January 12, 2017
-#link_project_1c_projects: https://canvas.uw.edu/courses/987987/discussion_topics/3047301
+link_project_1c_projects: https://canvas.uw.edu/courses/1098203/discussion_topics/3622610
 #link_project_1c_bids: https://canvas.uw.edu/courses/987987/quizzes/860487
 ---
 
