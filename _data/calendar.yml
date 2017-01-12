@@ -58,7 +58,7 @@ lectures:
 #    # notes: "Required for Project 2a, CI Planning Over Weekend"
   - date: "2017-01-12"
     name: "History"
-#    slides: "slides/lecture/l17-history.pdf"
+    slides: "slides/lecture/l04-history.pdf"
   - date: "2017-01-17"
     name: "Design Diamond"
 #    slides: "slides/lecture/l06-designdiamond.pdf"
