@@ -3,34 +3,34 @@ layout: base/bar/bar-sidebar-none
 title: "Assignment 2: Getting the Right Design"
 
 date_project_2a: Friday, January 13, 2017
-#link_project_2a: https://canvas.uw.edu/courses/987987/assignments/3016432
+link_project_2a: https://canvas.uw.edu/courses/1098203/assignments/3577751
 
 date_project_2b: Tuesday, January 17, 2017
-#link_project_2b: https://canvas.uw.edu/courses/987987/assignments/3016432
+link_project_2b: https://canvas.uw.edu/courses/1098203/assignments/3577778
 #link_project_2b_critique: https://canvas.uw.edu/courses/987987/assignments/3017985
 
 date_project_2c: Friday, January 20, 2017
-#link_project_2c: https://canvas.uw.edu/courses/987987/assignments/3016469
+link_project_2c: https://canvas.uw.edu/courses/1098203/assignments/3577780
 
 date_project_2d: Tuesday, January 24, 2017
-#link_project_2d: https://canvas.uw.edu/courses/987987/assignments/3022206
+link_project_2d: https://canvas.uw.edu/courses/1098203/assignments/3577785
 #link_project_2d_critique: https://canvas.uw.edu/courses/987987/assignments/3024240
 
 date_project_2e: Friday, January 27, 2017
-#link_project_2e: https://canvas.uw.edu/courses/987987/assignments/3022211
+link_project_2e: https://canvas.uw.edu/courses/1098203/assignments/3577792
 
 date_project_2f: Tuesday, January 31, 2017
-#link_project_2f: https://canvas.uw.edu/courses/987987/assignments/3022221
+link_project_2f: https://canvas.uw.edu/courses/1098203/assignments/3577761
 #link_project_2f_critique: https://canvas.uw.edu/courses/987987/assignments/3029342
 
 date_project_2g: Friday, February 3, 2017
-#link_project_2g: https://canvas.uw.edu/courses/987987/assignments/3029616
+link_project_2g: https://canvas.uw.edu/courses/1098203/assignments/3577769
 
 date_project_2h: Tuesday, February 7, 2017
-#link_project_2h: https://canvas.uw.edu/courses/987987/assignments/3029620
+link_project_2h: https://canvas.uw.edu/courses/1098203/assignments/3577781
 
 date_project_2i: Thursday, February 9, 2017
-#link_project_2i: https://canvas.uw.edu/courses/987987/assignments/3029622
+link_project_2i: https://canvas.uw.edu/courses/987987/assignments/3029622
 
 ---
 
