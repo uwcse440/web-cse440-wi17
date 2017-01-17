@@ -61,7 +61,7 @@ lectures:
     slides: "slides/lecture/l04-history.pdf"
   - date: "2017-01-17"
     name: "Design Diamond"
-#    slides: "slides/lecture/l06-designdiamond.pdf"
+    slides: "slides/lecture/l05-designdiamond.pdf"
 #    # notes: "Required for Project 2f"
   - date: "2017-01-19"
     name: "Critique,<br>Task Analysis"
