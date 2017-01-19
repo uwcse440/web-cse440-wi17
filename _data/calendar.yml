@@ -65,7 +65,7 @@ lectures:
 #    # notes: "Required for Project 2f"
   - date: "2017-01-19"
     name: "Critique,<br>Task Analysis"
-#    slides: "slides/lecture/l04-critique.pdf"
+    slides: "slides/lecture/l06-critique-taskanalysis.pdf"
 #    # notes: "Required for Project 2b"
 #    slides: "slides/lecture/l05-taskanalysis.pdf"
 #    # notes: "Required for Project 2d"
