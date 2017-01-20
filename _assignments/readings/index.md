@@ -3,15 +3,19 @@ layout: base/bar/bar-sidebar-none
 title: "Readings"
 
 link_reading_contextual_inquiry: https://canvas.uw.edu/courses/1098203/assignments/3571765
-date_reading_contextual_inquiry: Friday, January 13, 2017
+due_reading_contextual_inquiry: Uploaded Thursday, January 12, 2017 (before section on Friday, January 13, 2017)
 link_reading_contextual_inquiry_file_contextual_inquiry: https://canvas.uw.edu/files/39906874/download?download_frd=1
+link_reading_contextual_inquiry_file_ideo_method_cards: https://canvas.uw.edu/files/40115291/download?download_frd=1
 link_reading_contextual_inquiry_file_universal_methods: https://canvas.uw.edu/files/39906877/download?download_frd=1
 
 #link_reading_critique: https://canvas.uw.edu/courses/987987/assignments/3016470
 #date_reading_critique: Friday, October 16, 2015
 
-#link_reading_prototyping_videos: https://canvas.uw.edu/courses/987987/assignments/3029582
-#date_reading_prototyping_videos: Friday, October 30, 2015
+link_reading_storyboarding: https://canvas.uw.edu/courses/987987/assignments/3029582
+link_reading_storyboarding_file_ux_comics: https://constructive.co/insights/ux-comics-visually-communicating-user-experiences/
+link_reading_storyboarding_file_empirical:
+link_reading_storyboarding_file_understanding_comics:
+due_reading_storyboarding: Uploaded Friday, January 27, 2017
 
 #link_reading_paper_prototyping: https://canvas.uw.edu/courses/987987/assignments/3039948
 #date_reading_paper_prototyping: Friday, November 13, 2015
@@ -52,10 +56,11 @@ Read:
 
 Resource:
 
+- [IDEO (2003). Method Cards.]({{ link_reading_contextual_inquiry_file_ideo_method_cards }})
 - [Martin and Hanington (2012). Universal Methods of Design.]({{ page.link_reading_contextual_inquiry_file_universal_methods }})
   
-Due: Uploaded the night before section
-{% if page.date_reading_contextual_inquiry != nil %}{{ page.date_reading_contextual_inquiry }}{% else %}`Date to be added`{% endif %}.
+Due:
+{% if page.due_reading_contextual_inquiry != nil %}{{ page.due_reading_contextual_inquiry }}{% else %}`Date to be added`{% endif %}.
 
 After reading, consider how you might apply this approach to a project proposed in Assignment 1b.
 You may complete this reading in terms of your own project proposal,
@@ -67,7 +72,7 @@ or you may complete this reading in terms of a "funded" proposal on which you ha
 - Identify a pitfall or limitation of contextual inquiry (i.e., as a method) or your experience (i.e., as a new design researcher) that seems likely (e.g., two or three sentences).
 - Describe how you might avoid or attempt to correct for this pitfall in your inquiry while still primarily using a contextual inquiry method (e.g., two or three sentences).
 
-Then consider alternative design research methods, such as those in Universal Methods of Design.
+Then consider alternative design research methods, such as those in the resources above.
 Note that you are still in early-stage research, so relevant methods are likely in Design Phase 1 or Design Phase 2 of that text.
 
 - Suggest an alternative method you might propose to also apply to the above proposal (e.g., two sentences).
@@ -81,46 +86,17 @@ Submit via Canvas here:
 
 {% if page.link_reading_contextual_inquiry != nil %}<{{ page.link_reading_contextual_inquiry }}>{% else %}`Link to be added`{% endif %}
 
-<a name="critique"></a>
+<a name="storyboarding"></a>
 
-{% comment %}
-### Reading 2: Critique and Teamwork
+### Reading 2: Storyboarding and Video Prototyping
 
-Read:
+Watch the video prototypes linked from Lecture 7,
+noting the context in which they are linked as a comment on aspects of their effectiveness.
 
-- [Cheng (2013). How to Survive a Critique: A Guide to Giving and Receiving Feedback](http://www.aiga.org/how-to-survive-a-critique/)
-- [Katzenbach and Smith (1993). The Discipline of Teams.]({{site.baseurl}}/readings/DisciplineOfTeams-KatzenbachSmith.htm)
-- [Pausch. Tips for Working Successfully in a Group.]({{site.baseurl}}/readings/WorkingInGroups-Pausch.html)
+  - [Lecture 7 - Storyboarding, Video Prototyping]({{site.baseurl}}/slides/lecture/l07-storyboarding.pdf)
 
-Due: Uploaded the night before section
-{% if page.date_reading_critique != nil %}{{ page.date_reading_critique }}{% else %}`Date to be added`{% endif %}.
-
-After reading, please think back to your previous experiences working in groups, particularly an experience that could have been improved.
-  
-- Briefly describe the project and the group (e.g., two sentences).
-- What went poorly in this group (e.g., two sentences)?
-- From concepts discussed in these readings, what could have been done differently to improve the group experience (e.g., up to two paragraphs)?
-
-These readings thus reflection on receiving feedback, prior group experiences, and how to maximize your success in this course.
-
-No more than one page of text in PDF format.
-
-Submit via Canvas here:
-
-{% if page.link_reading_critique != nil %}<{{ page.link_reading_critique }}>{% else %}`Link to be added`{% endif %}
-
-<a name="prototypingvideos"></a>
-
-### Reading 3: Prototyping Videos
-
-Watch the rapid prototyping videos linked from Lecture 6 and Lecture 8, including the context from which they were linked.
-
-  - [Lecture 6]({{site.baseurl}}/slides/lecture/l06-designdiamond.pdf)
-  - [Lecture 8]({{site.baseurl}}/slides/lecture/l08-storyboarding.pdf)
-  
 Specifically, that is these videos:
 
-  - [IDEO Deep Dive](http://courses.cs.washington.edu/courses/cse440/videos/designdiamond/IDEO-DeepDive.mp4)
   - [Mackay Stop Motion](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Mackay-StopAction.mp4)
   - [Mackay Stop Motion Result](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Mackay-StopActionResult.mp4)
   - [Document Interaction on Microsoft Surface](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Surface-Document-Interaction.mp4)
@@ -135,33 +111,46 @@ Specifically, that is these videos:
   - [ParkSmart](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Parksmart.mp4)
   - [Plantr](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Plantr.mp4)
   
-Optionally, check out these fun "vision of the future" videos:  
+Consider these storyboarding resources:
+
+  - [Colville-Hyde (2016). UX Comics: Visually Communicating User Experiences.]({{ page.link_reading_storyboarding_file_ux_comics}} )
+  - [Truong, Hayes, and Abowd. (2006). Storyboarding: An Empirical Determination of Best Practices and Effective Guidelines.]({{ page.link_reading_storyboarding_file_empirical }})
+  - [McCloud (1993). Understanding Comics.]({{ page.link_reading_storyboarding_file_understanding_comics }})
+
+Optionally, check out these high-production "vision of the future" video prototypes:
 
   - [Starfire](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Vision-Sun-Starfire.mp4)
   - [Knowledge Navigator](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Vision-Apple-Knowledge-Navigator.mp4)
   - [A Day Made of Glass](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Vision-Corning-A-Day-Made-Of-Glass.mp4)
 
-Due: Uploaded the night before section
-{% if page.date_reading_videos != nil %}{{ page.date_reading_videos }}{% else %}`Date to be added`{% endif %}.
+The Starfire video prototype is notable for including a 'bug',
+where the system behaves in a manner counter to the person's wishes,
+but consistent with how we might expect such technology to work.
+For fun, see if you can spot this 'bug' in the video.
 
-After viewing, consider what approaches were more or less effective in these examples.
+Due: {% if page.due_reading_storyboarding != nil %}{{ page.due_reading_storyboarding }}{% else %}`Date to be added`{% endif %}.
 
-- In one paragraph, describe a technique you saw in these videos that was highly effective.
-  Be specific, such that it is clear you watched the videos.
+After viewing and considering these examples, think about what approaches were more or less effective.
+
+- In one paragraph, describe a technique you saw in these examples that was highly effective,
+  which you might therefore want to apply in your storyboarding or video prototyping.
+  Be specific, such that it is clear you considered the examples.
   Discuss why it was effective.  
-- In one paragraph, describe a technique you saw that was ineffective. 
-  Be specific, such that it is clear you watched the videos.
+- In one paragraph, describe a technique you saw that was ineffective,
+  which you might therefore want to be mindful of in your storyboarding or video prototyping.
+  Be specific, such that it is clear you considered the examples.
   Discuss why it was ineffective.
 
-These videos thus support your reflection on how to effectively develop and illustrate a design.
-Techniques in these and other videos will also directly apply as you prepare a video later this quarter.
+These examples thus support your reflection on how to effectively convey a design.
+Techniques in these and other examples will also directly apply as you prepare your storyboards and video prototypes.
 
 No more than one page of text in PDF format.
 
 Submit via Canvas here:
 
 {% if page.link_reading_prototyping_videos != nil %}<{{ page.link_reading_prototyping_videos }}>{% else %}`Link to be added`{% endif %}
-  
+
+{% comment %}
 <a name="paperprototyping"></a>
 
 ### Reading 4: Paper Prototyping and Usability Testing
@@ -200,7 +189,9 @@ No more than one page of text in PDF format.
 Submit via Canvas here:
 
 {% if page.link_reading_paper_prototyping != nil %}<{{ page.link_reading_paper_prototyping }}>{% else %}`Link to be added`{% endif %}
+{% endcomment %}
 
+{% comment %}
 <a name="research"></a>
 
 ### Reading 5: Research Paper
@@ -252,5 +243,33 @@ Also submit a PDF of the research paper you read.
 Submit via Canvas here:
   
 {% if page.link_reading_research_paper != nil %}<{{ page.link_reading_research_paper }}>{% else %}`Link to be added`{% endif %}
+{% endcomment %}
 
+{% comment %}
+<a name="critique"></a>
+
+### Reading 2: Critique and Teamwork
+
+Read:
+
+- [Cheng (2013). How to Survive a Critique: A Guide to Giving and Receiving Feedback](http://www.aiga.org/how-to-survive-a-critique/)
+- [Katzenbach and Smith (1993). The Discipline of Teams.]({{site.baseurl}}/readings/DisciplineOfTeams-KatzenbachSmith.htm)
+- [Pausch. Tips for Working Successfully in a Group.]({{site.baseurl}}/readings/WorkingInGroups-Pausch.html)
+
+Due: Uploaded the night before section
+{% if page.date_reading_critique != nil %}{{ page.date_reading_critique }}{% else %}`Date to be added`{% endif %}.
+
+After reading, please think back to your previous experiences working in groups, particularly an experience that could have been improved.
+
+- Briefly describe the project and the group (e.g., two sentences).
+- What went poorly in this group (e.g., two sentences)?
+- From concepts discussed in these readings, what could have been done differently to improve the group experience (e.g., up to two paragraphs)?
+
+These readings thus reflection on receiving feedback, prior group experiences, and how to maximize your success in this course.
+
+No more than one page of text in PDF format.
+
+Submit via Canvas here:
+
+{% if page.link_reading_critique != nil %}<{{ page.link_reading_critique }}>{% else %}`Link to be added`{% endif %}
 {% endcomment %}
