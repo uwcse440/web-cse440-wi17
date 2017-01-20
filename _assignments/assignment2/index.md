@@ -2,34 +2,34 @@
 layout: base/bar/bar-sidebar-none
 title: "Assignment 2: Getting the Right Design"
 
-date_project_2a: Friday, January 13, 2017
+due_project_2a: Completed in section on Friday, January 13, 2017
 link_project_2a: https://canvas.uw.edu/courses/1098203/assignments/3577751
 
-date_project_2b: Tuesday, January 17, 2017
+due_project_2b: Uploaded Monday, January 16, 2017 (before class on Tuesday, January 17, 2017)
 link_project_2b: https://canvas.uw.edu/courses/1098203/assignments/3577778
 #link_project_2b_critique: https://canvas.uw.edu/courses/987987/assignments/3017985
 
-date_project_2c: Friday, January 20, 2017
+due_project_2c: Uploaded Thursday, January 19, 2017 (before section on Friday, January 20, 2017)
 link_project_2c: https://canvas.uw.edu/courses/1098203/assignments/3577780
 
-date_project_2d: Tuesday, January 24, 2017
+due_project_2d: Uploaded Monday, January 23, 2017 (before class on Tuesday, January 24, 2017)
 link_project_2d: https://canvas.uw.edu/courses/1098203/assignments/3577785
 #link_project_2d_critique: https://canvas.uw.edu/courses/987987/assignments/3024240
 
-date_project_2e: Friday, January 27, 2017
+due_project_2e: Uploaded Thursday, January 26, 2017 (before class on Friday, January 27, 2017)
 link_project_2e: https://canvas.uw.edu/courses/1098203/assignments/3577792
 
-date_project_2f: Tuesday, January 31, 2017
+due_project_2f: Uploaded Monday, January 30, 2017 (before class on Tuesday, January 31, 2017)
 link_project_2f: https://canvas.uw.edu/courses/1098203/assignments/3577761
 #link_project_2f_critique: https://canvas.uw.edu/courses/987987/assignments/3029342
 
-date_project_2g: Friday, February 3, 2017
+due_project_2g: Uploaded Thursday, February 2, 2017 (before section on Friday, February 3, 2017)
 link_project_2g: https://canvas.uw.edu/courses/1098203/assignments/3577769
 
-date_project_2h: Tuesday, February 7, 2017
+due_project_2h: Uploaded Monday, February 6, 2017 (before class on Tuesday, February 7, 2017)
 link_project_2h: https://canvas.uw.edu/courses/1098203/assignments/3577781
 
-date_project_2i: Thursday, February 9, 2017
+due_project_2i: Uploaded Wednesday, February 8, 2017 (before class on Thursday, February 9, 2017 and section on Friday February 10, 2017)
 link_project_2i: https://canvas.uw.edu/courses/987987/assignments/3029622
 
 ---
@@ -62,39 +62,39 @@ This is a group assignment, consisting of nine milestones.
 
 * [Assignment 2a: Project Ideation](#project_ideation)
 
-  Due: Completed in section on {{ page.date_project_2a }}
+  Due: {{ page.due_project_2a }}
   
 * [Assignment 2b: Design Research Plan](#design_research_plan)
 
-  Due: Uploaded the night before class {{ page.date_project_2b }}
+  Due: {{ page.due_project_2b }}
   
 * [Assignment 2c: Design Research Check-In](#design_research_checkin)
 
-  Due: Uploaded the night before section {{ page.date_project_2c }}
+  Due: {{ page.due_project_2c }}
 
 * [Assignment 2d: Design Research Review](#design_research_review)
 
-  Due: Uploaded the night before class {{ page.date_project_2d }}
+  Due: {{ page.due_project_2d }}
 
 * [Assignment 2e: Task Review](#task_review)
 
-  Due: Uploaded the night before class {{ page.date_project_2e }}
+  Due: {{ page.due_project_2e }}
   
 * [Assignment 2f: Design Check-In ("3x4")](#design_checkin)
 
-  Due: Uploaded the night before class {{ page.date_project_2f }}
+  Due: {{ page.due_project_2f }}
 
 * [Assignment 2g: Design Review ("1x2")](#design_review)
 
-  Due: Uploaded the night before section {{ page.date_project_2g }}
+  Due: {{ page.due_project_2g }}
 
 * [Assignment 2h: Final Report](#final_report)
 
-  Due: Uploaded the night before class {{ page.date_project_2h }}
+  Due: {{ page.due_project_2h }}
 
 * [Presentation](#presentation)
 
-  Due: Uploaded the night before class {{ page.date_project_2i }}
+  Due: {{ page.due_project_2i }}
 
 # Project Description
 
@@ -159,7 +159,7 @@ More specifically, you will do the following:
 
 ## 2a: Project Ideation
 
-Due: Completed in section on {{ page.date_project_2a }}
+Due: {{ page.due_project_2a }}
 
 Generate 5 to 10 different ideas related to each of the following aspects of your project proposal:
 
@@ -202,7 +202,7 @@ This milestone will be graded on a scale of __3 points__ based on participation 
 
 ## 2b: Design Research Plan
 
-Due: Uploaded the night before class {{ page.date_project_2b }}
+Due: {{ page.due_project_2b }}
 
 In one paragraph, describe the people who might use your design and other stakeholders for your design. 
 Describe the particular design research methods and participants you plan to pursue,
@@ -269,7 +269,7 @@ This milestone will be graded on a scale of __3 points__:
 
 ## 2c: Design Research Check-In
 
-Due: Uploaded the night before section {{ page.date_project_2c }}
+Due: {{ page.due_project_2c }}
 
 Complete design research with at least one participant prior to this check-in.
 You hopefully learned something about the needs of people who might use your design,
@@ -322,7 +322,7 @@ This milestone will be graded on a scale of __6 points__:
 
 ## 2d: Design Research Review
 
-Due: Uploaded the night before class {{ page.date_project_2d }}
+Due: {{ page.due_project_2d }}
 
 #### Themes
 
@@ -412,7 +412,7 @@ This milestone will be graded on a scale of __6 points__:
 
 ## 2e: Task Review
 
-Due: Uploaded the night before class {{ page.date_project_2e }}
+Due: {{ page.due_project_2e }}
 
 Building on what you learned in your design research, design six tasks that you believe are integral to your overall design goal:
 
@@ -457,7 +457,7 @@ This milestone will be graded on a scale of __6 points__:
 
 ## 2f: Design Check-In ("3x4")
 
-Due: Uploaded the night before class {{ page.date_project_2f }}
+Due: {{ page.due_project_2f }}
 
 You have identified and described six important tasks for your design problem. 
 You will now brainstorm and sketch three very different initial designs for your interface:
@@ -524,7 +524,7 @@ This milestone will be graded on a scale of __6 points__:
 
 ## 2g: Design Review ("1x2")
 
-Due: Uploaded the night before section {{ page.date_project_2g }}
+Due: {{ page.due_project_2g }}
 
 From your design sketches, select one design that you will refine in the remainder of this course. 
 Then select two tasks that will be the focus of your design refinement. 
@@ -585,7 +585,7 @@ This milestone will be graded on a scale of __6 points__:
 
 ## 2h: Final Report
 
-Due: Uploaded the night before class {{ page.date_project_2h }}
+Due: {{ page.due_project_2h }}
 
 Prepare a report documenting your process of getting the right design.
 Your report should follow the outline below, and will be graded using the guidelines that follow.
@@ -703,7 +703,7 @@ This report will be graded on a scale of __25 points__:
 
 ## Presentation
 
-Due: Uploaded the night before class {{ page.date_project_2i }}
+Due: {{ page.due_project_2i }}
 
 Prepare a presentation of your process in getting the right design. It should encompass all of your work in Assignment 2.
 
