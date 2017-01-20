@@ -11,10 +11,12 @@ link_reading_contextual_inquiry_file_universal_methods: https://canvas.uw.edu/fi
 #link_reading_critique: https://canvas.uw.edu/courses/987987/assignments/3016470
 #date_reading_critique: Friday, October 16, 2015
 
-link_reading_storyboarding: https://canvas.uw.edu/courses/987987/assignments/3029582
+link_reading_storyboarding: https://canvas.uw.edu/courses/1098203/assignments/3584938
 link_reading_storyboarding_file_ux_comics: https://constructive.co/insights/ux-comics-visually-communicating-user-experiences/
-link_reading_storyboarding_file_empirical:
-link_reading_storyboarding_file_understanding_comics:
+link_reading_storyboarding_file_sketching_excerpts: https://canvas.uw.edu/files/40119295/download?download_frd=1
+link_reading_storyboarding_file_sketching: https://canvas.uw.edu/files/40119348/download?download_frd=1
+link_reading_storyboarding_file_empirical: https://canvas.uw.edu/files/40115442/download?download_frd=1
+link_reading_storyboarding_file_understanding_comics: https://canvas.uw.edu/files/40057647/download?download_frd=1
 due_reading_storyboarding: Uploaded Friday, January 27, 2017
 
 #link_reading_paper_prototyping: https://canvas.uw.edu/courses/987987/assignments/3039948
@@ -50,6 +52,9 @@ We will make additional resources available for students as interested.
 
 ### Reading 1: Contextual Inquiry
 
+Due:
+{% if page.due_reading_contextual_inquiry != nil %}{{ page.due_reading_contextual_inquiry }}{% else %}`Date to be added`{% endif %}.
+
 Read:
 
 - [Beyer and Holtzblatt (1997). Contextual Design. Chapter 3.]({{ page.link_reading_contextual_inquiry_file_contextual_inquiry }})
@@ -59,9 +64,6 @@ Resource:
 - [IDEO (2003). Method Cards.]({{ link_reading_contextual_inquiry_file_ideo_method_cards }})
 - [Martin and Hanington (2012). Universal Methods of Design.]({{ page.link_reading_contextual_inquiry_file_universal_methods }})
   
-Due:
-{% if page.due_reading_contextual_inquiry != nil %}{{ page.due_reading_contextual_inquiry }}{% else %}`Date to be added`{% endif %}.
-
 After reading, consider how you might apply this approach to a project proposed in Assignment 1b.
 You may complete this reading in terms of your own project proposal,
 or you may complete this reading in terms of a "funded" proposal on which you have bid.
@@ -73,7 +75,8 @@ or you may complete this reading in terms of a "funded" proposal on which you ha
 - Describe how you might avoid or attempt to correct for this pitfall in your inquiry while still primarily using a contextual inquiry method (e.g., two or three sentences).
 
 Then consider alternative design research methods, such as those in the resources above.
-Note that you are still in early-stage research, so relevant methods are likely in Design Phase 1 or Design Phase 2 of that text.
+Note that you are still in early-stage research,
+so the relevant methods from Universal Methods of Design are likely in Design Phase 1 or Design Phase 2.
 
 - Suggest an alternative method you might propose to also apply to the above proposal (e.g., two sentences).
 - Describe what additional benefit or complementary perspective it might provide (e.g., three or four sentences).
@@ -89,6 +92,18 @@ Submit via Canvas here:
 <a name="storyboarding"></a>
 
 ### Reading 2: Storyboarding and Video Prototyping
+
+Due: {% if page.due_reading_storyboarding != nil %}{{ page.due_reading_storyboarding }}{% else %}`Date to be added`{% endif %}.
+
+Read these storyboarding resources:
+
+  - [Colville-Hyde (2016). UX Comics: Visually Communicating User Experiences.]({{ page.link_reading_storyboarding_file_ux_comics}} )
+  - [Excerpts from Greenberg et al. (2012). Sketching User Experiences: The Workbook]( {{ page.link_reading_storyboarding_file_sketching_excerpts }} )
+
+Optionally, check out these additional storyboarding resources:
+  - [Greenberg et al. (2012). Sketching User Experiences: The Workbook]({{ page.link_reading_storyboarding_file_sketching }})
+  - [Truong, Hayes, and Abowd. (2006). Storyboarding: An Empirical Determination of Best Practices and Effective Guidelines.]({{ page.link_reading_storyboarding_file_empirical }})
+  - [McCloud (1993). Understanding Comics.]({{ page.link_reading_storyboarding_file_understanding_comics }})
 
 Watch the video prototypes linked from Lecture 7,
 noting the context in which they are linked as a comment on aspects of their effectiveness.
@@ -111,12 +126,6 @@ Specifically, that is these videos:
   - [ParkSmart](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Parksmart.mp4)
   - [Plantr](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Plantr.mp4)
   
-Consider these storyboarding resources:
-
-  - [Colville-Hyde (2016). UX Comics: Visually Communicating User Experiences.]({{ page.link_reading_storyboarding_file_ux_comics}} )
-  - [Truong, Hayes, and Abowd. (2006). Storyboarding: An Empirical Determination of Best Practices and Effective Guidelines.]({{ page.link_reading_storyboarding_file_empirical }})
-  - [McCloud (1993). Understanding Comics.]({{ page.link_reading_storyboarding_file_understanding_comics }})
-
 Optionally, check out these high-production "vision of the future" video prototypes:
 
   - [Starfire](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Vision-Sun-Starfire.mp4)
@@ -127,8 +136,6 @@ The Starfire video prototype is notable for including a 'bug',
 where the system behaves in a manner counter to the person's wishes,
 but consistent with how we might expect such technology to work.
 For fun, see if you can spot this 'bug' in the video.
-
-Due: {% if page.due_reading_storyboarding != nil %}{{ page.due_reading_storyboarding }}{% else %}`Date to be added`{% endif %}.
 
 After viewing and considering these examples, think about what approaches were more or less effective.
 
@@ -148,7 +155,7 @@ No more than one page of text in PDF format.
 
 Submit via Canvas here:
 
-{% if page.link_reading_prototyping_videos != nil %}<{{ page.link_reading_prototyping_videos }}>{% else %}`Link to be added`{% endif %}
+{% if page.link_reading_storyboarding != nil %}<{{ page.link_reading_storyboarding }}>{% else %}`Link to be added`{% endif %}
 
 {% comment %}
 <a name="paperprototyping"></a>
