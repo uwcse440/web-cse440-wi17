@@ -178,7 +178,7 @@ If necessary, we reserve the ability to adjust an individual's grade with regard
 
 # Submission
 
-Many assignments are due "the night before class". We will implement this in Canvas as 12:01am.
+Many assignments are due "the night before class". We will implement this in Canvas as 11:59pm.
 In order to be prepared to give you feedback, the course staff must have your submission in the morning.
 Submitting the day of class, just before class, or in class is therefore unacceptable, risking zero credit.
 

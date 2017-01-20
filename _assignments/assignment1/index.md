@@ -2,13 +2,13 @@
 layout: base/bar/bar-sidebar-none
 title: "Assignment 1: Project Proposal"
 
-date_project_1a: Friday, January 6, 2017
+due_project_1a: Uploaded Thursday, January 5, 2017 (before section on Friday, January 6, 2017)
 link_project_1a: https://canvas.uw.edu/courses/1098203/assignments/3559051
 
-date_project_1b: Tuesday, January 10, 2017
+due_project_1b: Uploaded Monday, January 9, 2017
 link_project_1b: https://canvas.uw.edu/courses/1098203/assignments/3559055
 
-date_project_1c_bids: Thursday, January 12, 2017
+due_project_1c: Submitted Wednesday, January 11, 2017
 link_project_1c_projects: https://canvas.uw.edu/courses/1098203/discussion_topics/3622610
 link_project_1c_bids: https://goo.gl/forms/zMHvrB3HfbfT6J0x1
 ---
@@ -30,15 +30,15 @@ This is an individual assignment, consisting of three milestones.
 
 * [Assignment 1a: Proposal Brainstorm](#proposal_brainstorm)
 
-  Due: Uploaded the night before section {{ page.date_project_1a }}
+  Due: {{ page.due_project_1a }}
   
 * [Assignment 1b: Project Proposal](#project_proposal)
 
-  Due: Uploaded the night before class {{ page.date_project_1b }}
+  Due: {{ page.due_project_1b }}
   
 * [Assignment 1c: Project Bid](#project_bid)
 
-  Due: Uploaded the night before class {{ page.date_project_1c_bids }}
+  Due: {{ page.due_project_1c }}
 
 # Project Description
 
@@ -161,7 +161,7 @@ constraints of this course, and worthy of investigation.
 
 ## 1a: Project Brainstorm
 
-Due: Uploaded the night before section {{ page.date_project_1a }}
+Due: {{ page.due_project_1a }}
 
 Friday's section will focus on brainstorming potential project directions.
 You will get started on thinking, and help seed this brainstorming, with some individual ideas.
@@ -210,7 +210,7 @@ This milestone will be graded on a scale of __3 points__:
 
 ## 1b: Project Proposal
 
-Due: Uploaded the night before class {{ page.date_project_1b }}
+Due: {{ page.due_project_1b }}
 
 Propose and analyze a problem that could form the basis of a design project for this class.
 
@@ -274,7 +274,7 @@ This proposal will be graded on a scale of __10 points__:
 
 ## 1c: Project Bid
 
-Due: Submitted before class {{ page.date_project_1c_bids }}
+Due: {{ page.due_project_1c }}
 
 Review the sponsored projects and course staff comments regarding those projects:
 

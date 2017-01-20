@@ -127,6 +127,21 @@ title: Calendar
           {% endif %}
         {% endfor %}
 
+        {% for currentofficehour in site.data.calendar.officehours %}
+          {% if currentdate == currentofficehour.date %}
+            {% assign currentlocation = currentofficehour.location %}
+            <div class="item officehour">
+              <small>
+                {{ currentofficehour.name }}<br>
+                {% for currentlocationitem in site.data.calendar.locations[currentlocation] %}
+                  {{ currentlocationitem.time }}<br>
+                  {{ currentlocationitem.location }}<br>
+                {% endfor %}
+              </small>
+            </div>
+          {% endif %}
+        {% endfor %}
+
         {% for currentassignment in site.data.calendar.assignments %}
           {% if currentdate == currentassignment.date %}
             <div class="item assignment">
@@ -135,21 +150,6 @@ title: Calendar
                   {{ currentassignment.name }}<br>
                   {% if currentassignment.duenote != nil %}{{ currentassignment.duenote }}{% endif %}
                   {% if currentassignment.link != nil %}</a>{% endif %}
-              </small>
-            </div>
-          {% endif %}
-        {% endfor %}
-
-        {% for currentofficehour in site.data.calendar.officehours %}
-          {% if currentdate == currentofficehour.date %}
-            {% assign currentlocation = currentofficehour.location %}
-            <div class="item officehour">
-              {{ currentofficehour.name }}<br>
-              <small>
-                {% for currentlocationitem in site.data.calendar.locations[currentlocation] %}
-                  {{ currentlocationitem.time }}<br>
-                  {{ currentlocationitem.location }}<br>
-                {% endfor %}
               </small>
             </div>
           {% endif %}
