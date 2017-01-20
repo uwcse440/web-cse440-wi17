@@ -100,11 +100,6 @@ Read these storyboarding resources:
   - [Colville-Hyde (2016). UX Comics: Visually Communicating User Experiences.]({{ page.link_reading_storyboarding_file_ux_comics}} )
   - [Excerpts from Greenberg et al. (2012). Sketching User Experiences: The Workbook]( {{ page.link_reading_storyboarding_file_sketching_excerpts }} )
 
-Optionally, check out these additional storyboarding resources:
-  - [Greenberg et al. (2012). Sketching User Experiences: The Workbook]({{ page.link_reading_storyboarding_file_sketching }})
-  - [Truong, Hayes, and Abowd. (2006). Storyboarding: An Empirical Determination of Best Practices and Effective Guidelines.]({{ page.link_reading_storyboarding_file_empirical }})
-  - [McCloud (1993). Understanding Comics.]({{ page.link_reading_storyboarding_file_understanding_comics }})
-
 Watch the video prototypes linked from Lecture 7,
 noting the context in which they are linked as a comment on aspects of their effectiveness.
 
@@ -126,6 +121,11 @@ Specifically, that is these videos:
   - [ParkSmart](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Parksmart.mp4)
   - [Plantr](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Plantr.mp4)
   
+Optionally, check out these additional storyboarding resources:
+  - [Greenberg et al. (2012). Sketching User Experiences: The Workbook]({{ page.link_reading_storyboarding_file_sketching }})
+  - [Truong, Hayes, and Abowd. (2006). Storyboarding: An Empirical Determination of Best Practices and Effective Guidelines.]({{ page.link_reading_storyboarding_file_empirical }})
+  - [McCloud (1993). Understanding Comics.]({{ page.link_reading_storyboarding_file_understanding_comics }})
+
 Optionally, check out these high-production "vision of the future" video prototypes:
 
   - [Starfire](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Vision-Sun-Starfire.mp4)
