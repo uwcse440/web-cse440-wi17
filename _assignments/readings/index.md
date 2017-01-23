@@ -16,6 +16,7 @@ link_reading_storyboarding_file_ux_comics: https://constructive.co/insights/ux-c
 link_reading_storyboarding_file_sketching_excerpts: https://canvas.uw.edu/files/40119295/download?download_frd=1
 link_reading_storyboarding_file_sketching: https://canvas.uw.edu/files/40119348/download?download_frd=1
 link_reading_storyboarding_file_empirical: https://canvas.uw.edu/files/40115442/download?download_frd=1
+link_reading_storyboarding_file_storytelling: https://canvas.uw.edu/files/40161132/download?download_frd=1
 link_reading_storyboarding_file_understanding_comics: https://canvas.uw.edu/files/40057647/download?download_frd=1
 due_reading_storyboarding: Uploaded Friday, January 27, 2017
 
@@ -122,8 +123,9 @@ Specifically, that is these videos:
   - [Plantr](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Plantr.mp4)
   
 Optionally, check out these additional storyboarding resources:
-  - [Greenberg et al. (2012). Sketching User Experiences: The Workbook]({{ page.link_reading_storyboarding_file_sketching }})
+  - [Greenberg et al. (2012). Sketching User Experiences: The Workbook.]({{ page.link_reading_storyboarding_file_sketching }})
   - [Truong, Hayes, and Abowd. (2006). Storyboarding: An Empirical Determination of Best Practices and Effective Guidelines.]({{ page.link_reading_storyboarding_file_empirical }})
+  - [Quesenbery and Brooks. (2010). Storytelling for User Experience.]({{ page.link_reading_storyboarding_file_storytelling }})
   - [McCloud (1993). Understanding Comics.]({{ page.link_reading_storyboarding_file_understanding_comics }})
 
 Optionally, check out these high-production "vision of the future" video prototypes:
