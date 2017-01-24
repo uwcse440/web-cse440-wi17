@@ -2,26 +2,26 @@
 layout: base/bar/bar-sidebar-none
 title: "Assignment 3: Getting the Design Right"
 
-date_project_3a: Tuesday, February 14, 2017
+due_project_3a: Uploaded Monday, February 13, 2017 (before class on Tuesday, February 14, 2017)
 #link_project_3a: https://canvas.uw.edu/courses/987987/assignments/3035453
 
-date_project_3b: Wednesday, February 15, 2017
+due_project_3b: Uploaded Wednesday, February 15, 2017
 #link_project_3b: https://canvas.uw.edu/courses/987987/assignments/3035454
 
-date_project_3c: Friday, February 17, 2017
+due_project_3c: Uploaded Thursday, February 16, 2017 (before section on Friday, February 17, 2017)
 #link_project_3c: https://canvas.uw.edu/courses/987987/assignments/3040077
 
-date_project_3d: Tuesday, February 24, 2017
+due_project_3d: Uploaded Thursday, February 23, 2017 (before section on Friday, February 24, 2017)
 #link_project_3d: https://canvas.uw.edu/courses/987987/assignments/3040177
 #link_project_3d_critique: https://canvas.uw.edu/courses/987987/assignments/3046463
 
-date_project_3e: Tuesday, February 28, 2017
+due_project_3e: Uploaded Monday, February 27, 2017
 #link_project_3e: https://canvas.uw.edu/courses/987987/assignments/3040179
 
-date_project_3f: Tuesday, February 28, 2017
+due_project_3f: Uploaded Tuesday, February 28, 2017
 #link_project_3f: https://canvas.uw.edu/courses/987987/assignments/3052941
 
-date_project_3g: Thursday, March 2, 2017
+due_project_3g: Uploaded Wednesday, March 1, 2017 (before class on Thursday, March 2, 2017 and section on Friday March 3, 2017)
 #link_project_3g: https://canvas.uw.edu/courses/987987/assignments/3052942
 
 ---
@@ -57,31 +57,31 @@ This is a group assignment, consisting of five milestones.
 
 * [Assignment 3a: Paper Prototype](#paper_prototype)
 
-  Due: Uploaded the night before class {{ page.date_project_3a }} 
+  Due: {{ page.due_project_3a }}
 
 * [Assignment 3b: Heuristic Evaluation](#heuristic_evaluation) 
 
-  Due: Completed in class {{ page.date_project_3b }} 
+  Due: {{ page.due_project_3b }}
 
 * [Assignment 3c: Usability Testing Check-In](#usability_testing_checkin)
 
-  Due: Uploaded the night before section {{ page.date_project_3c }}
+  Due: {{ page.due_project_3c }}
 
 * [Assignment 3d: Usability Testing Review](#usability_testing_review)
 
-  Due: Uploaded the night before {{ page.date_project_3d }}
+  Due: {{ page.due_project_3d }}
 
 * [Assignment 3e: Digital Mockup](#digital_mockup) 
 
-  Due: Uploaded the night before section {{ page.date_project_3e }}
+  Due: {{ page.due_project_3e }}
 
 * [Assignment 3f: Final Report](#final_report)
 
-  Due: Uploaded the night before class {{ page.date_project_3f }} 
+  Due: {{ page.due_project_3f }}
 
 * [Presentation](#presentation)
 
-  Due: Uploaded the night before class {{ page.date_project_3g }}
+  Due: {{ page.due_project_3g }}
 
 # Project Description 
 
@@ -119,14 +119,14 @@ Finally, you will present your design process in a report and presentation.
    
    You should not use friends, members of the class, or people you know to have engineering backgrounds. 
    You also should not use people who have been previously exposed to your project. 
-   Target an appropriate set of participants based on your contextual inquiry and resulting design.
+   Target an appropriate set of participants based on your design research and resulting design.
 
    Be sure to divide your team into roles when conducting the usability test.
    There is simply too much for a single person to conduct a test. 
    As discussed in class, these roles include the facilitator, the computer, and one or more observers.
 
    As part of your introduction, have your facilitator show the participant how to interact with your design. 
-   Do not show participants how to perform your tasks you will later test. 
+   Do not show participants how to perform your tasks that you will later test.
    Instead show them how paper prototyping works, how your system generally works, 
    and give an example of something specific that is sufficiently different from your tasks.
    
@@ -137,8 +137,8 @@ Finally, you will present your design process in a report and presentation.
    Each participant should perform both tasks. 
    Keep the data separate for each participant and each task. 
    Keep participant names confidential, and preserve anonymity in your reporting. 
-   Remember participation must be voluntary, participants should be free to stop at any time, and you should
-   emphasize that your focus is on identifying usability issues in the design.
+   Remember participation must be voluntary, participants should be free to stop at any time,
+   and you should emphasize that your focus is on identifying usability issues in the design.
 
    Revise your paper prototype based on what you learn in usability testing.
    This can and should include fixing major issues as soon as they are detected, before additional tests.
@@ -186,30 +186,32 @@ Finally, you will present your design process in a report and presentation.
 
 ## 3a: Paper Prototype 
 
-Due: Uploaded the night before class {{ page.date_project_3a }}.
+Due: {{ page.due_project_3a }}.
 
 Develop a paper prototype for your design. 
 It should convey all critical aspects of your design, including support for testing your two primary tasks.
 
-Submit detailed images of your paper prototype. Include both:
+### Samples from Prior Offerings
 
-- An overview image that shows your entire paper prototype.
-- Detailed images showing each component as you walk through your two primary tasks.
+Samples from prior offerings include:
 
-### Examples from Prior Offerings
+{% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
+  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}): [3a_{{ currentsample.suffix }}.pdf]({{ site.baseurl }}/samples/3a/3a_{{ currentsample.suffix }}.pdf){% endfor %}{% endfor %}
 
-Examples from prior offerings include:
-
-- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [3a_aqueous.pdf]({{ site.baseurl }}/samples/3a/3a_aqueous.pdf)
-- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [3a_iepconnect.pdf]({{ site.baseurl }}/samples/3a/3a_iepconnect.pdf)
-- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [3a_kaching.pdf]({{ site.baseurl }}/samples/3a/3a_kaching.pdf)
-- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [3a_soundscape.pdf]({{ site.baseurl }}/samples/3a/3a_soundscape.pdf)
+Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 ### Submission
 
 No more than one page of text in PDF format.
 
-Images do not count against your page limit, and are therefore effectively free. 
+Capture and submit detailed images of your paper prototype. Include:
+
+- An overview image that shows your entire paper prototype.
+- Detailed images showing each component as you walk through your two primary tasks.
+
+Images do not count against your page limit, and are therefore effectively free.
 You should embed images throughout your PDF, keeping them near the text that references them.
 The limit applies to the approximate amount of text you would have if all images were removed.
 
@@ -230,16 +232,16 @@ This milestone will be graded on a scale of __9 points__:
 
 ## 3b: Heuristic Evaluations 
 
-Due: Conducted in class {{ page.date_project_3b }}.
+Due: {{ page.due_project_3b }}.
 
 Conduct a heuristic evaluation of your paper prototype.
-You will not be able to complete this if you do not bring your prototype to class on {{ page.date_project_3b }}.
+You will be delayed in completing this if you do not bring your prototype to class.
 
-Each team will split in half to conduct heuristic evaluations, pairing with another half-team from a different project. 
-For 15 minutes, one half-team will conduct a heuristic evaluation of the other’s paper prototype. 
-After 15 minutes, groups will reverse roles. 
-Each half-team will therefore conduct and receive one heuristic evaluation. 
-Each team will therefore receive two evaluations of their prototype.
+Each team will split in half to conduct heuristic evaluations, pairing with another half-team from a different project.
+One half-team will conduct a heuristic evaluation of the other’s paper prototype.
+The two half-teams will then reverse roles.
+Each half-team will therefore conduct and receive one heuristic evaluation,
+and each team will therefore receive two evaluations of their prototype.
 
 We will provide a worksheet with Nielsen's heuristics:
 
@@ -253,10 +255,20 @@ Your tasks and scenarios are likely stable, but revise them if your evaluation r
 
 ### Submission
 
+No more than one page of text in PDF format.
+
+Capture and submit detailed images of your heuristic evaluation work. Include:
+
+- Who conducted each evaluation
+  (i.e., which two team members facilitated the evaluation,
+  which two members of another team facilitated the evaluation).
+- An overview image of your paper prototype and notes.
+
 The evaluated project will keep the created index cards, so they can use them to improve their design.
 The evaluated project should be careful not to lose these, as their contents will be submitted in the next assignment.
+Similarly, be careful to keep a detailed record of any changes that are made, as these will be submitted in the next assignment.
 
-After class, submit images of your notes in PDF format. Submit via Canvas here:
+Submit via Canvas here:
 
 {% if page.link_project_3b != nil %}<{{ page.link_project_3b }}>{% else %}`Link to be added`{% endif %}
 
@@ -270,7 +282,7 @@ This milestone will be graded on a scale of __6 points__:
 
 ## 3c: Usability Testing Check-In
 
-Due: Uploaded the night before section {{ page.date_project_3c }}.
+Due: {{ page.due_project_3c }}.
 
 You received two heuristic evaluations of your paper prototype. 
 If desired, you may also conduct a heuristic evaluation or cognitive walkthrough for your own paper prototype.
@@ -301,14 +313,16 @@ Present your iterative revisions and your plan going forward:
 - Present your plan for the remainder of your usability tests. Describe who you will target for participation, what
   goals you have for the additional tests, planned roles for each team member, and any new approaches you will employ.
 
-### Examples from Prior Offerings
+### Samples from Prior Offerings
 
-Examples from prior offerings include:
+Samples from prior offerings include:
 
-- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [3c_aqueous.pdf]({{ site.baseurl }}/samples/3c/3c_aqueous.pdf)
-- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [3c_iepconnect.pdf]({{ site.baseurl }}/samples/3c/3c_iepconnect.pdf)
-- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [3c_kaching.pdf]({{ site.baseurl }}/samples/3c/3c_kaching.pdf)
-- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [3c_soundscape.pdf]({{ site.baseurl }}/samples/3c/3c_soundscape.pdf)
+{% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
+  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}): [3c_{{ currentsample.suffix }}.pdf]({{ site.baseurl }}/samples/3c/3c_{{ currentsample.suffix }}.pdf){% endfor %}{% endfor %}
+
+Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 ### Submission
 
@@ -338,7 +352,7 @@ This milestone will be graded on a scale of __12 points__:
 
 ## 3d: Usability Testing Review
 
-Due: Uploaded the night before {{ page.date_project_3d }}.
+Due: {{ page.due_project_3d }}.
 
 Complete your three usability tests and finalize your paper prototype according to what you learn.
 
@@ -362,14 +376,16 @@ Present the results of your usability testing and your final paper prototype:
   prototype based on issues identified in inspection, usability testing, or critique. These issues may already be 
   included in the above list, but discuss them in more detail and argue why detecting and fixing them is important to your design.
 
-### Examples from Prior Offerings
+### Samples from Prior Offerings
 
-Examples from prior offerings include:
+Samples from prior offerings include:
 
-- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [3d_aqueous.pdf]({{ site.baseurl }}/samples/3d/3d_aqueous.pdf)
-- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [3d_iepconnect.pdf]({{ site.baseurl }}/samples/3d/3d_iepconnect.pdf)
-- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [3d_kaching.pdf]({{ site.baseurl }}/samples/3d/3d_kaching.pdf)
-- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [3d_soundscape.pdf]({{ site.baseurl }}/samples/3d/3d_soundscape.pdf)
+{% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
+  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}): [3d_{{ currentsample.suffix }}.pdf]({{ site.baseurl }}/samples/3d/3d_{{ currentsample.suffix }}.pdf){% endfor %}{% endfor %}
+
+Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 ### Submission
 
@@ -383,6 +399,7 @@ Submit via Canvas here:
 
 {% if page.link_project_3d != nil %}<{{ page.link_project_3d }}>{% else %}`Link to be added`{% endif %}
 
+{% comment %}
 ### In-Class Peer Critique
 
 In lecture, be prepared to discuss your usability testing with other teams and the course staff.
@@ -394,6 +411,7 @@ Be sure to take notes during critique. We will provide a worksheet you can use:
 After class, submit images of your notes in PDF format. Submit via Canvas here:
 
 {% if page.link_project_3d_critique != nil %}<{{ page.link_project_3d_critique }}>{% else %}`Link to be added`{% endif %}
+{% endcomment %}
 
 ### Grading
 
@@ -408,7 +426,7 @@ This milestone will be graded on a scale of __12 points__:
 
 ## 3e: Digital Mockup 
 
-Due: Uploaded the night before section {{ page.date_project_3e }}.
+Due: {{ page.due_project_3e }}.
 
 Create your digital mockup based on your final paper prototype.
 The mockup should effectively communicate your design in a manner appropriate for your final report, website, and poster.
@@ -425,14 +443,16 @@ Present your digital mockup together with discussion of the decisions and change
   
 - Discuss decisions and changes you made in implementing the digital mockup.
 
-### Examples from Prior Offerings
+### Samples from Prior Offerings
 
-Examples from prior offerings include:
+Samples from prior offerings include:
 
-- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [3e_aqueous.pdf]({{ site.baseurl }}/samples/3e/3e_aqueous.pdf)
-- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [3e_iepconnect.pdf]({{ site.baseurl }}/samples/3e/3e_iepconnect.pdf)
-- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [3e_kaching.pdf]({{ site.baseurl }}/samples/3e/3e_kaching.pdf)
-- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [3e_soundscape.pdf]({{ site.baseurl }}/samples/3e/3e_soundscape.pdf)
+{% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
+  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}): [3e_{{ currentsample.suffix }}.pdf]({{ site.baseurl }}/samples/3e/3e_{{ currentsample.suffix }}.pdf){% endfor %}{% endfor %}
+
+Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 ### Submission
 
@@ -458,7 +478,7 @@ This milestone will be graded on a scale of __12 points__:
 
 ## 3f: Final Report
 	
-Due: Uploaded the night before class {{ page.date_project_3f }}.
+Due: {{ page.due_project_3f }}.
 
 Prepare a report documenting your process of getting the design right. 
 Your report should follow the outline below, and will be graded using the guidelines that follow. 
@@ -526,14 +546,16 @@ include how you have addressed and incorporated that feedback to improve relativ
      Include identified critical incidents from your usability testing. 
      The appendix materials and screenshots do not count in your page limit.
 
-### Examples from Prior Offerings
+### Samples from Prior Offerings
 
-Examples from prior offerings include:
+Samples from prior offerings include:
 
-- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [3f_aqueous.pdf]({{ site.baseurl }}/samples/3f/3f_aqueous.pdf)
-- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [3f_iepconnect.pdf]({{ site.baseurl }}/samples/3f/3f_iepconnect.pdf)
-- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [3f_kaching.pdf]({{ site.baseurl }}/samples/3f/3f_kaching.pdf)
-- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [3f_soundscape.pdf]({{ site.baseurl }}/samples/3f/3f_soundscape.pdf)
+{% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
+  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}): [3f_{{ currentsample.suffix }}.pdf]({{ site.baseurl }}/samples/3f/3f_{{ currentsample.suffix }}.pdf){% endfor %}{% endfor %}
+
+Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 ### Submission
 
@@ -566,7 +588,7 @@ This report will be graded on a scale of __25 points__:
 
 ## Presentation
 
-Due: Uploaded the night before class {{ page.date_project_3g }}.
+Due: {{ page.due_project_3g }}.
 
 Prepare a presentation of your process in getting the design right. It should encompass all of your work in Assignment 3.
 
@@ -618,14 +640,16 @@ Note that we have not provided recommendations for the number of slides in each 
 You can deliver your presentation using as many or as few slides as you want, 
 as long as you successfully address the above points and the presentation falls within the eight-minute time restriction.
 
-### Examples from Prior Offerings
+### Samples from Prior Offerings
 
-Examples from prior offerings include:
+Samples from prior offerings include:
 
-- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [3g_aqueous.pdf]({{ site.baseurl }}/samples/3g/3g_aqueous.pdf)
-- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [3g_iepconnect.pdf]({{ site.baseurl }}/samples/3g/3g_iepconnect.pdf)
-- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [3g_kaching.pdf]({{ site.baseurl }}/samples/3g/3g_kaching.pdf)
-- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [3g_soundscape.pdf]({{ site.baseurl }}/samples/3g/3g_soundscape.pdf)
+{% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
+  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}): [3g_{{ currentsample.suffix }}.pdf]({{ site.baseurl }}/samples/3g/3g_{{ currentsample.suffix }}.pdf){% endfor %}{% endfor %}
+
+Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.
 
 ### Submission
 
