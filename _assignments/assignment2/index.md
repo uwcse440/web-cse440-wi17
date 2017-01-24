@@ -188,7 +188,9 @@ The goal is to begin thinking about how to plan effective design research to inf
 
 ### Submission
 
-At the end of section, take a photo of your brainstorm and upload it on Canvas here:
+At the end of section, capture and submit an image of your brainstorm.
+
+Submit via Canvas here:
 
 {% if page.link_project_2a != nil %}<{{ page.link_project_2a }}>{% else %}`Link to be added`{% endif %}
 
