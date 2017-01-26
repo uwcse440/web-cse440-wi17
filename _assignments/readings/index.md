@@ -141,11 +141,13 @@ For fun, see if you can spot this 'bug' in the video.
 
 After viewing and considering these examples, think about what approaches were more or less effective.
 
-- In one paragraph, describe a technique you saw in these examples that was highly effective,
+- In one paragraph, describe a technique you saw in these examples that was highly effective 
+  (i.e., in either storyboarding or video prototyping, in the readings or the videos),
   which you might therefore want to apply in your storyboarding or video prototyping.
   Be specific, such that it is clear you considered the examples.
   Discuss why it was effective.  
-- In one paragraph, describe a technique you saw that was ineffective,
+- In one paragraph, describe a technique you saw that was ineffective
+  (i.e., in either storyboarding or video prototyping, in the readings or the videos),
   which you might therefore want to be mindful of in your storyboarding or video prototyping.
   Be specific, such that it is clear you considered the examples.
   Discuss why it was ineffective.
