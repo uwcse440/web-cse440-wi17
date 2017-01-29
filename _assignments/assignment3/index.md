@@ -26,10 +26,6 @@ due_project_3g: Uploaded Wednesday, March 1, 2017 (before class on Thursday, Mar
 
 ---
 
-`This page is still being migrated and developed.`
-
-`Information here is likely suggestive of the final page, but remains subject to change.`
-
 # Overview
 
 Now that you have chosen a design, it is time to iteratively refine that design.
@@ -158,13 +154,17 @@ Finally, you will present your design process in a report and presentation.
    But it must be digital (e.g., you may not use pictures of a hand-drawn sketch).
    
    Some recommendations from the course staff include:
-   
+
+   - [Adobe Experience Design](http://www.adobe.com/products/experience-design.html)
    - [Adobe Illustrator](http://www.adobe.com/products/illustrator.html)
    - [Axure](http://www.axure.com/)
-   - [Balsamiq](https://balsamiq.com/)   
-   - [Omnigraffle](http://www.omnigroup.com/omnigraffle)
+   - [Balsamiq](https://balsamiq.com/)
+   - [Figma](https://www.figma.com/)
+   - [Indigo Studio](http://www.infragistics.com/products/indigo-studio)
    - [InkScape](http://www.inkscape.org/en/)
    - [Microsoft Visio](http://office.microsoft.com/en-us/visio/)
+   - [Omnigraffle](http://www.omnigroup.com/omnigraffle)
+   - [Vectr](https://vectr.com/)
 
    You will use this digital mockup to effectively communicate your design in your final report, website, and poster.
    Some tools support creation of interactive mockups (e.g., allow clicking active regions to move between screens).
