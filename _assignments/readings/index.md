@@ -21,7 +21,12 @@ link_reading_storyboarding_file_understanding_comics: https://canvas.uw.edu/file
 due_reading_storyboarding: Uploaded Friday, January 27, 2017
 
 #link_reading_paper_prototyping: https://canvas.uw.edu/courses/987987/assignments/3039948
-#date_reading_paper_prototyping: Friday, November 13, 2015
+link_reading_paper_prototyping_file_tiny_fingers: https://canvas.uw.edu/files/40281117/download?download_frd=1
+link_reading_paper_prototyping_file_snyder_chapter4: https://canvas.uw.edu/files/40281115/download?download_frd=1
+link_reading_paper_prototyping_file_snyder_chapter8: https://canvas.uw.edu/files/40281116/download?download_frd=1
+link_reading_paper_prototyping_file_observing_users: https://canvas.uw.edu/files/40281118/download?download_frd=1
+link_reading_paper_prototyping_file_snyder: https://canvas.uw.edu/files/40281119/download?download_frd=1
+due_reading_paper_prototyping: Uploaded Friday, February 3, 2017
 
 #link_reading_research_writeup: https://canvas.uw.edu/courses/987987/assignments/3046595
 #link_reading_research_paper: https://canvas.uw.edu/courses/987987/assignments/3046597
@@ -60,7 +65,7 @@ Read:
 
 - [Beyer and Holtzblatt (1997). Contextual Design. Chapter 3.]({{ page.link_reading_contextual_inquiry_file_contextual_inquiry }})
 
-Resource:
+Optionally, check out these additional design method resources:
 
 - [IDEO (2003). Method Cards.]({{ link_reading_contextual_inquiry_file_ideo_method_cards }})
 - [Martin and Hanington (2012). Universal Methods of Design.]({{ page.link_reading_contextual_inquiry_file_universal_methods }})
@@ -161,46 +166,43 @@ Submit via Canvas here:
 
 {% if page.link_reading_storyboarding != nil %}<{{ page.link_reading_storyboarding }}>{% else %}`Link to be added`{% endif %}
 
-{% comment %}
 <a name="paperprototyping"></a>
 
-### Reading 4: Paper Prototyping and Usability Testing
+### Reading 3: Paper Prototyping and Usability Testing
+
+Due: {% if page.due_reading_paper_prototyping != nil %}{{ page.due_reading_paper_prototyping }}{% else %}`Date to be added`{% endif %}.
 
 Read:
 
-- [Rettig (1994). Prototyping for Tiny Fingers]({{site.baseurl}}/readings/PaperPrototyping-Rettig1994.pdf)
-- [Snyder (2003). Paper Prototyping. Chapter 4.]({{site.baseurl}}/readings/PaperPrototyping-Chapter4-Snyder2003.pdf)
-- [Snyder (2003). Paper Prototyping. Chapter 8.]({{site.baseurl}}/readings/PaperPrototyping-Chapter8-Snyder2003.pdf)
-- [Gomoll (1992). Some Techniques for Observing Users.]({{site.baseurl}}/readings/PaperPrototyping-Gomoll1992.pdf)
+- [Rettig (1994). Prototyping for Tiny Fingers.]({{ page.link_reading_paper_prototyping_file_tiny_fingers }})
+- [Snyder (2003). Paper Prototyping. Chapter 4.]({{ page.link_reading_paper_prototyping_file_snyder_chapter4 }})
+- [Snyder (2003). Paper Prototyping. Chapter 8.]({{ page.link_reading_paper_prototyping_file_snyder_chapter8 }})
+- [Gomoll (1992). Some Techniques for Observing Users.]({{ page.link_reading_paper_prototyping_file_observing_users }})
 
-Optionally, check out this video on paper prototyping:
+Optionally, check out these additionally paper prototyping resources:
 
 - [Nielsen Norman Group. Paper Prototyping: A How-To Video.](http://courses.cs.washington.edu/courses/cse440/videos/paperprototyping/NielsenNorman.mp4)
+- [Snyder (2003). Paper Prototyping.]({{ page.link_reading_paper_prototyping_file_snyder }})
 
-Due: Uploaded the night before section
-{% if page.date_reading_paper_prototyping != nil %}{{ page.date_reading_paper_prototyping }}{% else %}`Date to be added`{% endif %}.
-
-After reading, consider how you might apply this approach in your paper prototyping and usability testing.
+After reading, consider how you might apply these techniques in your paper prototyping and usability testing.
 
 - Describe an specific idea or thought you might be able to apply in your paper prototyping and usability testing.
 - Describe why this idea is non-obvious or how it well help ensure good results for your paper prototyping and usability testing.
 - Describe what in the readings gave you this idea.
 
 Your thoughts here should be specific. 
-You are already required to do a paper prototype with usability testing, so that is obviously too high-level. 
+You are already required to do a paper prototype with usability testing, so that is obviously too high-level for this reading.
 Convey a specific idea that indicates you did the reading and thought about how to apply it in the context of your project.
 
 This reading thus serves to get you thinking about these methods in the context of your project.
-
 What actual techniques your team applies will depend on your larger decisions as a team. 
-Nothing about this reading is intended to require that you actually apply the ideas you individually develop here.
+This reading is not intended to require that you actually apply the ideas you individually develop here.
 
 No more than one page of text in PDF format.
 
 Submit via Canvas here:
 
 {% if page.link_reading_paper_prototyping != nil %}<{{ page.link_reading_paper_prototyping }}>{% else %}`Link to be added`{% endif %}
-{% endcomment %}
 
 {% comment %}
 <a name="research"></a>
