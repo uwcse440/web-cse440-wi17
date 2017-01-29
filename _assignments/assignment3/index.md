@@ -592,7 +592,7 @@ Due: {{ page.due_project_3g }}.
 
 Prepare a presentation of your process in getting the design right. It should encompass all of your work in Assignment 3.
 
-- Two members of your team should deliver the presentation, each speaking to relatively equals portions.
+- Two members of your team should deliver the presentation, each speaking to relatively equal portions.
 - An eight minute time limit will be strictly enforced, with additional time for questions.
 - Your presenters should be different from your presenters in Assignment 2, such that everybody has presented at least once this quarter.
   If there is some reason this cannot work for your team, be sure you have communicated with us.

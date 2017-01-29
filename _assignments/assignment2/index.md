@@ -709,7 +709,7 @@ Due: {{ page.due_project_2i }}
 
 Prepare a presentation of your process in getting the right design. It should encompass all of your work in Assignment 2.
 
-- Two members of your team should deliver the presentation, each speaking to relatively equals portions.
+- Two members of your team should deliver the presentation, each speaking to relatively equal portions.
 - An eight minute time limit will be strictly enforced, with additional time for questions.
 
 A suggested organization of this presentation is:
