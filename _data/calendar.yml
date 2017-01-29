@@ -200,6 +200,7 @@ assignments:
     link: "assignments/assignment3/#usability_testing_checkin"
   - date: "2017-02-03"
     name: "Reading 3: Paper Prototyping<br>and Usability Testing"
+    duenote: "[due End of Day]"
     link: "assignments/readings/#paperprototyping"
   - date: "2017-02-23"
     name: "3d - Usability Testing Review"
