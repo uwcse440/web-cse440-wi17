@@ -81,7 +81,7 @@ lectures:
     # notes: "Required for Project 3a"
   - date: "2017-02-02"
     name: "Interface Implementation"
-#    slides: "slides/lecture/l15-interfaceimplementation.pdf"
+    slides: "slides/lecture/l10-interfaceimplementation.pdf"
   - date: "2017-02-07"
     name: "Tasks in Testing,<br>Presentations"
 #    slides: "slides/lecture/l10-testing.pdf"
