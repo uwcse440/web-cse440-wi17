@@ -20,7 +20,7 @@ link_reading_storyboarding_file_storytelling: https://canvas.uw.edu/files/401611
 link_reading_storyboarding_file_understanding_comics: https://canvas.uw.edu/files/40057647/download?download_frd=1
 due_reading_storyboarding: Uploaded Friday, January 27, 2017
 
-#link_reading_paper_prototyping: https://canvas.uw.edu/courses/987987/assignments/3039948
+link_reading_paper_prototyping: https://canvas.uw.edu/courses/1098203/assignments/3595630
 link_reading_paper_prototyping_file_tiny_fingers: https://canvas.uw.edu/files/40281117/download?download_frd=1
 link_reading_paper_prototyping_file_snyder_chapter4: https://canvas.uw.edu/files/40281115/download?download_frd=1
 link_reading_paper_prototyping_file_snyder_chapter8: https://canvas.uw.edu/files/40281116/download?download_frd=1
