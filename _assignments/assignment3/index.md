@@ -3,26 +3,26 @@ layout: base/bar/bar-sidebar-none
 title: "Assignment 3: Getting the Design Right"
 
 due_project_3a: Uploaded Monday, February 13, 2017 (before class on Tuesday, February 14, 2017)
-#link_project_3a: https://canvas.uw.edu/courses/987987/assignments/3035453
+link_project_3a: https://canvas.uw.edu/courses/1098203/assignments/3589476
 
 due_project_3b: Uploaded Wednesday, February 15, 2017
-#link_project_3b: https://canvas.uw.edu/courses/987987/assignments/3035454
+link_project_3b: https://canvas.uw.edu/courses/1098203/assignments/3589479
 
 due_project_3c: Uploaded Thursday, February 16, 2017 (before section on Friday, February 17, 2017)
-#link_project_3c: https://canvas.uw.edu/courses/987987/assignments/3040077
+link_project_3c: https://canvas.uw.edu/courses/1098203/assignments/3589483
 
 due_project_3d: Uploaded Thursday, February 23, 2017 (before section on Friday, February 24, 2017)
-#link_project_3d: https://canvas.uw.edu/courses/987987/assignments/3040177
+link_project_3d: https://canvas.uw.edu/courses/1098203/assignments/3589486
 #link_project_3d_critique: https://canvas.uw.edu/courses/987987/assignments/3046463
 
 due_project_3e: Uploaded Monday, February 27, 2017
-#link_project_3e: https://canvas.uw.edu/courses/987987/assignments/3040179
+link_project_3e: https://canvas.uw.edu/courses/1098203/assignments/3589489
 
 due_project_3f: Uploaded Tuesday, February 28, 2017
-#link_project_3f: https://canvas.uw.edu/courses/987987/assignments/3052941
+link_project_3f: https://canvas.uw.edu/courses/1098203/assignments/3589491
 
 due_project_3g: Uploaded Wednesday, March 1, 2017 (before class on Thursday, March 2, 2017 and section on Friday March 3, 2017)
-#link_project_3g: https://canvas.uw.edu/courses/987987/assignments/3052942
+link_project_3g: https://canvas.uw.edu/courses/1098203/assignments/3589492
 
 ---
 
