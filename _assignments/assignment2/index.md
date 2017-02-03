@@ -710,7 +710,7 @@ Due: {{ page.due_project_2i }}
 Prepare a presentation of your process in getting the right design. It should encompass all of your work in Assignment 2.
 
 - Two members of your team should deliver the presentation, each speaking to relatively equal portions.
-- An eight minute time limit will be strictly enforced, with additional time for questions.
+- A seven minute time limit will be strictly enforced, with additional time for questions.
 
 A suggested organization of this presentation is:
 
@@ -746,6 +746,10 @@ A suggested organization of this presentation is:
 
 We strongly recommend rehearsing your presentation beforehand. 
 For example, arrange to practice together with another group or two, giving each other feedback on your presentations.
+
+Note that we have not provided recommendations for the number of slides in each section of this presentation.
+You can deliver your presentation using as many or as few slides as you want,
+as long as you successfully address the above points and the presentation falls within the time restriction.
 
 ### Samples from Prior Offerings
 
