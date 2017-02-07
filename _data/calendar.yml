@@ -363,9 +363,6 @@ officehours:
   - date: "2017-02-02"
     name: "David Office Hour"
     location: officehoursdavid
-  - date: "2017-02-09"
-    name: "David Office Hour"
-    location: officehoursdavid
   - date: "2017-02-16"
     name: "David Office Hour"
     location: officehoursdavid
