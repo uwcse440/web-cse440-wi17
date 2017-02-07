@@ -780,11 +780,9 @@ It is important to protect participant anonymity, even in the case that reportin
 
 ### In-Class Feedback Forms
 
-The course staff and your peers will have feedback forms they keep during your presentation:
+The course staff will have a feedback form they keep during your presentation:
 
 [2h-presentation-instructor-form.pdf]({{ site.baseurl }}/assignments/assignment2/2h-presentation-instructor-form.pdf)
-
-[2h-presentation-student-form.pdf]({{ site.baseurl }}/assignments/assignment2/2h-presentation-student-form.pdf)
 
 ### Grading
 
