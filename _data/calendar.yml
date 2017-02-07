@@ -29,16 +29,19 @@ locations:
     - time: "1:45 - 2:45"
       location: "CSE 021"
 
+  sections_skip1030:
+    - time: "11:30 - 12:20"
+      location: "MGH 058"
+    - time: "1:30 - 2:20"
+      location: "MGH 058"
+    - time: "2:30 - 3:20"
+      location: "MGH 058"
+
 #  examreview:
 #    - time: "12:00 - 1:00"
 #      location: "CSE 203"
 #    - time: "4:30 - 5:30"
 #      location: "CSE 203"
-#  sections_morningonly:
-#    - time: "10:30 - 11:20"
-#      location: "MGH 228"
-#    - time: "11:30 - 12:20"
-#      location: "MGH 295"
 #  sections_afternoononly:
 #    - time: "1:30 - 2:20"
 #      location: "MGH 254"
@@ -84,7 +87,7 @@ lectures:
     slides: "slides/lecture/l10-interfaceimplementation.pdf"
   - date: "2017-02-07"
     name: "Tasks in Testing,<br>Presentations"
-#    slides: "slides/lecture/l10-testing.pdf"
+    slides: "slides/lecture/l11-tasksintesting.pdf"
   - date: "2017-02-14"
     name: "Inspection"
 #    slides: "slides/lecture/l12-inspection.pdf"
@@ -249,7 +252,7 @@ majors:
     link: "assignments/assignment2/#presentation"
   - date: "2017-02-10"
     name: "Presentations"
-    location: "sections"
+    location: "sections_skip1030"
     link: "assignments/assignment2/#presentation"
   - date: "2017-03-02"
     name: "Presentations"
