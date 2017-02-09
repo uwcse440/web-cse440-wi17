@@ -30,7 +30,7 @@ due_project_2h: Uploaded Monday, February 6, 2017 (before class on Tuesday, Febr
 link_project_2h: https://canvas.uw.edu/courses/1098203/assignments/3577781
 
 due_project_2i: Uploaded Wednesday, February 8, 2017 (before class on Thursday, February 9, 2017 and section on Friday February 10, 2017)
-link_project_2i: https://canvas.uw.edu/courses/987987/assignments/3029622
+link_project_2i: https://canvas.uw.edu/courses/1098203/assignments/3577784
 
 ---
 
