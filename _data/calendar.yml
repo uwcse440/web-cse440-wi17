@@ -90,7 +90,7 @@ lectures:
     slides: "slides/lecture/l11-tasksintesting.pdf"
   - date: "2017-02-14"
     name: "Inspection"
-#    slides: "slides/lecture/l12-inspection.pdf"
+    slides: "slides/lecture/l13-inspection.pdf"
     # notes: "Required for Project 3b"
   - date: "2017-02-16"
     name: "Online Testing,<br>Patterns"
