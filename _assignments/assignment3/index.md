@@ -98,7 +98,7 @@ Finally, you will present your design process in a report and presentation.
    ([Assignment 3a](#paper_prototype))
    
 2. Conduct a heuristic evaluation of your paper prototype.
-   You will perform an evaluation in class, and can supplement this with your own evaluation.
+   You will perform an evaluation in class, and will supplement this with another evaluation.
 	
    Revise your paper prototype based on what you learn in heuristic evaluation.
    Your tasks and scenarios are likely stable, but revise them if your evaluation reveals a need.
