@@ -15,15 +15,18 @@ title: Calendar
 {% assign numdays = enddateseconds | minus: startdateseconds | plus: 3600 | divided_by: 86400 %}
 
 <div class="calendar">
-  <div class="row week">
-    <div class="col-xs-12">
+
+{% comment %}
+<div class="row week">
+<div class="col-xs-12">
 <div markdown="1">
 `This page is still being migrated and developed.`
-
 `Information here is likely suggestive of the final page, but remains subject to change.`
 </div>
-    </div>
-  </div>
+</div>
+</div>
+{% endcomment %}
+
   {% for currentdaynum in (0..numdays) %}
     {% assign currentdateseconds = currentdaynum | times: 86400 | plus: startdateseconds %}
     {% assign currentdate = currentdateseconds | date: '%F' %}
