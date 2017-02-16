@@ -8,9 +8,6 @@ link_reading_contextual_inquiry_file_contextual_inquiry: https://canvas.uw.edu/f
 link_reading_contextual_inquiry_file_ideo_method_cards: https://canvas.uw.edu/files/40115291/download?download_frd=1
 link_reading_contextual_inquiry_file_universal_methods: https://canvas.uw.edu/files/39906877/download?download_frd=1
 
-#link_reading_critique: https://canvas.uw.edu/courses/987987/assignments/3016470
-#date_reading_critique: Friday, October 16, 2015
-
 link_reading_storyboarding: https://canvas.uw.edu/courses/1098203/assignments/3584938
 link_reading_storyboarding_file_ux_comics: https://constructive.co/insights/ux-comics-visually-communicating-user-experiences/
 link_reading_storyboarding_file_sketching_excerpts: https://canvas.uw.edu/files/40119295/download?download_frd=1
@@ -28,14 +25,17 @@ link_reading_paper_prototyping_file_observing_users: https://canvas.uw.edu/files
 link_reading_paper_prototyping_file_snyder: https://canvas.uw.edu/files/40281119/download?download_frd=1
 due_reading_paper_prototyping: Uploaded Friday, February 3, 2017
 
+link_reading_patterns: https://canvas.uw.edu/courses/1098203/assignments/3608154
+link_reading_patterns_file_design_of_sites: https://canvas.uw.edu/files/40656356/download?download_frd=1
+due_reading_patterns: Uploaded Friday, February 24, 2017
+
+#link_reading_critique: https://canvas.uw.edu/courses/987987/assignments/3016470
+#date_reading_critique: Friday, October 16, 2015
+
 #link_reading_research_writeup: https://canvas.uw.edu/courses/987987/assignments/3046595
 #link_reading_research_paper: https://canvas.uw.edu/courses/987987/assignments/3046597
 #date_reading_research: Friday, December 4, 2015
 ---
-
-`This page is still being migrated and developed.`
-
-`Information here is likely suggestive of the final page, but remains subject to change.`
 
 # Overview
 
@@ -204,59 +204,34 @@ Submit via Canvas here:
 
 {% if page.link_reading_paper_prototyping != nil %}<{{ page.link_reading_paper_prototyping }}>{% else %}`Link to be added`{% endif %}
 
-{% comment %}
-<a name="research"></a>
+<a name="patterns"></a>
 
-### Reading 5: Research Paper
+### Reading 4: Patterns
 
-Due: Uploaded the night before section
-{% if page.date_reading_research != nil %}{{ page.date_reading_research }}{% else %}`Date to be added`{% endif %}.
+Due: {% if page.due_reading_patterns != nil %}{{ page.due_reading_patterns }}{% else %}`Date to be added`{% endif %}.
 
-Researchers and designers often re-invent. 
-Instead it is valuable to take advantage of what is already known.
-To do this, you need to find and understand prior results.
-Find and read a research paper related to your project. 
-The paper does not necessarily have to describe an app or device. 
-For example, the research paper may describing the results of surveys or interviews on how people currently track something related to your project. 
+Check out these design patterns:
 
-We have discussed a number of research papers in this class from HCI-related conferences such as:
+- [van Duyne, Landay, Hong (2003). The Design of Sites: Patterns for Creating Winning Web Sites.]({{ page.link_reading_patterns_file_design_of_sites }})
 
-- [CHI](http://chi2015.acm.org/)
-- [UIST](http://www.acm.org/uist/uist2014/)
-- [UbiComp](http://ubicomp.org/ubicomp2014/)
+Consider how one of these patterns, or a pattern you find elsewhere, may be relevant in your project design.
 
-But you might find a research paper in another related field, such as psychology or medicine. Some conferences at the intersection of technology and health include:
+- Briefly, what pattern did you identify as relevant (e.g., by name and ID from Design of Sites, by URL).
+- Describe why this pattern is relevant in your design.
+- Describe how you might modify your design based on insights on perspective surfaced by the pattern.
+  (e.g., describes changes in text, before / after images).
 
-- [AMIA](https://www.amia.org/)
-- [PervasiveHealth](http://pervasivehealth.org/)
+If you wish, you can do this assignment in __pairs__ from your project team.
+If you do, include both names in your document.
+Also ensure you both upload that document.
 
-Many papers are available via the [ACM Digital Library](http://dl.acm.org/) or on author websites.
- 
-The search tool for the ACM Digital Library is pretty terrible, so a better choice is typically [Google Scholar](http://scholar.google.com/). 
+This reading thus uses your project as a context to have you engage with a set of patterns.
 
-These resources are easiest to access while on the UW network, but you can also access them off campus using the [UW Libraries proxy](http://www.lib.washington.edu/help/connect.html).
-
-- In one paragraph, summarize the findings of the research paper. 
-  - What were the main points of this paper? 
-  - Given the paper, do you believe those main points?
-- In one paragraph, describe how the paper applies to your project. 
-  - After reading this paper, is there anything you wish you had done differently in your design? 
-  - Do you think you've designed something that's improved upon what this paper discusses?
-
-If you wish, you can do this assignment in __pairs__ from your project team. If you do so, please both submit and include both of your names in the submission.
-
-No more than one page of text in PDF format. 
+No more than one page of text in PDF format.
 
 Submit via Canvas here:
-  
-{% if page.link_reading_research_writeup != nil %}<{{ page.link_reading_research_writeup }}>{% else %}`Link to be added`{% endif %}
 
-Also submit a PDF of the research paper you read.
-
-Submit via Canvas here:
-  
-{% if page.link_reading_research_paper != nil %}<{{ page.link_reading_research_paper }}>{% else %}`Link to be added`{% endif %}
-{% endcomment %}
+{% if page.link_reading_patterns != nil %}<{{ page.link_reading_patterns }}>{% else %}`Link to be added`{% endif %}
 
 {% comment %}
 <a name="critique"></a>
@@ -285,4 +260,58 @@ No more than one page of text in PDF format.
 Submit via Canvas here:
 
 {% if page.link_reading_critique != nil %}<{{ page.link_reading_critique }}>{% else %}`Link to be added`{% endif %}
+{% endcomment %}
+
+{% comment %}
+<a name="research"></a>
+
+### Reading 5: Research Paper
+
+Due: Uploaded the night before section
+{% if page.date_reading_research != nil %}{{ page.date_reading_research }}{% else %}`Date to be added`{% endif %}.
+
+Researchers and designers often re-invent.
+Instead it is valuable to take advantage of what is already known.
+To do this, you need to find and understand prior results.
+Find and read a research paper related to your project.
+The paper does not necessarily have to describe an app or device.
+For example, the research paper may describing the results of surveys or interviews on how people currently track something related to your project.
+
+We have discussed a number of research papers in this class from HCI-related conferences such as:
+
+- [CHI](http://chi2015.acm.org/)
+- [UIST](http://www.acm.org/uist/uist2014/)
+- [UbiComp](http://ubicomp.org/ubicomp2014/)
+
+But you might find a research paper in another related field, such as psychology or medicine. Some conferences at the intersection of technology and health include:
+
+- [AMIA](https://www.amia.org/)
+- [PervasiveHealth](http://pervasivehealth.org/)
+
+Many papers are available via the [ACM Digital Library](http://dl.acm.org/) or on author websites.
+
+The search tool for the ACM Digital Library is pretty terrible, so a better choice is typically [Google Scholar](http://scholar.google.com/).
+
+These resources are easiest to access while on the UW network, but you can also access them off campus using the [UW Libraries proxy](http://www.lib.washington.edu/help/connect.html).
+
+- In one paragraph, summarize the findings of the research paper.
+  - What were the main points of this paper?
+  - Given the paper, do you believe those main points?
+- In one paragraph, describe how the paper applies to your project.
+  - After reading this paper, is there anything you wish you had done differently in your design?
+  - Do you think you've designed something that's improved upon what this paper discusses?
+
+If you wish, you can do this assignment in __pairs__ from your project team. If you do so, please both submit and include both of your names in the submission.
+
+No more than one page of text in PDF format.
+
+Submit via Canvas here:
+
+{% if page.link_reading_research_writeup != nil %}<{{ page.link_reading_research_writeup }}>{% else %}`Link to be added`{% endif %}
+
+Also submit a PDF of the research paper you read.
+
+Submit via Canvas here:
+
+{% if page.link_reading_research_paper != nil %}<{{ page.link_reading_research_paper }}>{% else %}`Link to be added`{% endif %}
 {% endcomment %}
