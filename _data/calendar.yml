@@ -209,7 +209,7 @@ assignments:
   - date: "2017-02-24"
     name: "Reading 4: Design Patterns"
     duenote: "[due End of Day]"
-#    link: "assignments/readings/#patterns"
+    link: "assignments/readings/#patterns"
   - date: "2017-02-27"
     name: "3e - Digital Mockup"
     duenote: "[due End of Day]"
