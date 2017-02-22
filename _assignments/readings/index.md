@@ -218,7 +218,7 @@ Consider how one of these patterns, or a pattern you find elsewhere, may be rele
 
 - Briefly, what pattern did you identify as relevant (e.g., by name and ID from Design of Sites, by URL).
 - Describe why this pattern is relevant in your design.
-- Describe how you might modify your design based on insights on perspective surfaced by the pattern.
+- Describe how you might modify your design or your design process based on insights on perspective surfaced by the pattern.
   (e.g., describes changes in text, before / after images).
 
 If you wish, you can do this assignment in __pairs__ from your project team.
