@@ -104,7 +104,7 @@ lectures:
     slides: "slides/lecture/l14-testing-patterns.pdf"
   - date: "2017-02-23"
     name: "Designing for Diverse Needs"
-#    slides: "slides/lecture/l13-designingfordiverseneeds.pdf"
+    slides: "slides/lecture/l15-designingfordiverseneeds.pdf"
   - date: "2017-03-07"
     name: "Video Critique,<br>Closing Thoughts"
 #    slides: "slides/lecture/l17-closingthoughts.pdf"
