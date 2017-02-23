@@ -37,6 +37,14 @@ locations:
     - time: "2:30 - 3:20"
       location: "MGH 058"
 
+  sections_skip0230:
+    - time: "10:30 - 11:20"
+      location: "MGH 058"
+    - time: "11:30 - 12:20"
+      location: "MGH 058"
+    - time: "1:30 - 2:20"
+      location: "MGH 058"
+
   examqa:
     - time: "1:30 - 2:30"
       location: "CSE 403"
@@ -258,7 +266,7 @@ majors:
     link: "assignments/assignment3/#presentation"
   - date: "2017-03-03"
     name: "Presentations"
-    location: "sections"
+    location: "sections_skip0230"
     link: "assignments/assignment3/#presentation"
   - date: "2017-02-21"
     name: "Exam"

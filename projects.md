@@ -1,33 +1,6 @@
 ---
 layout: base/bar/bar-sidebar-right
 title: Projects
-
-projects:
-#  - name: Balance
-#    path: balance
-#  - name: Ecotopia
-#    path: ecotopia
-#  - name: FoodPic
-#    path: foodpic
-#  - name: MiPhone
-#    path: miphone
-#  - name: Neat
-#    path: neat
-#  - name: Poliscope
-#    path: poliscope
-#  - name: SchoolView
-#    path: schoolview
-#  - name: Sitless
-#    path: sitless
-#  - name: SmartClothing
-#    path: smartclothing
-#  - name: TagLine
-#    path: tagline
-#  - name: Timeout
-#    path: timeout
-#  - name: Zonect
-#    path: zonect
-   
 ---
 
 <div class="sidebar_start"></div>
@@ -82,22 +55,33 @@ then explored how new technology can go beyond the data fetish to help people in
 
 # Project Websites
 
-Will be linked here as course projects are proposed and developed.
+{% assign projects_count = site.data.projects.projects | size %}
+{% assign projects_rows = projects_count | divided_by: 4 | plus: 1 %}
 
-{% assign projects_rows = page.projects | size | divided_by: 4 %}
+{% if projects_count == 0 %}
+Will be linked here as course projects are proposed and developed.
+{% endif %}
 
 <div class="row">
-  {% for item_project in page.projects %}
+  {% for item_project in site.data.projects.projects %}
     <div class="col-sm-3 col-xs-6">        
       <p>
+        {% if item.project.publishlink %}
         <a href="{{ site.baseurl }}/projects/{{ item_project.path }}/" target="_blank">
           {{ item_project.name }}
         </a>
+        {% else %}
+          {{ item_project.name }}
+        {% endif %}
       </p>
       <div class="thumbnailBox">
+        {% if item.project.publishlink %}
         <a href="{{ site.baseurl }}/projects/{{ item_project.path }}/" target="_blank">
           <img src="{{ site.baseurl }}/projects/{{ item_project.path }}/project_thumb.png" width="150" class="projectThumbnail" alt="{{ item_project.name }}"/>
         </a>
+        {% else %}
+          <img src="{{ site.baseurl }}/projects/{{ item_project.path }}/project_thumb.png" width="150" class="projectThumbnail" alt="{{ item_project.name }}"/>
+        {% endif %}
       </div>
       {% assign row_current = forloop.index | minus: 1 | divided_by: 4 | plus: 1 %}
       {% unless row_current == projects_rows %}

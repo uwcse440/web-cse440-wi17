@@ -1,0 +1,49 @@
+projects:
+  - name: "BookWurm"
+    path: "bookwurm"
+    publishlink: false
+  - name: "Bork"
+    path: "bork"
+    publishlink: false
+  - name: "CC:"
+    path: "cc"
+    publishlink: false
+  - name: "Cost Conscious Closet"
+    path: "costconciouscloset"
+    publishlink: false
+  - name: "Dash"
+    path: "dash"
+    publishlink: false
+  - name: "Gale"
+    path: "gale"
+    publishlink: false
+  - name: "InterAct"
+    path: "interact"
+    publishlink: false
+  - name: "Jasper"
+    path: "jasper"
+    publishlink: false
+  - name: "LocalWay"
+    path: "localway"
+    publishlink: false
+  - name: "Mind You"
+    path: "mindyou"
+    publishlink: false
+  - name: "Mirage"
+    path: "mirage"
+    publishlink: false
+  - name: "OutWrite"
+    path: "outwrite"
+    publishlink: false
+  - name: "StudyQ"
+    path: "studyq"
+    publishlink: false
+  - name: "Subtrackr"
+    path: "subtrackr"
+    publishlink: false
+  - name: "utilIQ"
+    path: "utiliq"
+    publishlink: false
+  - name: "Wishing Well"
+    path: "wishingwell"
+    publishlink: false
