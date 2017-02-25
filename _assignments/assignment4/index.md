@@ -3,19 +3,19 @@ layout: base/bar/bar-sidebar-none
 title: "Assignment 4: Communicating Your Design"
 
 due_project_4a: Uploaded Monday, March 6, 2017
-#link_project_4a: https://canvas.uw.edu/courses/987987/assignments/3055624
+link_project_4a: https://canvas.uw.edu/courses/1098203/assignments/3615328
 
 due_project_4b: Uploaded Monday, March 6, 2017 (before class on Tuesday, March 7, 2017)
-#link_project_4b: https://canvas.uw.edu/courses/987987/assignments/3056710
+link_project_4b: https://canvas.uw.edu/courses/1098203/assignments/3615334
 
 due_project_4c: Uploaded Wednesday, March 8, 2017 (before class on Thursday, March 9, 2017)
-#link_project_4c: https://canvas.uw.edu/courses/987987/assignments/3056711
+link_project_4c: https://canvas.uw.edu/courses/1098203/assignments/3615337
 
 due_project_4d: Completed in section on Friday, March 10, 2017
 
 due_project_4e: Uploaded Friday, March 10, 2017
-#link_project_4e_poster: https://canvas.uw.edu/courses/987987/assignments/3056712
-#link_project_4e_video: https://canvas.uw.edu/courses/987987/assignments/3056712
+link_project_4e_poster: https://canvas.uw.edu/courses/1098203/assignments/3615345
+link_project_4e_video: https://canvas.uw.edu/courses/1098203/assignments/3615348
 
 due_project_4f: Attend 11:00 to 12:20, Monday, March 13, 2017
 
