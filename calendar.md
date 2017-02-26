@@ -36,7 +36,7 @@ title: Calendar
     {% when 'Sun' %}
     <div class="row week">
     {% when 'Mon' or 'Tue' or 'Wed' or 'Thu' or 'Fri' %}
-    <div class="col-lg-2-4 day">
+    <div class="col-md-2-4 day">
       {{ currentdate | date: '%b %-d'}}<br>
 
         {% for currentholiday in site.data.calendar.holidays %}
