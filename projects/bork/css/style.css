@@ -2608,4 +2608,13 @@ footer #social {
 		padding: 0px;
 	}
 	
-}	
+}
+
+.interact {
+	width: 100%;
+	text-align: center;
+}
+
+.video, .prototype {
+	display: inline-block;
+}
