@@ -2615,6 +2615,10 @@ footer #social {
 	text-align: center;
 }
 
-.video, .prototype {
+.video, .prototype, .logo {
 	display: inline-block;
+}
+
+.tagline {
+	text-align: center;
 }
