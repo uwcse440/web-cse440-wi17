@@ -371,11 +371,23 @@ header .intro-text {
 #documents .section-title p {
 	color: #777;
 }
-#documents h3 {
-	text-transform: uppercase;
-	font-size: 20px;
-	font-weight: 400;
-	color: #555;
+#documents a:hover {
+	color: #d3d3d3;
+}
+#documents .doc-button {
+	background-color: #fff;
+	color: #333;
+	border: 1px;
+	border-style: solid;
+	margin-top: 20px;
+}
+#documents img {
+	margin-top: 20px;
+	width: 100px;
+}
+#documents .row {
+	margin-left: 100px;
+	margin-right: 100px;
 }
 /* Footer Section*/
 #footer {
