@@ -27,6 +27,8 @@ exclude:
   - css/base/freelancer/freelancer.less
   - css/base/freelancer/mixins.less
   - css/base/freelancer/variables.less
+  # LESS files in a project, due to copying in CSS libraries
+  - projects/*.less
   # Node
   - node_modules
   - npm-shrinkwrap.json
