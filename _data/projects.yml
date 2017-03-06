@@ -7,7 +7,7 @@ projects:
     publishlink: false
   - name: "CC:"
     path: "cc"
-    publishlink: false
+    publishlink: true
   - name: "Cost Conscious Closet"
     path: "costconciouscloset"
     publishlink: false
