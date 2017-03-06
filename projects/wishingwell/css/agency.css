@@ -1,4 +1,4 @@
-/*!
+//*!
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -12,6 +12,10 @@ body {
     height: 30px;
     width: 30px;
     border-radius: 5px;
+}
+
+section#about p.text-muted {
+    font-size: 18px;
 }
 
 .text-muted {
@@ -59,6 +63,7 @@ h6 {
     text-transform: uppercase;
     font-family: "Lato",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    margin-top: 50px;
 }
 #frame {
     vertical-align: center;
@@ -305,6 +310,14 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+}
+
+header .intro-slogan {
+    margin-bottom: 25px;
+    text-transform: lowercase;
+    font-size: 25px;
+    font-family: "Delius", "Lato",Helvetica,Arial,sans-serif;
+
 }
 
 @media(min-width:768px) {
@@ -591,6 +604,7 @@ section#team {
 }
 
 .team-member {
+    margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
 }
