@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+html, body {
+    font-family: 'Muli', Helvetica, sans-serif;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.solution h3 {
+    display: inline-block;
+}
+
+.video {
+    text-align: center;
+}
