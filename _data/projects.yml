@@ -16,7 +16,7 @@ projects:
     publishlink: false
   - name: "Gale"
     path: "gale"
-    publishlink: false
+    publishlink: true
   - name: "InterAct"
     path: "interact"
     publishlink: false

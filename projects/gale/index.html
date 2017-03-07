@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gale: Voice Assistant for Goals</title>
+    <style>
+        html {
+            color: #444;
+            font-family: sans-serif;
+            font-size: 24px;
+        }
+        p {
+            font-size: 1rem;
+            text-align: left;
+        }
+        @media screen and (max-device-width: 480px) {
+            html {
+                font-size: 36px;
+            }
+        }
+        body {
+            margin: 0;
+        }
+        #main {
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 1rem;
+        }
+        h1, h2, h3 {
+            color: #A1EAEE;
+            font-weight: normal;
+            margin-top: 3rem;
+        }
+        div {
+            text-align: center;
+        }
+        #main > a, span {
+            background: #A1EAEE;
+            border-radius: .2rem;
+            box-shadow: .1rem .1rem .5rem #AAA;
+            color: #FFF;
+            display: inline-block;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        img {
+            border-radius: .2rem;
+        }
+        a {
+            color: #FFF;
+            text-decoration: none;
+        }
+        a:hover, #main > a:hover {
+            background: #999;
+        }
+        #nav {
+            background: #A1EAEE;
+            box-shadow: .1rem .1rem .5rem #AAA;
+        }
+        #nav > div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        #nav > div > a {
+            flex-grow: 1;
+            text-align: center;
+            display: block;
+            padding: 1rem;
+        }
+        .il > img {
+            float: left;
+            margin-right: 1rem;
+        }
+        .ir > img {
+            float: right;
+            margin-left: 1rem;
+        }
+        .il, .ir {
+            overflow: hidden;
+            margin: 2rem 0;
+        }
+        video {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div>
+            <a href="#design">Design</a>
+            <a href="#video">Video</a>
+            <a href="#docs">Documents</a>
+            <a href="#team">Team</a>
+        </div>
+    </div>
+    <div id="main">
+        <div>
+            <img src="gale.png" height=239px width=400px>
+        </div>
+
+        <h1>Gale: Voice Assistant for Goals</h1>
+        <p>
+            Gale is a conversational Artificial Intelligence designed to help you form goals and habits.
+            Gale is context-aware and able to learn from you to personalize your experience.
+        </p>
+
+        <h2 id="design">Design</h2>
+        <div class="il">
+            <img src="phone1.png">
+            <p>
+                Talking to Gale is like talking to a real person; you can use both voice and text to make goals and habits. 
+            </p>
+        </div>
+        <div class="ir">
+            <img src="watch1.png">
+            <p>
+                Gale is available for both your mobile device and your smartwatch.
+            </p>
+        </div>
+        <div class="il">
+            <img src="phone2.png">
+            <p>
+                Gale is context-aware: she will provide specific information to help you accomplish your goals.
+            </p>
+        </div>
+        <div class="ir">
+            <img src="phone3.png">
+            <p> 
+                Gale encourages qualitative reflection to achieve a more holistic view of your progress.
+            </p>
+        </div>
+
+        <h2 id="video">Video Prototype</h2>
+        <video controls>
+            <source src="gale.mp4">
+        </video>
+
+        <h2 id="docs">Documents</h2>
+        <!--
+        <a href="4c.pdf">Poster</a>
+        -->
+        <a href="3g.pdf">Assignment 3 Presentation</a>
+        <a href="3f.pdf">Assignment 3 Report</a>
+        <a href="2i.pdf">Assignment 2 Presentation</a>
+        <a href="2h.pdf">Assignment 2 Report</a>
+
+        <h2 id="team">Team</h2>
+        <span><img src="travis.jpg" height=150px width=150px></br>Travis Chen</span>
+        <span><img src="tim.jpg" height=150px width=150px></br>Tim Lau</span>
+        <span><img src="rebecca.jpg" height=150px width=150px></br>Rebecca Wong</span>
+        <span><img src="seth.jpg" height=150px width=150px></br>Seth Pendergrass</span>
+    </div>
+</body>
+</html>
