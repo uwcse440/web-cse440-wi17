@@ -43,7 +43,7 @@ projects:
     publishlink: true
   - name: "utilIQ"
     path: "utiliq"
-    publishlink: false
+    publishlink: true
   - name: "Wishing Well"
     path: "wishingwell"
     publishlink: false
