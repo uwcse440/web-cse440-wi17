@@ -16,7 +16,7 @@ projects:
     publishlink: false
   - name: "Gale"
     path: "gale"
-    publishlink: false
+    publishlink: true
   - name: "InterAct"
     path: "interact"
     publishlink: false
@@ -40,7 +40,7 @@ projects:
     publishlink: true
   - name: "Subtrackr"
     path: "subtrackr"
-    publishlink: false
+    publishlink: true
   - name: "utilIQ"
     path: "utiliq"
     publishlink: false
