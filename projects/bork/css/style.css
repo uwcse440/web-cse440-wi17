@@ -2620,7 +2620,8 @@ footer #social {
 }
 
 .prototype iframe {
-	border: 1px solid #fff;
+	border: 1px solid #f6f6f6;
+	background-color: #1D2029;
 }
 
 .tagline {
