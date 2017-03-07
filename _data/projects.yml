@@ -37,7 +37,7 @@ projects:
     publishlink: false
   - name: "StudyQ"
     path: "studyq"
-    publishlink: false
+    publishlink: true
   - name: "Subtrackr"
     path: "subtrackr"
     publishlink: false
