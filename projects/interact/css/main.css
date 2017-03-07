@@ -753,7 +753,7 @@ button.document, .button.document {
 }
 .section-intro .with-bottom-line::after {
 	display: block;
-	background-color: #05bca9;
+	background-color: #507aed;
 	width: 120px;
 	height: 3px;
 	content: '\0020';
@@ -2001,7 +2001,7 @@ a.menu-toggle {
  */
 
 #faq {
-	background: #FFFFFF;
+	background: #EAEAED;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
@@ -2338,7 +2338,7 @@ footer ul li {
 }
 
 #documents {
-	background: #000000;
+	background: #FFFFFF;
 	padding-top: 2.2rem;
 	padding-bottom: 8.2rem;
 	position: relative;
