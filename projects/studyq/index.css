@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+html, body {
+    font-family: 'Muli', Helvetica, sans-serif;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.solution h3 {
+    display: inline-block;
+}
+
+.video {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #595959;
+}
+
+.overview-desc p {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-indent: 50px;
+}
+
+.navbar {
+    background-color: #63adf2;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav>li>a:hover {
+    background-color: #63adf2;
+}
+
+section > h1 {
+    border-bottom: 1px solid #eee;
+}
+
+.team-member {
+    background-color: #63adf2;
+}
