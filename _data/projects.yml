@@ -1,13 +1,13 @@
 projects:
   - name: "BookWurm"
     path: "bookwurm"
-    publishlink: false
+    publishlink: true
   - name: "Bork"
     path: "bork"
     publishlink: false
   - name: "CC:"
     path: "cc"
-    publishlink: false
+    publishlink: true
   - name: "Cost Conscious Closet"
     path: "costconciouscloset"
     publishlink: false
@@ -16,7 +16,7 @@ projects:
     publishlink: false
   - name: "Gale"
     path: "gale"
-    publishlink: false
+    publishlink: true
   - name: "InterAct"
     path: "interact"
     publishlink: false
@@ -37,10 +37,10 @@ projects:
     publishlink: false
   - name: "StudyQ"
     path: "studyq"
-    publishlink: false
+    publishlink: true
   - name: "Subtrackr"
     path: "subtrackr"
-    publishlink: false
+    publishlink: true
   - name: "utilIQ"
     path: "utiliq"
     publishlink: false
