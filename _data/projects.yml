@@ -31,7 +31,7 @@ projects:
     publishlink: false
   - name: "Mirage"
     path: "mirage"
-    publishlink: false
+    publishlink: true
   - name: "OutWrite"
     path: "outwrite"
     publishlink: false
