@@ -59,6 +59,7 @@ h1, h2, h3 {
 .navbar {
     background-color: #63adf2;
     color: white;
+    border-bottom: 1px solid #ccc;
 }
 
 .navbar a {
@@ -114,7 +115,7 @@ section#design h1 {
     display: block;
 }
 
-img#sam-img {
+img#border-img {
     border: 2px solid white;
 }
 
