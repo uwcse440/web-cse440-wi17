@@ -36,8 +36,15 @@
 
 #statement {
 	margin: auto;
-	width: 50%;
+	width: 80%;
 	font-family: serif;
+}
+
+#statement p {
+	font-size: 20px;
 	color: gray;
-	font-size: 24px;
+}
+
+.profile {
+	border-radius: 50%;
 }
