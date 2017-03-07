@@ -1432,7 +1432,6 @@ a.menu-toggle {
 }
 .process-content .right-side, .process-content .left-side {
 	padding: 0 6% 24px;
-	position: absolute;
 	top: 0;
 }
 .process-content .right-side {
@@ -1495,7 +1494,6 @@ a.menu-toggle {
 		padding-bottom: 27rem;
 	}
 	.process-content .right-side, .process-content .left-side {
-		position: static;
 		width: 100%;
 		max-width: 480px;
 		font-size: 1.6rem;
@@ -1530,9 +1528,16 @@ a.menu-toggle {
  *
  * ------------------------------------------------------------------- 
  */
-
+.tasks {
+	width: 33%;
+	display:inline;
+	float:left;
+	margin: 0 4;
+	padding: 5 5;
+}
 #features {
-	background: #090909 url(../images/video-bg.jpg) no-repeat center;
+	/*background: #090909 url(../images/video-bg.jpg) no-repeat center;*/
+	background-color: black;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
