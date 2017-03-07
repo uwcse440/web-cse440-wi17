@@ -8,8 +8,8 @@ projects:
   - name: "CC:"
     path: "cc"
     publishlink: true
-  - name: "Cost Conscious Closet"
-    path: "costconciouscloset"
+  - name: "C3"
+    path: "c3"
     publishlink: true
   - name: "Dash"
     path: "dash"
