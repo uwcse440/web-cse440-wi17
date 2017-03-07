@@ -1,0 +1,50 @@
+.center { 
+	margin-left: auto; 
+	margin-right: auto; 
+	display: block; 
+}
+
+#video {
+	height: 600px;
+	background-color: white;
+}
+
+#overview {
+	background-color: #C0D6E4;
+}
+
+.vid {
+	text-align: center;
+}
+
+.team {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: inline;
+    overflow: hidden;
+}
+
+.team img {
+	width: 200px;
+	height: 200px;
+}
+
+#about {
+	background-color: #C0D6E4;
+}
+
+#statement {
+	margin: auto;
+	width: 80%;
+	font-family: serif;
+}
+
+#statement p {
+	font-size: 20px;
+	color: gray;
+}
+
+.profile {
+	border-radius: 50%;
+}
