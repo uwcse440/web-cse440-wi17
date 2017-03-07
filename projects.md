@@ -66,7 +66,7 @@ Will be linked here as course projects are proposed and developed.
   {% for item_project in site.data.projects.projects %}
     <div class="col-sm-3 col-xs-6">        
       <p>
-        {% if item.project.publishlink %}
+        {% if item_project.publishlink %}
         <a href="{{ site.baseurl }}/projects/{{ item_project.path }}/" target="_blank">
           {{ item_project.name }}
         </a>
@@ -75,7 +75,7 @@ Will be linked here as course projects are proposed and developed.
         {% endif %}
       </p>
       <div class="thumbnailBox">
-        {% if item.project.publishlink %}
+        {% if item_project.publishlink %}
         <a href="{{ site.baseurl }}/projects/{{ item_project.path }}/" target="_blank">
           <img src="{{ site.baseurl }}/projects/{{ item_project.path }}/project_thumb.png" width="150" class="projectThumbnail" alt="{{ item_project.name }}"/>
         </a>
