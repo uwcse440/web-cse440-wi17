@@ -40,7 +40,7 @@ projects:
     publishlink: true
   - name: "Subtrackr"
     path: "subtrackr"
-    publishlink: false
+    publishlink: true
   - name: "utilIQ"
     path: "utiliq"
     publishlink: false
