@@ -1155,7 +1155,7 @@ a.menu-toggle {
  */
 
 #intro {
-	background: #14181E url(../images/intro-bg.jpg) no-repeat center;
+	background: #14181E url(../images/intro.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1164,6 +1164,7 @@ a.menu-toggle {
 	min-height: 720px;
 	display: table;
 	position: relative;
+	color: white;
 }
 .shadow-overlay {
 	position: absolute;
@@ -1190,8 +1191,7 @@ a.menu-toggle {
 	font-size: 5.4rem;
 	line-height: 1.334;
 	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 0;
 }
 .intro-content h5 {
 	color: rgba(255, 255, 255, 0.6);
