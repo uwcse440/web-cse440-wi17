@@ -1,11 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 
-html, body {
+body {
     font-family: 'Muli', Helvetica, sans-serif;
+    padding-top: 50px;
 }
 
-.content {
-    margin-top: 50px;
+@media screen and (max-width: 760px) {
+    video {
+        width: 200px;
+    }
+
+    .mockup-img img {
+        width: 200px;
+        height:
+    }
+
+    .team-member {
+        padding: 0px;
+    }
+}
+
+.icon-bar {
+    color: white;
+}
+
+/* Makes it so headers show under nav-bar */
+:target:before {
+  content:"";
+  display:block;
+  height:50px; /* fixed header height*/
+  margin:-50px 0 0; /* negative fixed header height */
 }
 
 .solution h3 {
@@ -24,7 +48,6 @@ h1, h2, h3 {
 .overview-desc p {
     margin-left: 20%;
     margin-right: 20%;
-    text-indent: 50px;
 }
 
 .navbar {
@@ -37,7 +60,7 @@ h1, h2, h3 {
     text-decoration: none;
 }
 
-.nav>li>a:hover {
+.nav > li > a:hover {
     background-color: #63adf2;
 }
 
@@ -45,6 +68,75 @@ section > h1 {
     border-bottom: 1px solid #eee;
 }
 
+section#design h1 {
+    margin-bottom: 50px;
+}
+
+#design div {
+    text-align: center;
+}
+
+.mockup-img img {
+    max-width: 400px;
+    max-height: 295px;
+}
+
+.mockup-container a {
+    display: block;
+}
+
+.team-grid {
+    text-align: center;
+}
+
+.team-member-holder {
+    display: inline-block;
+}
+
 .team-member {
     background-color: #63adf2;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: 10px auto;
+    max-width: 400px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+
+.team-member h2, .team-member h3 {
+    color: white;
+}
+
+
+
+#team {
+    text-align: center;
+}
+
+#documents {
+    margin-bottom: 190px;
+}
+
+ul.doc-links {
+    list-style-type: none;
+}
+
+ul.doc-links li {
+    display: inline-block;
+    text-align: center;
+
+}
+
+#footer {
+    background-color: #63adf2;
+    height: 70px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 50px;
 }
