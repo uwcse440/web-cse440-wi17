@@ -1,7 +1,7 @@
 projects:
   - name: "BookWurm"
     path: "bookwurm"
-    publishlink: false
+    publishlink: true
   - name: "Bork"
     path: "bork"
     publishlink: false
