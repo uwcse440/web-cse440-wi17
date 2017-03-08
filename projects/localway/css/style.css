@@ -302,6 +302,9 @@ header .intro-text {
 #interactive {
 	padding: 0 0 120px 0;
 }
+#interactive .container {
+	text-align: center;
+}
 #interactive .section-title {
 	background: #444 url(../img/map-bg.png) center center no-repeat fixed;
 	background-size: cover;
@@ -309,6 +312,14 @@ header .intro-text {
 }
 #interactive .section-title h2 {
 	color: #fff;
+}
+#interactive .row {
+	display: inline-block;
+	font-size: 16px;
+	text-align: left;
+}
+#interactive ol {
+	list-style: decimal inside;
 }
 .hover-bg .hover-text {
 	position: absolute;

@@ -5,11 +5,11 @@ projects:
   - name: "Bork"
     path: "bork"
     publishlink: true
+  - name: "C3"
+    path: "c3"
+    publishlink: true
   - name: "CC:"
     path: "cc"
-    publishlink: true
-  - name: "Cost Conscious Closet"
-    path: "costconciouscloset"
     publishlink: true
   - name: "Dash"
     path: "dash"

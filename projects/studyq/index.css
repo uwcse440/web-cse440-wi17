@@ -5,6 +5,14 @@ body {
     padding-top: 50px;
 }
 
+p, ol li {
+    font-size: 18px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
 @media screen and (max-width: 760px) {
     video {
         width: 200px;
@@ -46,13 +54,12 @@ h1, h2, h3 {
 }
 
 .overview-desc p {
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
 .navbar {
     background-color: #63adf2;
     color: white;
+    border-bottom: 1px solid #ccc;
 }
 
 .navbar a {
@@ -95,24 +102,34 @@ section#design h1 {
 
 .team-member {
     background-color: #63adf2;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 10px;
     margin: 10px auto;
-    max-width: 400px;
+    max-width: 200px;
 }
 
 .team-member img {
     border-radius: 50%;
-    width: 300px;
+    width: 150px;
     margin: auto;
     display: block;
+}
+
+img#border-img {
+    border: 2px solid white;
 }
 
 .team-member h2, .team-member h3 {
     color: white;
 }
 
+.team-member h2 {
+    font-size: 20px;
+}
 
+.team-member h3 {
+    font-size: 15px;
+}
 
 #team {
     text-align: center;
@@ -122,14 +139,17 @@ section#design h1 {
     margin-bottom: 190px;
 }
 
-ul.doc-links {
-    list-style-type: none;
+#documents h1 {
+    margin-bottom: 20px;
 }
 
 ul.doc-links li {
     display: inline-block;
     text-align: center;
+}
 
+.report-link {
+    margin-bottom: 50px;
 }
 
 #footer {
@@ -139,4 +159,8 @@ ul.doc-links li {
     padding: 20px;
     color: white;
     margin-top: 50px;
+}
+
+#footer a {
+    color: white;
 }
