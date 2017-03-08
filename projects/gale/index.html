@@ -33,28 +33,37 @@
         div {
             text-align: center;
         }
-        #main > a, span {
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .flex > * {
             background: #A1EAEE;
             border-radius: .2rem;
-            box-shadow: .1rem .1rem .5rem #AAA;
+            box-shadow: 0 .1rem .1rem #AAA;
             color: #FFF;
-            display: inline-block;
             margin: 1rem;
             padding: 1rem;
+            width: 10rem;
         }
         img {
             border-radius: .2rem;
+        }
+        span > img {
+            height: 8rem;
+            width: 8rem;
         }
         a {
             color: #FFF;
             text-decoration: none;
         }
-        a:hover, #main > a:hover {
+        a:hover {
             background: #999;
         }
         #nav {
             background: #A1EAEE;
-            box-shadow: .1rem .1rem .5rem #AAA;
+            box-shadow: 0 .1rem .1rem #AAA;
         }
         #nav > div {
             display: flex;
@@ -141,16 +150,20 @@
         <!--
         <a href="4c.pdf">Poster</a>
         -->
-        <a href="3g.pdf">Assignment 3 Presentation</a>
-        <a href="3f.pdf">Assignment 3 Report</a>
-        <a href="2i.pdf">Assignment 2 Presentation</a>
-        <a href="2h.pdf">Assignment 2 Report</a>
+        <div class="flex">
+            <a href="2h.pdf">Assignment 2</br>Report</a>
+            <a href="2i.pdf">Assignment 2</br>Presentation</a>
+            <a href="3f.pdf">Assignment 3</br>Report</a>
+            <a href="3g.pdf">Assignment 3</br>Presentation</a>
+        </div>
 
         <h2 id="team">Team</h2>
-        <span><img src="travis.jpg" height=150px width=150px></br>Travis Chen</span>
-        <span><img src="tim.jpg" height=150px width=150px></br>Tim Lau</span>
-        <span><img src="rebecca.jpg" height=150px width=150px></br>Rebecca Wong</span>
-        <span><img src="seth.jpg" height=150px width=150px></br>Seth Pendergrass</span>
+        <div class="flex">
+            <span><img src="travis.jpg" height=150px width=150px></br>Travis Chen</span>
+            <span><img src="tim.jpg" height=150px width=150px></br>Tim Lau</span>
+            <span><img src="rebecca.jpg" height=150px width=150px></br>Rebecca Wong</span>
+            <span><img src="seth.jpg" height=150px width=150px></br>Seth Pendergrass</span>
+        </div>
     </div>
 </body>
 </html>
