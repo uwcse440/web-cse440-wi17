@@ -38,8 +38,6 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <!-- logo
-                <img src="img/logo.png" class="roundrect"> -->
                 <a class="navbar-brand page-scroll" href="#page-top">Wishing Well</a>
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -94,14 +92,14 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">OVERVIEW</h2>
                     <h3 class="section-subheader text-muted">Problem</h3>
-                    <p class="section-subheading text-muted">Mental wellness is a self-defined state of wellness that differs from mental health, which is diagnosable by a professional.Two critical components in maintaining mental wellness are self reflection and social interaction. Many people often do not take the time to regularly perform conscious self reflection or meaningful social interaction, particularly with the widespread use of social media.</p>
+                    <p style="padding-bottom: 30px"class="section-subheading text-muted">Mental wellness is a self-defined state of wellness that differs from mental health, which is diagnosable by a professional.Two critical components in maintaining mental wellness are self reflection and social interaction. Many people often do not take the time to regularly perform conscious self reflection or meaningful social interaction, particularly with the widespread use of social media.</p>
 
                     <h3 class="section-subheader text-muted">Solution</h3>
                     <p class="section-subheading text-muted">Wishing Well supports people in self reflection and social interaction with more purpose and meaning. We encourage self reflection with regular, customizable journaling and a color coded calendar view. We also facilitate purposeful interaction with a small group of friends through viewing their entries and a button to <em>ping</em> a friend when you want to let them know you are checking on them.</p>
 
                 </div>
             </div>
-            <div class="row text-center">
+            <div style="padding-top: 30px"class="row text-center">
                 <img src="img/screens/1.png" height="504" width="300">
             </div>
         </div>
@@ -113,11 +111,10 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">VIDEO PROTOTYPE</h2>
-
                 </div>
             </div>
         </div>
-        <div id="frame">
+        <div style="margin-top: 30px" id="frame">
             <iframe width="853" height="480" src="https://www.youtube.com/embed/6V6wnFd76mI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
         </div>
     </section>
@@ -130,7 +127,7 @@
                 </div>
             </div>
         </div>
-        <div style="margin-left:100px; margin-right:100px" class="row text-center">
+        <div style="margin-left:100px; margin-right:100px " class="row text-center">
             <h3 class="section-subheader text-muted">Self Reflection</h3>
             <div class="col-md-4">
                 <img src="img/screens/2.png" height="504" width="300">
@@ -146,7 +143,7 @@
             </div>
         </div>
         <div style="margin-left:100px; margin-right:100px" class="row text-center">
-            <h3 class="section-subheader text-muted">Social Interaction</h3>
+            <h3 style="margin-top: 40px" class="section-subheader text-muted">Social Interaction</h3>
             <div class="col-md-4">
                 <img src="img/screens/5.png" height="504" width="300">
                 <p class="text-muted">View a list of your friends</p>
@@ -172,36 +169,38 @@
             </div>
             <div class="row">
                 <div class="col-sm-3 portfolio">
-                    <a target="_blank" href="docs/report1.pdf">
-                        <span class="glyphicon glyphicon-search icon-styles"></span>
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4 class="section-heading">Research Report</h4>
+                    <div class="doc">
+                        <a target="_blank" href="docs/report1.pdf">
+                            <span class="glyphicon glyphicon-search icon-styles"></span>
+                            <div class="portfolio-caption">
+                                <h4 class="section-heading">Research Report</h4>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-sm-3 portfolio">
                     <a target="_blank" href="docs/report2.pdf">
                         <span class="glyphicon glyphicon-list-alt icon-styles"></span>
+                        <div class="portfolio-caption">
+                            <h4 class="section-heading">Research Presentation</h4>
+                        </div>
                     </a>
-                    <div class="portfolio-caption">
-                        <h4 class="section-heading">Research Presentation</h4>
-                    </div>
                 </div>
                 <div class="col-sm-3 portfolio">
                     <a target="_blank" href="docs/presentation1.pdf">
                         <span class="glyphicon glyphicon-scissors icon-styles"></span>
+                        <div class="portfolio-caption">
+                            <h4 class="section-heading">Design Report</h4>
+                        </div>
                     </a>
-                    <div class="portfolio-caption">
-                        <h4 class="section-heading">Design Report</h4>
-                    </div>
                 </div>
                 <div class="col-sm-3 portfolio">
                     <a target="_blank" href="docs/presentation2.pdf">
                         <span class="glyphicon glyphicon-phone icon-styles"></span>
+                        <div class="portfolio-caption">
+                            <h4 class="section-heading">Design Presentation</h4>
+                        </div>
                     </a>
-                    <div class="portfolio-caption">
-                        <h4 class="section-heading">Design Presentation</h4>
-                    </div>
                 </div>
             </div>
         </div>
@@ -248,7 +247,13 @@
         </div>
     </section>
 
-
+    <footer id="footer">
+        <div>
+            <span class="icon logo"><img src="img/logo.png" title="Wishing Well"></span>
+            <span class="icon logo"><a href="http://www.cs.washington.edu/" target="blank"><img src="img/logo_cse.jpg" title="Computer Science &amp; Engineering"></a></span>
+            <span class="icon logo"><a href="http://www.hcde.washington.edu/" target="blank"><img src="img/logo_hcde.jpg" title="Human Centered Design &amp; Engineering"></a></span>
+        <p>© 2017 &nbsp;<strong>Wishing Well</strong> Team.&nbsp;&nbsp;All rights reserved.</p>
+    </footer>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -262,7 +267,6 @@
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
