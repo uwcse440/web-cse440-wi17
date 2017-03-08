@@ -1,82 +1,90 @@
 body {
-	font-family: 'Roboto', sans-serif;
-	color: #003F87;
+  font-family: 'Roboto', sans-serif;
+  color: #003F87;
 }
 
 h1 {
-	font-size: 48px;
+  font-size: 48px;
 }
 
 h1, h2 {
-	font-weight: bold;
-	text-transform: uppercase;
-	letter-spacing: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand, a.list-group-item, button.list-group-item{
-	color: #003F87;
-}
-/*
-.navbar-default .navbar-nav>li>a:hover, .navbar-header>a:hover{
-	color: white;
-}
-*/
-.front, .navbar-default {
-	background-color: #96CDCD;
-	border-color: #96CDCD;
-	color: #003F87;
+  color: #003F87;
 }
 
-.front, .overview, .team, .video, .prototype, .documents {
-	padding-top: 100px;
-	padding-bottom: 100px;
-	padding-left: 300px;
-	padding-right: 300px;
+/*.navbar-default .navbar-nav>li>a:hover, .navbar-header>a:hover{
+  color: white;
+}*/
+
+#front, .navbar-default {
+  background-color: #96CDCD;
+  border-color: #96CDCD;
+  color: #003F87;
 }
 
-.front img {
-	margin-left: auto;
-	margin-right: auto;
-	width: 300px;
+#front, #overview, #team, #video, #prototype, #documents {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /*padding-left: 300px;*/
+  /*padding-right: 300px;*/
 }
 
-.video, .team {
-	background-color: rgba(211, 211, 211, 0.1);
+#front img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+#video, #team {
+  background-color: rgba(211, 211, 211, 0.25);
 }
 
 .list-group-item {
-	display: inline-block;
-	margin-right: 25px;
+  display: inline-block;
+  margin-right: 25px;
 }
 
-.prototype #phone-app {
-	transform: scale(0.50);
-	margin-top: -245px;
-	margin-bottom: -225px;
+#phone-app {
+  transform: scale(0.50);
+  margin-top: -245px;
+  margin-bottom: -225px;
 }
 
-.prototype {
-	padding-left: 100px;
-	padding-right: 100px;
-}
+/*.prototype {
+  padding-left: 100px;
+  padding-right: 100px;
+}*/
 
 .prototype-screens {
-	display: inline-block;
+  display: inline-block;
 }
 
 .watch-screen {
-	width: 438px;
+  width: 438px;
 }
 
-.problem-solution {
-	padding-bottom: 20px;
+.problem-solution, .mockup {
+  margin-bottom: 30px;
 }
 
 .btn-default {
-	background-color: #003F87;
-	border-color: #003F87;
+  background-color: #003F87;
+  border-color: #003F87;
 }
 
 .btn-default a {
-	color: white;
+  color: white;
+}
+
+.mockup img {
+  width: 75%;
+}
+
+.container > h2:first-child {
+  margin-top: 0;
 }
