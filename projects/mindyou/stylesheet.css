@@ -17,9 +17,11 @@ h1, h2 {
   color: #003F87;
 }
 
-/*.navbar-default .navbar-nav>li>a:hover, .navbar-header>a:hover{
-  color: white;
-}*/
+.navbar-default a:hover {
+  color: inherit!important;
+  font-weight: bold;
+}
+
 
 #front, .navbar-default {
   background-color: #96CDCD;
@@ -30,8 +32,6 @@ h1, h2 {
 #front, #overview, #team, #video, #prototype, #documents {
   padding-top: 100px;
   padding-bottom: 100px;
-  /*padding-left: 300px;*/
-  /*padding-right: 300px;*/
 }
 
 #front img {
@@ -41,7 +41,11 @@ h1, h2 {
 }
 
 #video, #team {
-  background-color: rgba(211, 211, 211, 0.25);
+  background-color: rgba(211, 211, 211, 0.3);
+}
+
+#video .embed-responsive {
+  margin-top: 30px;
 }
 
 .list-group-item {
@@ -49,27 +53,34 @@ h1, h2 {
   margin-right: 25px;
 }
 
-#phone-app {
-  transform: scale(0.50);
-  margin-top: -245px;
-  margin-bottom: -225px;
+.embed-responsive-prototype {
+  padding-bottom: 212.33%;
 }
 
-/*.prototype {
-  padding-left: 100px;
-  padding-right: 100px;
-}*/
-
-.prototype-screens {
-  display: inline-block;
-}
-
-.watch-screen {
-  width: 438px;
-}
-
-.problem-solution, .mockup {
+.mockup {
   margin-bottom: 30px;
+}
+
+.bio {
+  margin-top: 30px;
+}
+
+.bio .img-circle {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.bio h3 {
+  display: inline;
+  vertical-align: middle;
+}
+
+.bio .linkedin {
+  margin-left: 4px;
+}
+
+.bio .linkedin img {
+  width: 18px;
 }
 
 .btn-default {
@@ -81,10 +92,24 @@ h1, h2 {
   color: white;
 }
 
+.btn-default a:hover {
+  text-decoration: none;
+}
+
+.btn-default:hover {
+  background-color: #00336d !important;
+  border-color: #00336d !important;
+}
+
 .mockup img {
-  width: 75%;
+  width: 100%;
 }
 
 .container > h2:first-child {
   margin-top: 0;
+}
+
+#documents .list-group {
+  margin-top: 30px;
+  margin-bottom: 0;
 }
