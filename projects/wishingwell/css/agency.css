@@ -18,6 +18,15 @@ section#about p.text-muted {
     font-size: 18px;
 }
 
+section h2.section-heading {
+    font-size: 40px;
+    padding: 40px;
+}
+
+section h3 {
+    padding-bottom: 25px;
+}
+
 .text-muted {
     color: #777;
 }
@@ -59,8 +68,6 @@ h6 {
     text-transform: uppercase;
     font-family: "Lato",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    margin-top: 50px;
-    margin-bottom: 20px;
 }
 #frame {
     vertical-align: center;
