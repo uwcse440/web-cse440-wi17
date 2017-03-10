@@ -2416,14 +2416,13 @@
 
 /* Image */
 
-	.solImg {
+/*	.solImg {
 		float: left;
 		margin: 10px;
 	}
-
+*/
 	.solutionimgs {
 		margin: auto;
-		width:70%;
 	}
 
 
