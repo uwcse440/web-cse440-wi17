@@ -7,22 +7,27 @@
 #video {
 	background-color: white;
     color: black;
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
 
 #overview {
 	background-color: white;
     color: black;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'Open Sans';
 }
 
 #interactive {
     text-align: center;
     background-color: #C0D6E4;
     color: black;
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
 
 .team {
-    margin-top: 50px;
-    margin-bottom: 50px;
     text-align: center;
     display: inline;
     overflow: hidden;
@@ -33,9 +38,16 @@
 	height: 200px;
 }
 
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
 #about {
 	background-color: #C0D6E4;
     color: black;
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
 
 #statement {
@@ -60,8 +72,12 @@
 }
 
 #documents {
-    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     background-color: white;
     color: black;
+}
 
+#documents .row {
+    text-align: center;
 }
