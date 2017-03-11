@@ -90,6 +90,10 @@ section#design h1 {
     max-height: 295px;
 }
 
+.mockup-img {
+    margin-bottom: 30px;
+}
+
 .mockup-container a {
     display: block;
 }
@@ -169,4 +173,8 @@ ul.doc-links li {
 
 section {
     margin-bottom: 100px;
+}
+
+#footer {
+    margin-bottom: 0px;
 }
