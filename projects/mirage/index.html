@@ -19,19 +19,25 @@
 
         <!--Font Awesome icon font-->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-		
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+        <!-- animate.css -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">		
 		<!-- jQuery -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
 
 		<!-- our files -->
         <link rel="stylesheet" href="main.css">
-        <!-- <script type="text/javascript" src="./main.js"></script> -->
+        <script type="text/javascript" src="main.js"></script>
 
         <!-- favicon -->
         <link rel="icon" href="pictures/sm-logo.gif">
     </head>
     <body>
         <div id="logo">
+	        <img id="lglogo" src="pictures/logo.png">
+        	
+            <!-- <svg id="down" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 24 30" x="0px" y="0px"><path d="M12.705 17.999l11.293-11.293-0.705-0.706-11.293 11.293-11.294-11.293-0.706 0.706 12 11.999z"/></svg> -->
         </div>
         <!-- <header>
             <div class="container">
@@ -45,32 +51,33 @@
         <section id="problem">
 	        <div class="container">
 	        	<h3>problem</h3>
-                <p>In a digital world, we’re using more screens than ever. This long-term and consistent use of screens slowly causes more and more damage to our eyes.</p>
+                <p>In a digital world, we’re using more screens than ever. This long-term and consistent use of screens slowly causes increasing damage to our eyes.</p>
 	        </div>
         </section>
 
         <div id="solution">
             <img id="solpic" src="pictures/wood.jpg">
         </div>
-        <section id="addgoal">
+
+        <section id="addgoal" class="block">
             <div class="container pairs">
-                <h3>add goal</h3>
                 <div class="pair opp">
                     <img class="screen" src="./pictures/addgoal2.gif">
                     <div class="blurb">
+                        <h3>add goal</h3>
                         <p>Add an eye goal, choose how long you'd like to take a break for and how often. If you ever get stuck, just press on a ? for extra explanation. </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="lightexposure">
+        <section id="lightexposure" class="block">
             <div class="container">
                 <div class="pairs">
-                    <h3>reduce light exposure</h3>
                     <div class="pair">
                         <img class="screen" src="./pictures/harmfullight.gif">
                         <div class="blurb">
+                            <h3>reduce light exposure</h3>
                             <p>Set your glasses to automatically filter out UV and Blue light. Then head over to the app to see how much harmful light you're exposed to and how much you take in. Make adjustments as needed an reach your best eye health!</p>
                         </div>
                     </div>
@@ -78,12 +85,12 @@
             </div>
         </section>
 
-        <section id="addgoal">
+        <section id="addgoal" class="block">
             <div class="container pairs">
-                <h3>decrease eye strain</h3>
                 <div class="pair opp">
                     <img class="screen" src="./pictures/eyestrain.gif">
                     <div class="blurb">
+                        <h3>decrease eye strain</h3>
                         <p>Use your focus alerts to remind you to take a break. Use our eye movement trackers to track how your eye health has
                         improved with mirage. See how many breaks you've successfully taken today. Look at your data over different periods of time.
                         Turn off your focus alert when you really need to focus.</p>
@@ -92,15 +99,77 @@
             </div>
         </section>
 
-        <section id="people">
-        	<div class="container">
-        		<h3 id="design">designed by us</h3>
-        		<img class="person" src="./pictures/me.jpg" alt="katrina">
-        		<img class="person" src="./pictures/chris.jpg" alt="chris">
-        		<img class="person" src="./pictures/cyn.jpg" alt="cynthia">
-        		<img class="person" src="./pictures/alexis.jpg" alt="alexis">
-        		<h3>thank you!</h3>
-        	</div>
+        <section id="video" class="container">
+        	<h3>video prototype</h3>
+			<video width="100%" height="auto" controls="controls" poster="poster.png">
+				<source src="Mirage.mp4" type="video/mp4"></source>
+                Your browser does not support the video tag.
+			</video>
+        	
+        </section>
+
+        <section class="container">
+        	<h3>documents</h3>
+        	<div id="documents" class="container">
+	    		<div class="item">
+	    			<a href="files/ir.pdf" target="_blank">
+		    			<img class="paper" src="pictures/paper.png">
+		    			<h5>initial report</h5>
+	    			</a>
+	    		</div>
+	    		<div class="item">
+	    			<a href="files/ip.pdf" target="_blank">
+		    			<img class="picture" src="pictures/slide.png">
+		    			<h5>initial presentation</h5>
+	    			</a>
+	    		</div>
+	    		<div class="item">
+	    			<a href="files/fr.pdf" target="_blank">
+		    			<img class="paper" src="pictures/paper.png">
+		    			<h5>final report</h5>
+	    			</a>
+	    		</div>
+	    		<div class="item">
+	    			<a href="files/fp.pdf" target="_blank">
+		    			<img class="picture" src="pictures/slide.png">
+		    			<h5>final presentation</h5>
+	    			</a>
+	    		</div>
+    		</div>
+        </section>
+
+        <section id="people" class="container">
+    		<h3>designed by us</h3>
+            <div class="person">
+                <a href="http://katrinaezis.com/" target="_blank"><img class="personpicture" src="./pictures/me.jpg" alt="katrina">
+                <div class="overlay" id="k">
+                    <div class="text">Katrina Ezis</div>
+                    <div class="text sub">Informatics | Project Manager</div>
+                </div> 
+                </a>
+            </div>
+            <div class="person">
+                <img class="personpicture" src="./pictures/chris.jpg" alt="chris">
+                <div class="overlay" id="ch">
+                    <div class="text">Chris Ma</div>
+                    <div class="text sub">Computer Science | UX Designer</div>
+                </div>
+            </div>
+            <div class="person">
+                <a href="www.lingyuezhang.com" target="_blank"><img class="personpicture" src="./pictures/cynthia.jpg" alt="cynthia">
+                <div class="overlay" id="c">
+                    <div class="text">Cynthia Zhang</div>
+                    <div class="text sub">Computer Science | UI Designer</div>
+                </div></a>
+            </div>
+            <div class="person">
+                <img class="personpicture" src="./pictures/alexis.jpg" alt="alexis">
+                <div class="overlay" id="a">
+                    <div class="text">Alexis Anand</div>
+                    <div class="text sub">HCDE | Researcher</div>
+                </div>
+            </div>
+    		<h3>thank you!</h3>
         </section>
     </body>
 </html>

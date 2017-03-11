@@ -124,6 +124,8 @@ h1, .h01 {
 h2, .h02 {
 	font-size: 2.4rem;
 	line-height: 1.25;
+	font-weight: normal;
+	font-family: "raleway", sans-serif;
 }
 h3, .h03 {
 	font-size: 2rem;
@@ -1151,9 +1153,12 @@ a.menu-toggle {
  *
  * ------------------------------------------------------------------- 
  */
+.smallhyph {
+	font-size: 0.6em;
+}
 
 #intro {
-	background: #14181E url(../images/intro.jpg) no-repeat center;
+	background: #14181E url(../images/phone.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1188,7 +1193,7 @@ a.menu-toggle {
 	font-family: "merriweather-bold", serif;
 	font-size: 5.4rem;
 	line-height: 1.334;
-	max-width: 800px;
+	/*max-width: 800px;*/
 	margin: 0 0;
 }
 .intro-content h5 {
@@ -1238,7 +1243,7 @@ a.menu-toggle {
 	}
 	.intro-content h1 {
 		font-size: 4.8rem;
-		max-width: 700px;
+		/*max-width: 700px;*/
 	}
 	.intro-content h5 {
 		font-size: 1.6rem;
@@ -1412,6 +1417,16 @@ a.menu-toggle {
  *
  * ------------------------------------------------------------------- 
  */
+.task-content {
+	margin-top: 5.4rem;
+	max-width: 1020px;
+}
+
+.overview-task {
+	width: 55%;
+	text-align: left;
+	margin: auto;
+}
 
 #process {
 	background: #FFFFFF;
@@ -1432,6 +1447,7 @@ a.menu-toggle {
 }
 .process-content .right-side, .process-content .left-side {
 	padding: 0 6% 24px;
+	position: absolute;
 	top: 0;
 }
 .process-content .right-side {
@@ -1494,6 +1510,7 @@ a.menu-toggle {
 		padding-bottom: 27rem;
 	}
 	.process-content .right-side, .process-content .left-side {
+		position: static;
 		width: 100%;
 		max-width: 480px;
 		font-size: 1.6rem;
@@ -1529,15 +1546,22 @@ a.menu-toggle {
  * ------------------------------------------------------------------- 
  */
 .tasks {
-	width: 33%;
-	display:inline;
-	float:left;
-	margin: 0 4;
+	width: 70%;
+	margin: auto;
 	padding: 5 5;
+}
+.tasks-pic-strip {
+	width: 90%;
+	margin: auto;
+	padding: 5px 5px;
+}
+.tasks-pic {
+	width: 23%;
+	margin: 0 5px;
 }
 #features {
 	/*background: #090909 url(../images/video-bg.jpg) no-repeat center;*/
-	background-color: black;
+	background-color: #EAEAED;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1613,12 +1637,16 @@ a.menu-toggle {
  *
  * ------------------------------------------------------------------- 
  */
+.shadow {
+	box-shadow: 5px 5px 10px #F0F0F0;
+}
 
 #pricing {
-	background: #EAEAED;
+	background: #FFFFFF;
 	padding-top: 15rem;
 	padding-bottom: 2.6rem;
 }
+
 .pricing-content {
 	margin-top: 0rem;
 	max-width: 1280px;
@@ -2277,7 +2305,7 @@ footer ul li {
 .footer-bottom .copyright span::after {
 	content: "|";
 	display: inline-block;
-	padding: 0 1rem 0 1.2rem;
+	/*padding: 0 1rem 0 1.2rem;*/
 	color: rgba(255, 255, 255, 0.1);
 }
 .footer-bottom .copyright span:last-child::after {
@@ -2346,7 +2374,7 @@ footer ul li {
 
 #documents {
 	background: #FFFFFF;
-	padding-top: 2.2rem;
+	padding-top: 12rem;
 	padding-bottom: 8.2rem;
 	position: relative;
 	min-height: 20.4rem;

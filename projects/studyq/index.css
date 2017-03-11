@@ -73,6 +73,8 @@ h1, h2, h3 {
 
 section > h1 {
     border-bottom: 1px solid #eee;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
 }
 
 section#design h1 {
@@ -86,6 +88,10 @@ section#design h1 {
 .mockup-img img {
     max-width: 400px;
     max-height: 295px;
+}
+
+.mockup-img {
+    margin-bottom: 30px;
 }
 
 .mockup-container a {
@@ -163,4 +169,12 @@ ul.doc-links li {
 
 #footer a {
     color: white;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+#footer {
+    margin-bottom: 0px;
 }

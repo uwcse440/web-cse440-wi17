@@ -3,14 +3,32 @@ body {
   color: #003F87;
 }
 
-h1 {
-  font-size: 48px;
-}
-
 h1, h2 {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 5px;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 28px;
+  margin-top: 40px;
+}
+
+p {
+  font-size: 18px;
+}
+
+#motto {
+  margin-bottom: 16px;
 }
 
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand, a.list-group-item, button.list-group-item{
@@ -45,7 +63,7 @@ h1, h2 {
 }
 
 #video .embed-responsive {
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 .list-group-item {
@@ -58,6 +76,15 @@ h1, h2 {
 }
 
 .mockup {
+  margin-top: 6px;
+}
+
+.mockup img {
+  width: 100%;
+}
+
+.mockup h4 {
+  margin-top: 16px;
   margin-bottom: 30px;
 }
 
@@ -73,6 +100,10 @@ h1, h2 {
 .bio h3 {
   display: inline;
   vertical-align: middle;
+}
+
+.bio p {
+  font-size: 16px;
 }
 
 .bio .linkedin {
@@ -99,14 +130,6 @@ h1, h2 {
 .btn-default:hover {
   background-color: #00336d !important;
   border-color: #00336d !important;
-}
-
-.mockup img {
-  width: 100%;
-}
-
-.container > h2:first-child {
-  margin-top: 0;
 }
 
 #documents .list-group {
