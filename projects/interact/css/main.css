@@ -124,6 +124,8 @@ h1, .h01 {
 h2, .h02 {
 	font-size: 2.4rem;
 	line-height: 1.25;
+	font-weight: normal;
+	font-family: "raleway", sans-serif;
 }
 h3, .h03 {
 	font-size: 2rem;
@@ -1151,9 +1153,12 @@ a.menu-toggle {
  *
  * ------------------------------------------------------------------- 
  */
+.smallhyph {
+	font-size: 0.6em;
+}
 
 #intro {
-	background: #14181E url(../images/intro.jpg) no-repeat center;
+	background: #14181E url(../images/phone.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1412,6 +1417,16 @@ a.menu-toggle {
  *
  * ------------------------------------------------------------------- 
  */
+.task-content {
+	margin-top: 5.4rem;
+	max-width: 1020px;
+}
+
+.overview-task {
+	width: 55%;
+	text-align: left;
+	margin: auto;
+}
 
 #process {
 	background: #FFFFFF;
@@ -1546,7 +1561,7 @@ a.menu-toggle {
 }
 #features {
 	/*background: #090909 url(../images/video-bg.jpg) no-repeat center;*/
-	background-color: black;
+	background-color: #EAEAED;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1622,6 +1637,9 @@ a.menu-toggle {
  *
  * ------------------------------------------------------------------- 
  */
+.shadow {
+	box-shadow: 5px 5px 10px #F0F0F0;
+}
 
 #pricing {
 	background: #FFFFFF;
@@ -2287,7 +2305,7 @@ footer ul li {
 .footer-bottom .copyright span::after {
 	content: "|";
 	display: inline-block;
-	padding: 0 1rem 0 1.2rem;
+	/*padding: 0 1rem 0 1.2rem;*/
 	color: rgba(255, 255, 255, 0.1);
 }
 .footer-bottom .copyright span:last-child::after {
