@@ -4,37 +4,37 @@ projects:
     publishlink: true
   - name: "Bork"
     path: "bork"
-    publishlink: false
+    publishlink: true
+  - name: "C3"
+    path: "c3"
+    publishlink: true
   - name: "CC:"
     path: "cc"
     publishlink: true
-  - name: "Cost Conscious Closet"
-    path: "costconciouscloset"
-    publishlink: false
   - name: "Dash"
     path: "dash"
-    publishlink: false
+    publishlink: true
   - name: "Gale"
     path: "gale"
     publishlink: true
-  - name: "InterAct"
+  - name: "Inter.act"
     path: "interact"
-    publishlink: false
+    publishlink: true
   - name: "Jasper"
     path: "jasper"
-    publishlink: false
+    publishlink: true
   - name: "LocalWay"
     path: "localway"
-    publishlink: false
+    publishlink: true
   - name: "Mind You"
     path: "mindyou"
-    publishlink: false
+    publishlink: true
   - name: "Mirage"
     path: "mirage"
     publishlink: true
   - name: "OutWrite"
     path: "outwrite"
-    publishlink: false
+    publishlink: true
   - name: "StudyQ"
     path: "studyq"
     publishlink: true
@@ -43,7 +43,7 @@ projects:
     publishlink: true
   - name: "utilIQ"
     path: "utiliq"
-    publishlink: false
+    publishlink: true
   - name: "Wishing Well"
     path: "wishingwell"
-    publishlink: false
+    publishlink: true

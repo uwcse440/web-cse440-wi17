@@ -87,30 +87,30 @@
 
 
 
-.color.black {
-	background: #414141;
+.color.red {
+	background: #ffa24d;
 	color: #fff;
 }
 
-.color.black i {
-	color: #414141;
+.color.red i {
+	color: #ffa24d;
 }
 
-.color.black h2 span {
-	background: #414141;
+.color.red h2 span {
+	background: #ffa24d;
 }
 
 .color.yellow {
-	background: #ffeb41;
+	background: #ffd16e;
 	color: #414141;
 }
 
 .color.yellow i {
-	color: #ffeb41;
+	color: #ffd16e;
 }
 
 .color.yellow h2 span {
-	background: #ffeb41;
+	background: #ffd16e;
 }
 
 
@@ -283,7 +283,9 @@ header {
 	        box-shadow: 0px 1px 1px rgba(0,0,0,.35);
 }
 
-.logo  {}
+.logo img {
+	height: 250px;
+}
 
 .nav-collapse.collapse {
     height: auto \9 !important;
@@ -2620,7 +2622,8 @@ footer #social {
 }
 
 .prototype iframe {
-	border: 1px solid #fff;
+	border: 1px solid #f6f6f6;
+	background-color: #1D2029;
 }
 
 .tagline {
@@ -2632,4 +2635,31 @@ footer #social {
 	width: 40px;
 	margin: 10px auto;
 	display: inherit;
+}
+
+.fa-icon-folder-close {
+	text-decoration: none !important;
+}
+
+.feature {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.feature .picture {
+	width: 30%;
+}
+
+.color.purple {
+	background: #6A85D6;
+	color: #fff;
+}
+
+.color.purple i {
+	color: #6A85D6;
+}
+
+.color.purple h2 span {
+	background: #6A85D6;
 }

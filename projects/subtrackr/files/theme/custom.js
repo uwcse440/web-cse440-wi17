@@ -86,7 +86,7 @@ jQuery(function($) {
 
       // Active nav class
 
-      $('#active').addClass('active');
+      // $('#active').addClass('active');
 
       // Add class to subnav items with subnav
       $('.wsite-menu').find('li.wsite-menu-subitem-wrap').each(function(){

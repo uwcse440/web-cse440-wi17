@@ -1,11 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 
-html, body {
+body {
     font-family: 'Muli', Helvetica, sans-serif;
+    padding-top: 50px;
 }
 
-.content {
-    margin-top: 50px;
+p, ol li {
+    font-size: 18px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 760px) {
+    video {
+        width: 200px;
+    }
+
+    .mockup-img img {
+        width: 200px;
+        height:
+    }
+
+    .team-member {
+        padding: 0px;
+    }
+}
+
+.icon-bar {
+    color: white;
+}
+
+/* Makes it so headers show under nav-bar */
+:target:before {
+  content:"";
+  display:block;
+  height:50px; /* fixed header height*/
+  margin:-50px 0 0; /* negative fixed header height */
 }
 
 .solution h3 {
@@ -22,14 +54,12 @@ h1, h2, h3 {
 }
 
 .overview-desc p {
-    margin-left: 20%;
-    margin-right: 20%;
-    text-indent: 50px;
 }
 
 .navbar {
     background-color: #63adf2;
     color: white;
+    border-bottom: 1px solid #ccc;
 }
 
 .navbar a {
@@ -37,14 +67,106 @@ h1, h2, h3 {
     text-decoration: none;
 }
 
-.nav>li>a:hover {
+.nav > li > a:hover {
     background-color: #63adf2;
 }
 
 section > h1 {
     border-bottom: 1px solid #eee;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+}
+
+section#design h1 {
+    margin-bottom: 50px;
+}
+
+#design div {
+    text-align: center;
+}
+
+.mockup-img img {
+    max-width: 400px;
+    max-height: 295px;
+}
+
+.mockup-container a {
+    display: block;
+}
+
+.team-grid {
+    text-align: center;
+}
+
+.team-member-holder {
+    display: inline-block;
 }
 
 .team-member {
     background-color: #63adf2;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin: 10px auto;
+    max-width: 200px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    display: block;
+}
+
+img#border-img {
+    border: 2px solid white;
+}
+
+.team-member h2, .team-member h3 {
+    color: white;
+}
+
+.team-member h2 {
+    font-size: 20px;
+}
+
+.team-member h3 {
+    font-size: 15px;
+}
+
+#team {
+    text-align: center;
+}
+
+#documents {
+    margin-bottom: 190px;
+}
+
+#documents h1 {
+    margin-bottom: 20px;
+}
+
+ul.doc-links li {
+    display: inline-block;
+    text-align: center;
+}
+
+.report-link {
+    margin-bottom: 50px;
+}
+
+#footer {
+    background-color: #63adf2;
+    height: 70px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 50px;
+}
+
+#footer a {
+    color: white;
+}
+
+section {
+    margin-bottom: 100px;
 }

@@ -301,6 +301,10 @@ header .intro-text {
 /* Interactive Prototype Section */
 #interactive {
 	padding: 0 0 120px 0;
+	text-align: center;
+}
+#interactive .container {
+	text-align: center;
 }
 #interactive .section-title {
 	background: #444 url(../img/map-bg.png) center center no-repeat fixed;
@@ -309,6 +313,9 @@ header .intro-text {
 }
 #interactive .section-title h2 {
 	color: #fff;
+}
+#interactive img {
+	width: 60%;
 }
 .hover-bg .hover-text {
 	position: absolute;
