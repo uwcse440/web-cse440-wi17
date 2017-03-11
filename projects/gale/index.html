@@ -8,58 +8,13 @@
             font-family: sans-serif;
             font-size: 24px;
         }
-        p {
-            font-size: 1rem;
-            text-align: left;
-        }
         @media screen and (max-device-width: 480px) {
             html {
                 font-size: 36px;
             }
         }
         body {
-            margin: 0;
-        }
-        #main {
-            margin: 0 auto;
-            max-width: 800px;
-            padding: 1rem;
-        }
-        h1, h2, h3 {
-            color: #A1EAEE;
-            font-weight: normal;
-            margin-top: 3rem;
-        }
-        div {
-            text-align: center;
-        }
-        .flex {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-        .flex > * {
-            background: #A1EAEE;
-            border-radius: .2rem;
-            box-shadow: 0 .1rem .1rem #AAA;
-            color: #FFF;
-            margin: 1rem;
-            padding: 1rem;
-            width: 10rem;
-        }
-        img {
-            border-radius: .2rem;
-        }
-        span > img {
-            height: 8rem;
-            width: 8rem;
-        }
-        a {
-            color: #FFF;
-            text-decoration: none;
-        }
-        a:hover {
-            background: #999;
+            margin: 0 0 1rem 0;
         }
         #nav {
             background: #A1EAEE;
@@ -78,20 +33,85 @@
             display: block;
             padding: 1rem;
         }
-        .il > img {
-            float: left;
-            margin-right: 1rem;
+        #main {
+            margin: 0 auto;
+            max-width: 800px;
         }
-        .ir > img {
-            float: right;
-            margin-left: 1rem;
+        p {
+            font-size: 1rem;
+            text-align: left;
+            margin: 0;
         }
-        .il, .ir {
-            overflow: hidden;
-            margin: 2rem 0;
+        h1, h2, h3{
+            color: #A1EAEE;
+            font-weight: normal;
+            margin: 0;
+        }
+        h2 {
+            margin-top: 2rem;
+        }
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .flex > * {
+            background: #A1EAEE;
+            border-radius: .2rem;
+            box-shadow: 0 .1rem .1rem #AAA;
+            color: #FFF;
+            margin: 1rem 1rem 0 1rem;
+            padding: 1rem;
+            width: 10rem;
+            text-align: center;
+        }
+        img {
+            border-radius: .2rem;
+        }
+        span > img {
+            height: 8rem;
+            width: 8rem;
+        }
+        a {
+            color: #FFF;
+            text-decoration: none;
+        }
+        a:hover {
+            background: #999;
         }
         video {
+            max-width: 100%;
+        }
+        .design {
+            text-align: left;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .design > * {
+            margin: 1rem 2rem 0 2rem;
+            width: 10rem;
+        }
+        .design img {
             width: 100%;
+        }
+        .docs > * {
+            height: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #main > img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 2rem auto;
+        }
+        video {
+            margin-top: 1rem;
+        }
+        h3 {
+            margin-bottom: .25rem;
         }
     </style>
 </head>
@@ -105,10 +125,7 @@
         </div>
     </div>
     <div id="main">
-        <div>
-            <img src="gale.png" height=239px width=400px>
-        </div>
-
+        <img src="gale.png">
         <h1>Gale: Voice Assistant for Goals</h1>
         <p>
             Gale is a conversational Artificial Intelligence designed to help you form goals and habits.
@@ -116,29 +133,35 @@
         </p>
 
         <h2 id="design">Design</h2>
-        <div class="il">
-            <img src="phone1.png">
-            <p>
-                Talking to Gale is like talking to a real person; you can use both voice and text to make goals and habits. 
-            </p>
-        </div>
-        <div class="ir">
-            <img src="watch1.png">
-            <p>
-                Gale is available for both your mobile device and your smartwatch.
-            </p>
-        </div>
-        <div class="il">
-            <img src="phone2.png">
-            <p>
-                Gale is context-aware: she will provide specific information to help you accomplish your goals.
-            </p>
-        </div>
-        <div class="ir">
-            <img src="phone3.png">
-            <p> 
-                Gale encourages qualitative reflection to achieve a more holistic view of your progress.
-            </p>
+        <div class="design">
+            <div>
+                <h3>Conversational AI</h3>
+                <img src="phone1.png">
+                <p>
+                    Talking to Gale is like talking to a real person; you can use both voice and text to make goals and habits. 
+                </p>
+            </div>
+            <div>
+                <h3>Mobile</h3>
+                <img src="watch1.png">
+                <p>
+                    Gale is available for both your mobile device and your smartwatch.
+                </p>
+            </div>
+            <div>
+                <h3>Context-Aware</h3>
+                <img src="phone2.png">
+                <p>
+                    Gale is context-aware: she will provide specific information to help you accomplish your goals.
+                </p>
+            </div>
+            <div>
+                <h3>Reflection</h3>
+                <img src="phone3.png">
+                <p> 
+                    Gale encourages qualitative reflection to achieve a more holistic view of your progress.
+                </p>
+            </div>
         </div>
 
         <h2 id="video">Video Prototype</h2>
@@ -147,14 +170,12 @@
         </video>
 
         <h2 id="docs">Documents</h2>
-        <!--
-        <a href="4c.pdf">Poster</a>
-        -->
-        <div class="flex">
-            <a href="2h.pdf">Assignment 2</br>Report</a>
-            <a href="2i.pdf">Assignment 2</br>Presentation</a>
-            <a href="3f.pdf">Assignment 3</br>Report</a>
-            <a href="3g.pdf">Assignment 3</br>Presentation</a>
+        <div class="flex docs">
+            <a href="2h.pdf">Assignment 2 Report</a>
+            <a href="2i.pdf">Assignment 2 Presentation</a>
+            <a href="3f.pdf">Assignment 3 Report</a>
+            <a href="3g.pdf">Assignment 3 Presentation</a>
+            <a href="4e.pdf">Poster</a>
         </div>
 
         <h2 id="team">Team</h2>
