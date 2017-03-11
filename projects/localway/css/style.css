@@ -301,6 +301,7 @@ header .intro-text {
 /* Interactive Prototype Section */
 #interactive {
 	padding: 0 0 120px 0;
+	text-align: center;
 }
 #interactive .container {
 	text-align: center;
@@ -313,13 +314,8 @@ header .intro-text {
 #interactive .section-title h2 {
 	color: #fff;
 }
-#interactive .row {
-	display: inline-block;
-	font-size: 16px;
-	text-align: left;
-}
-#interactive ol {
-	list-style: decimal inside;
+#interactive img {
+	width: 60%;
 }
 .hover-bg .hover-text {
 	position: absolute;
