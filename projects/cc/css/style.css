@@ -7,15 +7,15 @@
 #video {
 	background-color: white;
     color: black;
-    padding-bottom: 20px;
-    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-top: 60px;
 }
 
 #overview {
 	background-color: white;
     color: black;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 30px;
     font-family: 'Open Sans';
 }
 
@@ -23,8 +23,8 @@
     text-align: center;
     background-color: #C0D6E4;
     color: black;
-    padding-bottom: 20px;
-    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-top: 60px;
 }
 
 .team {
@@ -46,8 +46,8 @@
 #about {
 	background-color: #C0D6E4;
     color: black;
-    padding-bottom: 20px;
-    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-top: 60px;
 }
 
 #statement {
@@ -72,8 +72,8 @@
 }
 
 #documents {
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 30px;
     background-color: white;
     color: black;
 }
