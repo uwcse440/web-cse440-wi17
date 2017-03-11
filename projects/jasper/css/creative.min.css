@@ -80,10 +80,12 @@ aside {
 }
 
 .navbar-default {
-    background-color: #fff;
+    background-color: transparent;
     border-color: rgba(34, 34, 34, .05);
+    padding: 10px;
     transition: all .35s
 }
+
 
 .btn-default, .portfolio-box .portfolio-box-caption {
     -webkit-transition: all .35s;
@@ -93,11 +95,13 @@ aside {
 .navbar-default .navbar-header .navbar-brand {
     color: #1573dd;
     font-weight: 700;
+    font-size: 300%;
     text-transform: uppercase;
 }
 
-.navbar-default .navbar-header .navbar-brand:focus, .navbar-default .navbar-header .navbar-brand:hover {
-    color: #eb3812
+.navbar-default .navbar-header .navbar-brand:focus, .navbar-default:hover, .navbar-header .navbar-brand:hover {
+    color: #1573dd;
+    padding:8px
 }
 
 .navbar-default .navbar-header .navbar-toggle {
@@ -120,7 +124,7 @@ aside {
 }
 
 .navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
-    color: #1573dd!important;
+    color: #1573dd;
     background-color: transparent
 }
 
@@ -134,29 +138,32 @@ aside {
         border-color: rgba(255, 255, 255, .3)
     }
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255, 255, 255, .7)
+        color: white;
     }
     .navbar-default .navbar-header .navbar-brand:focus, .navbar-default .navbar-header .navbar-brand:hover {
-        color: #fff
+        color: #fff;
     }
     .navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
         color: rgba(255, 255, 255, .7)
     }
     .navbar-default .nav>li>a:focus:hover, .navbar-default .nav>li>a:hover {
-        color: #fff
+        color: #fff;
     }
     .navbar-default.affix {
         /*background-color: #fff;*/
         background-color: #000;
-        border-color: rgba(34, 34, 34, .05)
+        border-color: rgba(34, 34, 34, .05);
+        height: 8px;
+        padding-top: 3px !important;
+        padding-bottom: 3px !important;
     }
     .navbar-default.affix .navbar-header .navbar-brand {
-        color: #fff;
-        /*color: #1573dd;*/
+        /*color: #fff;*/
+        color: #1573dd;
         font-size: 14px
     }
     .navbar-default.affix .navbar-header .navbar-brand:focus, .navbar-default.affix .navbar-header .navbar-brand:hover {
-        color: #eb3812
+        color: #fff;
     }
     .navbar-default.affix .nav>li>a, .navbar-default.affix .nav>li>a:focus {
         color: #fff
@@ -358,9 +365,10 @@ header .header-content .header-content-inner p {
 }
 
 .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
-    color: #fff;
-    background-color: #ee4b28;
+    color: #1573dd;
+    background-color: white;
     border-color: #ed431f
+
 }
 
 .btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
