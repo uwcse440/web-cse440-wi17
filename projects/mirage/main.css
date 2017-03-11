@@ -9,6 +9,21 @@ body {
 	color: #4D4D4D;
 }
 
+/*#down {
+	width: 25px;
+	height: auto;
+	fill: white;
+	display: inline-block;
+	position: absolute;
+	bottom: 10px;
+	animation-duration: 2s;
+  	animation-iteration-count: infinite;
+}*/
+
+#logo {
+	text-align: center;
+}
+
 #problem {
 	padding: 4%;
 }
@@ -28,12 +43,6 @@ body {
 	background-color: #a7d2c8;
 }
 
-/*.pacifico {
-	font-family: 'Pacifico', cursive;
-}*/
-
-
-
 h3 {
 	margin-top: 0px;
 	padding-top: 20px;
@@ -43,21 +52,19 @@ h3 {
 .screen {
 	height: 500px;
 	width: auto;
-	margin-bottom: 40px;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
-/*#blurb p {
-	color: #F7F7F7;
-	margin-left: 30px;
-	font-size: 25pt;
-	position: relative;
-	bottom: 110px;
-}*/
+.block {
+	display: block;
+	margin-bottom: 5%;
+}
 
 .blurb {
 	text-align: left;
-	margin-top: auto;
-	margin-bottom: auto;
+/*	margin-top: auto;
+	margin-bottom: auto;*/
 	/*vertical-align: middle;*/
 }
 
@@ -67,15 +74,43 @@ h3 {
 	text-align: center;
 }
 
+#lglogo {
+	width: 20%;
+	height: auto;
+	position: absolute;
+	bottom: 40px;
+	left: 20px;
+}
+
+a {
+	color: #4D4D4D;
+
+}
+
+#documents {
+	display: flex;
+	flex-direction: row wrap;
+	width: 100%;
+/*	background-color: #F2D388;*/
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+/*.item .paper {
+	width: 40%;
+	height: auto;
+}*/
+
+.item img {
+	width: 50%;
+	height: 60%;
+}
+
 .smallcaps {
 	font-variant: small-caps;
 	font-weight: bold;
 }
 
-/*.flex-container {
-	display: flex;
-}
-*/
 .pair {
 	display: flex;
 	/*margin-bottom: 20px;*/
@@ -85,10 +120,14 @@ h3 {
 	flex-flow: row-reverse;
 }
 
-.pair p {
+.pair p, .pair h3 {
 	/*margin-top: 40%;*/
 	margin-left: 20px;
 	margin-right: 20px;
+}
+
+.pair h3 {
+	text-align: center;
 }
 
 .pair div {
@@ -106,7 +145,7 @@ html, body {
 #logo {
 	width: 100%;
 	min-height: 100%;
-	background-image: url("./pictures/pexels-photo-147460.jpg");
+	background-image: url("./pictures/glassesgirl.jpg");
 	background-size: cover;
 }
 
@@ -115,27 +154,98 @@ html, body {
 	height: auto;
 }
 
+
 #solution {
 	margin: 0px;
 	padding: 0px;
+	margin-bottom: 4%;
 }
 
 #people {
 	text-align: center;
+	margin-bottom: 3%;
 }
 
-#people h3 {
+/*#people h3 {
 	font-family: 'Pacifico', cursive;
-}
+}*/
 
 .person {
 	width: 300px;
 	height: 300px;
+	display: inline-block;
+	position: relative;
+}
+
+.personpicture {
+	height: 100%;
+  	width: 100%;
 	border: white solid 10px;
-	border-radius: 50%;
+	border-radius: 100%;
+}
+
+.overlay {
+	height: 100%;
+  	width: 100%;
+  	top: 0;
+  	border-radius: 100%;
+  	opacity: 0;
+/*  	z-index: 1;*/
+  	position: absolute;
+  	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+}
+
+#k {
+	background: #a7d2c8;
+}
+
+#ch {
+	background: #F2D388;
+}
+
+#a {
+	background: #974C62;
+}
+
+#c {
+	background: #C98474;
+}
+
+.person:hover .overlay {
+	opacity: 1;
+}
+
+
+.text {
+  color: #4D4D4D;
+  font-size: 30px;
+  -ms-transform: translate(-50%, -50%);
+}
+
+.sub {
+	color: #4D4D4D;
+	font-size: 15px;
 }
 
 #design {
 	margin-top: 100px;
 	margin-bottom: 50px;
+}
+
+@media screen  and (min-width: 1300px) {
+	.person {
+		width: 400px;
+		height: 400px;
+	}
+	
+}
+
+@media screen  and (min-width: 1700px) {
+	.person {
+		width: 500px;
+		height: 500px;
+	}
+	
 }
