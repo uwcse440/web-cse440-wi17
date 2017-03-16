@@ -191,7 +191,7 @@ If you contact us regarding early drafts of your video, we will test that they p
 Samples from prior offerings include:
 
 {% for currentoffering in site.data.samples.offering %}{% for currentsample in site.data.samples[currentoffering.key] %}
-  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}): [4b_{{ currentsample.suffix }}.pdf]({{ site.baseurl }}/samples/4b/4b_{{ currentsample.suffix }}.pdf){% endfor %}{% endfor %}
+  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}): [4b_{{ currentsample.suffix }}.mp4]({{ site.baseurl }}/samples/4b/4b_{{ currentsample.suffix }}.mp4){% endfor %}{% endfor %}
 
 Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
 Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
