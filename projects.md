@@ -12,9 +12,9 @@ title: Projects
 ## Poster Session
 </div>
 <div class="panel-body" markdown="block">
-Please join us for a poster session celebrating the outstanding design work of CSE 440 students:
-{% comment %}
 Thank you for joining us to celebrate the outstanding design work of CSE 440 students:
+{% comment %}
+Please join us for a poster session celebrating the outstanding design work of CSE 440 students:
 {% endcomment %}
 
 Monday, March 13
